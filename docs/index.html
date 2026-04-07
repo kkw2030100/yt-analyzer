@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>리치고TV 유튜브 분석 대시보드</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+<style>
+:root {
+  --bg-primary: #0d1117;
+  --bg-secondary: #161b22;
+  --bg-tertiary: #21262d;
+  --border: #30363d;
+  --text-primary: #e6edf3;
+  --text-secondary: #8b949e;
+  --text-muted: #6e7681;
+  --accent-blue: #58a6ff;
+  --accent-green: #3fb950;
+  --hot-red: #f85149;
+  --hot-orange: #d29922;
+  --warm-yellow: #e3b341;
+  --neutral: #8b949e;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans KR', Helvetica, Arial, sans-serif;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
+}
+.container { max-width: 1400px; margin: 0 auto; padding: 20px; }
+header {
+  background: linear-gradient(135deg, #1a1e2e 0%, #0d1117 100%);
+  border-bottom: 1px solid var(--border);
+  padding: 24px 0;
+  margin-bottom: 24px;
+}
+header .container { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
+h1 { font-size: 1.6em; font-weight: 700; }
+h1 span { color: var(--hot-red); }
+.update-time { color: var(--text-secondary); font-size: 0.85em; }
+.stats-bar {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+.stat-card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+.stat-card .value { font-size: 2em; font-weight: 700; color: var(--accent-blue); }
+.stat-card .label { color: var(--text-secondary); font-size: 0.85em; margin-top: 4px; }
+.section {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  margin-bottom: 24px;
+  overflow: hidden;
+}
+.section-header {
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.section-header h2 { font-size: 1.15em; font-weight: 600; }
+.period-tabs { display: flex; gap: 4px; }
+.period-tab {
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  padding: 4px 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.82em;
+  transition: all 0.2s;
+}
+.period-tab:hover { border-color: var(--accent-blue); color: var(--text-primary); }
+.period-tab.active { background: var(--accent-blue); color: #fff; border-color: var(--accent-blue); }
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; }
+th {
+  background: var(--bg-tertiary);
+  padding: 10px 14px;
+  text-align: left;
+  font-size: 0.8em;
+  color: var(--text-secondary);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
+td {
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.9em;
+}
+tr:hover td { background: rgba(88,166,255,0.04); }
+.rank { font-weight: 700; font-size: 1.1em; color: var(--text-muted); text-align: center; width: 40px; }
+.rank-1 { color: #ffd700; }
+.rank-2 { color: #c0c0c0; }
+.rank-3 { color: #cd7f32; }
+.video-title {
+  max-width: 350px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.video-title a { color: var(--text-primary); text-decoration: none; }
+.video-title a:hover { color: var(--accent-blue); text-decoration: underline; }
+.channel-name { color: var(--text-secondary); font-size: 0.85em; }
+.ratio-badge {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 0.85em;
+}
+.ratio-hot { background: rgba(248,81,73,0.15); color: var(--hot-red); }
+.ratio-warm { background: rgba(210,153,34,0.15); color: var(--hot-orange); }
+.ratio-mild { background: rgba(227,179,65,0.15); color: var(--warm-yellow); }
+.ratio-normal { background: rgba(139,148,158,0.1); color: var(--neutral); }
+.keywords-wrap { padding: 20px; display: flex; flex-wrap: wrap; gap: 8px; }
+.keyword-tag {
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85em;
+  border: 1px solid var(--border);
+  background: var(--bg-tertiary);
+  color: var(--text-primary);
+  transition: all 0.2s;
+}
+.keyword-tag:hover { border-color: var(--accent-blue); }
+.kw-hot { border-color: var(--hot-red); color: var(--hot-red); font-size: 1.05em; font-weight: 600; }
+.kw-warm { border-color: var(--hot-orange); color: var(--hot-orange); font-size: 0.95em; }
+.kw-mild { border-color: var(--warm-yellow); color: var(--warm-yellow); }
+.num { text-align: right; font-variant-numeric: tabular-nums; }
+.chart-container { padding: 20px; height: 350px; }
+.loading {
+  text-align: center;
+  padding: 60px;
+  color: var(--text-secondary);
+}
+.loading .spinner {
+  display: inline-block;
+  width: 40px; height: 40px;
+  border: 3px solid var(--border);
+  border-top-color: var(--accent-blue);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  margin-bottom: 16px;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+footer {
+  text-align: center;
+  padding: 24px;
+  color: var(--text-muted);
+  font-size: 0.8em;
+}
+@media (max-width: 768px) {
+  .container { padding: 12px; }
+  h1 { font-size: 1.2em; }
+  td, th { padding: 8px 10px; font-size: 0.8em; }
+  .video-title { max-width: 200px; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <h1>📊 리치고TV 유튜브 분석 <span>대시보드</span></h1>
+    <div class="update-time" id="updateTime">로딩 중...</div>
+  </div>
+</header>
+
+<div class="container">
+  <!-- Stats Bar -->
+  <div class="stats-bar" id="statsBar">
+    <div class="stat-card"><div class="value" id="totalChannels">-</div><div class="label">분석 채널</div></div>
+    <div class="stat-card"><div class="value" id="totalVideos">-</div><div class="label">수집 영상</div></div>
+    <div class="stat-card"><div class="value" id="avgRatio">-</div><div class="label">평균 조회/구독 비율</div></div>
+    <div class="stat-card"><div class="value" id="topRatio">-</div><div class="label">최고 비율</div></div>
+  </div>
+
+  <!-- Top Videos Section -->
+  <div class="section">
+    <div class="section-header">
+      <h2>🔥 TOP 10 영상 (구독자 대비 조회수 비율)</h2>
+      <div class="period-tabs">
+        <div class="period-tab active" onclick="switchPeriod('all')">전체</div>
+        <div class="period-tab" onclick="switchPeriod('30d')">30일</div>
+        <div class="period-tab" onclick="switchPeriod('7d')">7일</div>
+        <div class="period-tab" onclick="switchPeriod('24h')">24시간</div>
+      </div>
+    </div>
+    <div class="table-wrap">
+      <table id="topVideosTable">
+        <thead>
+          <tr>
+            <th style="text-align:center">순위</th>
+            <th>채널</th>
+            <th>영상 제목</th>
+            <th class="num">구독자</th>
+            <th class="num">조회수</th>
+            <th class="num">좋아요</th>
+            <th>비율</th>
+            <th>게시일</th>
+          </tr>
+        </thead>
+        <tbody id="topVideosBody">
+          <tr><td colspan="8" class="loading"><div class="spinner"></div><br>데이터 로딩 중...</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Channel Performance Chart -->
+  <div class="section">
+    <div class="section-header">
+      <h2>📈 채널별 평균 조회/구독 비율</h2>
+    </div>
+    <div class="chart-container">
+      <canvas id="channelChart"></canvas>
+    </div>
+  </div>
+
+  <!-- Trending Keywords -->
+  <div class="section">
+    <div class="section-header">
+      <h2>🏷️ 트렌드 키워드</h2>
+    </div>
+    <div class="keywords-wrap" id="keywordsWrap">
+      <div class="loading"><div class="spinner"></div><br>키워드 분석 중...</div>
+    </div>
+  </div>
+
+  <!-- Channel Stats -->
+  <div class="section">
+    <div class="section-header">
+      <h2>📊 채널별 최근 성과</h2>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>채널</th>
+            <th class="num">구독자</th>
+            <th class="num">총 조회수</th>
+            <th class="num">영상 수</th>
+            <th class="num">최근 평균 조회</th>
+            <th>평균 비율</th>
+          </tr>
+        </thead>
+        <tbody id="channelStatsBody">
+          <tr><td colspan="6" class="loading"><div class="spinner"></div><br>데이터 로딩 중...</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<footer>
+  리치고TV 유튜브 분석 대시보드 · 데이터는 YouTube Data API v3를 통해 수집됩니다 · 자동 업데이트
+</footer>
+
+<script>
+let analysisData = null;
+
+function formatNumber(n) {
+  if (n >= 100000000) return (n / 100000000).toFixed(1) + '억';
+  if (n >= 10000) return (n / 10000).toFixed(1) + '만';
+  if (n >= 1000) return n.toLocaleString();
+  return String(n);
+}
+
+function formatDate(isoStr) {
+  if (!isoStr) return '-';
+  const d = new Date(isoStr);
+  return `${d.getFullYear()}.${String(d.getMonth()+1).padStart(2,'0')}.${String(d.getDate()).padStart(2,'0')}`;
+}
+
+function ratioClass(ratio) {
+  if (ratio > 0.10) return 'ratio-hot';
+  if (ratio > 0.05) return 'ratio-warm';
+  if (ratio > 0.02) return 'ratio-mild';
+  return 'ratio-normal';
+}
+
+function rankClass(i) {
+  if (i === 0) return 'rank rank-1';
+  if (i === 1) return 'rank rank-2';
+  if (i === 2) return 'rank rank-3';
+  return 'rank';
+}
+
+function renderTopVideos(period) {
+  const videos = analysisData.top_videos[period] || [];
+  const tbody = document.getElementById('topVideosBody');
+  if (!videos.length) {
+    tbody.innerHTML = '<tr><td colspan="8" style="text-align:center;padding:40px;color:var(--text-secondary)">해당 기간에 데이터가 없습니다</td></tr>';
+    return;
+  }
+  tbody.innerHTML = videos.map((v, i) => `
+    <tr>
+      <td class="${rankClass(i)}">${i + 1}</td>
+      <td class="channel-name">${v.channelName}</td>
+      <td class="video-title"><a href="https://youtube.com/watch?v=${v.videoId}" target="_blank" rel="noopener">${v.title}</a></td>
+      <td class="num">${formatNumber(v.subscribers)}</td>
+      <td class="num">${formatNumber(v.viewCount)}</td>
+      <td class="num">${formatNumber(v.likeCount)}</td>
+      <td><span class="ratio-badge ${ratioClass(v.views_to_subs_ratio)}">${(v.views_to_subs_ratio * 100).toFixed(1)}%</span></td>
+      <td>${formatDate(v.publishedAt)}</td>
+    </tr>
+  `).join('');
+}
+
+function switchPeriod(period) {
+  document.querySelectorAll('.period-tab').forEach(t => t.classList.remove('active'));
+  event.target.classList.add('active');
+  renderTopVideos(period);
+}
+
+function renderKeywords(keywords) {
+  const wrap = document.getElementById('keywordsWrap');
+  if (!keywords || !keywords.length) {
+    wrap.innerHTML = '<span style="color:var(--text-secondary)">키워드 데이터 없음</span>';
+    return;
+  }
+  const maxCount = keywords[0].count;
+  wrap.innerHTML = keywords.map(k => {
+    const ratio = k.count / maxCount;
+    let cls = '';
+    if (ratio > 0.7) cls = 'kw-hot';
+    else if (ratio > 0.4) cls = 'kw-warm';
+    else if (ratio > 0.2) cls = 'kw-mild';
+    return `<span class="keyword-tag ${cls}">${k.keyword} <small style="opacity:0.6">${k.count}</small></span>`;
+  }).join('');
+}
+
+function renderChannelStats(channels) {
+  const tbody = document.getElementById('channelStatsBody');
+  tbody.innerHTML = channels.map(ch => `
+    <tr>
+      <td><strong>${ch.name}</strong></td>
+      <td class="num">${formatNumber(ch.subscribers)}</td>
+      <td class="num">${formatNumber(ch.totalViews)}</td>
+      <td class="num">${ch.videoCount.toLocaleString()}</td>
+      <td class="num">${formatNumber(ch.avgViews)}</td>
+      <td><span class="ratio-badge ${ratioClass(ch.avgRatio)}">${(ch.avgRatio * 100).toFixed(1)}%</span></td>
+    </tr>
+  `).join('');
+}
+
+function renderChart(channels) {
+  const ctx = document.getElementById('channelChart').getContext('2d');
+  const sorted = [...channels].sort((a, b) => b.avgRatio - a.avgRatio);
+  const labels = sorted.map(c => c.name);
+  const data = sorted.map(c => (c.avgRatio * 100));
+  const colors = sorted.map(c => {
+    if (c.avgRatio > 0.10) return '#f85149';
+    if (c.avgRatio > 0.05) return '#d29922';
+    if (c.avgRatio > 0.02) return '#e3b341';
+    return '#8b949e';
+  });
+  new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels,
+      datasets: [{
+        label: '평균 조회/구독 비율 (%)',
+        data,
+        backgroundColor: colors.map(c => c + '40'),
+        borderColor: colors,
+        borderWidth: 1,
+        borderRadius: 4,
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: ctx => `${ctx.parsed.y.toFixed(1)}%`
+          }
+        }
+      },
+      scales: {
+        x: {
+          ticks: { color: '#8b949e', font: { size: 11 }, maxRotation: 45 },
+          grid: { display: false }
+        },
+        y: {
+          ticks: { color: '#8b949e', callback: v => v + '%' },
+          grid: { color: '#21262d' }
+        }
+      }
+    }
+  });
+}
+
+async function loadData() {
+  try {
+    const resp = await fetch('data.json');
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    analysisData = await resp.json();
+
+    // Update header
+    document.getElementById('updateTime').textContent = 
+      `마지막 업데이트: ${formatDate(analysisData.collected_at)} · 분석: ${formatDate(analysisData.analyzed_at)}`;
+
+    // Stats bar
+    document.getElementById('totalChannels').textContent = analysisData.total_channels;
+    document.getElementById('totalVideos').textContent = analysisData.total_videos;
+    
+    const allVideos = analysisData.top_videos.all || [];
+    if (allVideos.length) {
+      const avgR = allVideos.reduce((s, v) => s + v.views_to_subs_ratio, 0) / allVideos.length;
+      document.getElementById('avgRatio').textContent = (avgR * 100).toFixed(1) + '%';
+      document.getElementById('topRatio').textContent = (allVideos[0].views_to_subs_ratio * 100).toFixed(1) + '%';
+    }
+
+    // Render sections
+    renderTopVideos('all');
+    renderKeywords(analysisData.trending_keywords);
+    renderChannelStats(analysisData.channel_summaries);
+    renderChart(analysisData.channel_summaries);
+
+  } catch (err) {
+    console.error('Failed to load data:', err);
+    document.getElementById('updateTime').textContent = '데이터 로딩 실패: ' + err.message;
+    document.querySelectorAll('.loading').forEach(el => {
+      el.innerHTML = '⚠️ 데이터를 불러올 수 없습니다. data.json 파일을 확인해주세요.';
+    });
+  }
+}
+
+loadData();
+</script>
+</body>
+</html>

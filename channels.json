@@ -1,0 +1,106 @@
+{
+  "channels": [
+    {
+      "name": "리치고TV",
+      "id": "UC3nsb3SxlRrJQ9egkKNnlfg",
+      "handle": "@richgoTV",
+      "category": "our_channel"
+    },
+    {
+      "name": "집코노미",
+      "id": "UCAVdqlngIAxHtwlCA2hjv3A",
+      "handle": "@zipconomy",
+      "category": "benchmark"
+    },
+    {
+      "name": "셜록현준",
+      "id": "UC7uDyFIqExDnfXAIZqumFrQ",
+      "handle": "@sherlockhyunjoon",
+      "category": "benchmark"
+    },
+    {
+      "name": "부읽남TV",
+      "id": "UC2QeHNJFfuQWB4cy3M-745g",
+      "handle": "@bureadman",
+      "category": "benchmark"
+    },
+    {
+      "name": "스마트튜브(빠숑)",
+      "id": "UCKosTo5bqKm4v264z2zDnFQ",
+      "handle": "@smarttube",
+      "category": "benchmark"
+    },
+    {
+      "name": "거제도부동산탐정",
+      "id": "UCrEbgGa9dZRRkt4wYu1aycA",
+      "handle": "@budongsan_detective",
+      "category": "small"
+    },
+    {
+      "name": "알짜부동산TV",
+      "id": "UCMRGpHQ0u6Z6tLMHog4oSGw",
+      "handle": "@alzzabudongsan",
+      "category": "small"
+    },
+    {
+      "name": "돈되는부동산TV",
+      "id": "UCGYkgtujhVexqOp206OFj7A",
+      "handle": "@moneybudongsan",
+      "category": "small"
+    },
+    {
+      "name": "쉬운부동산",
+      "id": "UCFZvSIQk2X3VrZJhc1QPJ_A",
+      "handle": "@easybudongsan",
+      "category": "small"
+    },
+    {
+      "name": "부동산분석왕TV",
+      "id": "UCzVxelIsmKDrNQTUHpzokQg",
+      "handle": "@budongsan_king",
+      "category": "small"
+    },
+    {
+      "name": "리얼터김사부",
+      "id": "UCvRY6IMfdKwZIUOsFaBv7Kg",
+      "handle": "@realtorkimsabu",
+      "category": "small"
+    },
+    {
+      "name": "부동산하우스",
+      "id": "UCoROtLOzsB4pAMarab00ANQ",
+      "handle": "@budongsan_house",
+      "category": "small"
+    },
+    {
+      "name": "집터뷰",
+      "id": "UC6RUdJ9pYwEcaDfVfobvi3g",
+      "handle": "@jipterview",
+      "category": "small"
+    },
+    {
+      "name": "경제읽어주는여자",
+      "id": "UC2uMv7BCp4AZduNiIrk2OsQ",
+      "handle": "@economysister",
+      "category": "small"
+    },
+    {
+      "name": "월급쟁이부동산투자",
+      "id": "UCWWNqcjymcR5UUI-088u0-w",
+      "handle": "@wbinvest",
+      "category": "small"
+    },
+    {
+      "name": "부룡이네부동산",
+      "id": "UC_oIz7_AHOXaRSaWQcpqNAA",
+      "handle": "@BuryongBudongsan",
+      "category": "small"
+    },
+    {
+      "name": "압구정소나무TV",
+      "id": "UCJ5PQiIiI8cEKwxbFidjxmQ",
+      "handle": "@sonamu",
+      "category": "small"
+    }
+  ]
+}
