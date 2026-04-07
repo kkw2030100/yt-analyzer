@@ -1,8 +1,8 @@
 {
-  "analyzed_at": "2026-04-07T13:09:20.753858+00:00",
-  "collected_at": "2026-04-07T12:49:14.077474+00:00",
-  "total_channels": 17,
-  "total_videos": 426,
+  "analyzed_at": "2026-04-07T22:04:57.725050+00:00",
+  "collected_at": "2026-04-07T22:04:42.901408+00:00",
+  "total_channels": 16,
+  "total_videos": 420,
   "top_videos": {
     "24h": [
       {
@@ -10,72 +10,87 @@
         "title": "🌸 삼비 17평 매수 시 25·36평 신청 가능!",
         "publishedAt": "2026-04-07T09:42:38Z",
         "thumbnail": "https://i.ytimg.com/vi/NFbG7ypp-FA/mqdefault.jpg",
-        "viewCount": 1154,
-        "likeCount": 6,
-        "commentCount": 0,
+        "viewCount": 2297,
+        "likeCount": 9,
+        "commentCount": 3,
         "duration": 20,
         "durationRaw": "PT20S",
-        "views_to_subs_ratio": 0.1003,
+        "views_to_subs_ratio": 0.1997,
         "channelName": "돈되는부동산TV",
         "channelId": "UCGYkgtujhVexqOp206OFj7A",
         "subscribers": 11500
-      },
-      {
-        "videoId": "gTk18MhCyVc",
-        "title": "연장, 연장 평행이론! 깔짝깔짝해서는 효과가 없습니다!",
-        "publishedAt": "2026-04-07T00:07:46Z",
-        "thumbnail": "https://i.ytimg.com/vi/gTk18MhCyVc/mqdefault.jpg",
-        "viewCount": 15925,
-        "likeCount": 745,
-        "commentCount": 28,
-        "duration": 3151,
-        "durationRaw": "PT52M31S",
-        "views_to_subs_ratio": 0.0655,
-        "channelName": "스마트튜브(스튜TV)",
-        "channelId": "UCKosTo5bqKm4v264z2zDnFQ",
-        "subscribers": 243000
       },
       {
         "videoId": "ILTPXvQCw-I",
         "title": "[매물번호.190]통영 바다뷰 손 볼곳없는 깔끔한 전원주택 매매 ! ! #통영전원주택#통영세컨하우스#통영촌집#용남면주택#통영부동산#용남면전원주택#용남면세컨하우스#통영주택#용남면촌집",
         "publishedAt": "2026-04-07T10:15:01Z",
         "thumbnail": "https://i.ytimg.com/vi/ILTPXvQCw-I/mqdefault.jpg",
-        "viewCount": 142,
-        "likeCount": 13,
+        "viewCount": 358,
+        "likeCount": 16,
         "commentCount": 0,
         "duration": 316,
         "durationRaw": "PT5M16S",
-        "views_to_subs_ratio": 0.0326,
+        "views_to_subs_ratio": 0.0823,
         "channelName": "거제도부동산탐정",
         "channelId": "UCrEbgGa9dZRRkt4wYu1aycA",
         "subscribers": 4350
       },
       {
-        "videoId": "uAbQ8lLyh2g",
-        "title": "양평전원주택 매매)급매물 이렇게 지어야 합니다. 믿고보세요...까페보다 화려한 원덕역세권의 59평대저택...집은 이렇게 지어야합니다...주택수 미포함..몸만오세요",
-        "publishedAt": "2026-04-07T08:15:04Z",
-        "thumbnail": "https://i.ytimg.com/vi/uAbQ8lLyh2g/mqdefault.jpg",
-        "viewCount": 539,
-        "likeCount": 20,
-        "commentCount": 0,
-        "duration": 878,
-        "durationRaw": "PT14M38S",
-        "views_to_subs_ratio": 0.0197,
-        "channelName": "전원시대부동산 양평전원주택 매매 매물 ",
-        "channelId": "UCJy6dpsf-5freA9Vm8Y-ckw",
-        "subscribers": 27400
+        "videoId": "gTk18MhCyVc",
+        "title": "연장, 연장 평행이론! 깔짝깔짝해서는 효과가 없습니다!",
+        "publishedAt": "2026-04-07T00:07:46Z",
+        "thumbnail": "https://i.ytimg.com/vi/gTk18MhCyVc/mqdefault.jpg",
+        "viewCount": 17433,
+        "likeCount": 783,
+        "commentCount": 30,
+        "duration": 3151,
+        "durationRaw": "PT52M31S",
+        "views_to_subs_ratio": 0.0717,
+        "channelName": "스마트튜브(스튜TV)",
+        "channelId": "UCKosTo5bqKm4v264z2zDnFQ",
+        "subscribers": 243000
+      },
+      {
+        "videoId": "FR5ulBL4yrU",
+        "title": "걸러야 할 부동산 속임수 | 흥청망청",
+        "publishedAt": "2026-04-07T09:30:07Z",
+        "thumbnail": "https://i.ytimg.com/vi/FR5ulBL4yrU/mqdefault.jpg",
+        "viewCount": 20903,
+        "likeCount": 444,
+        "commentCount": 56,
+        "duration": 321,
+        "durationRaw": "PT5M21S",
+        "views_to_subs_ratio": 0.0339,
+        "channelName": "집코노미",
+        "channelId": "UCAVdqlngIAxHtwlCA2hjv3A",
+        "subscribers": 616000
+      },
+      {
+        "videoId": "YcWS5jsFZNU",
+        "title": "“월세지옥이 펼쳐질 겁니다” 전월세 시장 이렇게 됩니다 [제네시스박 3부]",
+        "publishedAt": "2026-04-07T11:01:02Z",
+        "thumbnail": "https://i.ytimg.com/vi/YcWS5jsFZNU/mqdefault.jpg",
+        "viewCount": 38045,
+        "likeCount": 659,
+        "commentCount": 120,
+        "duration": 945,
+        "durationRaw": "PT15M45S",
+        "views_to_subs_ratio": 0.0217,
+        "channelName": "부읽남TV_내집마련부터건물주까지",
+        "channelId": "UC2QeHNJFfuQWB4cy3M-745g",
+        "subscribers": 1750000
       },
       {
         "videoId": "Y9osb17KWCs",
         "title": "전세놓은 집주인들 - 패닉셀링 터집니다",
         "publishedAt": "2026-04-07T01:00:25Z",
         "thumbnail": "https://i.ytimg.com/vi/Y9osb17KWCs/mqdefault.jpg",
-        "viewCount": 8852,
-        "likeCount": 548,
+        "viewCount": 9748,
+        "likeCount": 585,
         "commentCount": 16,
         "duration": 720,
         "durationRaw": "PT12M",
-        "views_to_subs_ratio": 0.0192,
+        "views_to_subs_ratio": 0.0211,
         "channelName": "라이트하우스",
         "channelId": "UCoROtLOzsB4pAMarab00ANQ",
         "subscribers": 461000
@@ -85,42 +100,42 @@
         "title": "지금은 오히려 '여기'가 기회일 수 있어요 [박원갑 위원]",
         "publishedAt": "2026-04-06T22:30:18Z",
         "thumbnail": "https://i.ytimg.com/vi/d72wvWMqlBA/mqdefault.jpg",
-        "viewCount": 23846,
-        "likeCount": 82,
+        "viewCount": 28959,
+        "likeCount": 92,
         "commentCount": 7,
         "duration": 37,
         "durationRaw": "PT37S",
-        "views_to_subs_ratio": 0.0136,
+        "views_to_subs_ratio": 0.0165,
         "channelName": "부읽남TV_내집마련부터건물주까지",
         "channelId": "UC2QeHNJFfuQWB4cy3M-745g",
         "subscribers": 1750000
       },
       {
-        "videoId": "7wAbqRYtVNI",
-        "title": "서종면 계곡앞 대가족용 넓은 철콘주택 4억대 도로사정 최상급 초등학교 도보이용 긴급물 )/양평 전원주택/양평 전원주택 급매/양평 부동산/ 매물번호 : 22583]",
-        "publishedAt": "2026-04-07T00:22:52Z",
-        "thumbnail": "https://i.ytimg.com/vi/7wAbqRYtVNI/mqdefault.jpg",
-        "viewCount": 342,
-        "likeCount": 12,
-        "commentCount": 0,
-        "duration": 425,
-        "durationRaw": "PT7M5S",
-        "views_to_subs_ratio": 0.0125,
-        "channelName": "전원시대부동산 양평전원주택 매매 매물 ",
-        "channelId": "UCJy6dpsf-5freA9Vm8Y-ckw",
-        "subscribers": 27400
+        "videoId": "Ir8ZqGGJ7B0",
+        "title": "조심해야 하는 상가 강사 유형",
+        "publishedAt": "2026-04-07T12:00:37Z",
+        "thumbnail": "https://i.ytimg.com/vi/Ir8ZqGGJ7B0/mqdefault.jpg",
+        "viewCount": 3975,
+        "likeCount": 27,
+        "commentCount": 1,
+        "duration": 32,
+        "durationRaw": "PT32S",
+        "views_to_subs_ratio": 0.0164,
+        "channelName": "스마트튜브(스튜TV)",
+        "channelId": "UCKosTo5bqKm4v264z2zDnFQ",
+        "subscribers": 243000
       },
       {
         "videoId": "uCbJLmXkqAc",
         "title": "우리 집만 안 올라요🥲 64평 대형 아파트 버리고 상급지 가야 할까요? (feat. 성남 재개발)",
         "publishedAt": "2026-04-07T08:00:52Z",
         "thumbnail": "https://i.ytimg.com/vi/uCbJLmXkqAc/mqdefault.jpg",
-        "viewCount": 608,
-        "likeCount": 27,
-        "commentCount": 3,
+        "viewCount": 1143,
+        "likeCount": 34,
+        "commentCount": 5,
         "duration": 948,
         "durationRaw": "PT15M48S",
-        "views_to_subs_ratio": 0.0081,
+        "views_to_subs_ratio": 0.0152,
         "channelName": "재테크 신선배, 부룡TV",
         "channelId": "UC_oIz7_AHOXaRSaWQcpqNAA",
         "subscribers": 75200
@@ -130,27 +145,12 @@
         "title": "삼성전자 소름돋는 예상 나왔어요, “상상 못했던 일 벌어질 겁니다” [박세익 대표 2부]",
         "publishedAt": "2026-04-07T09:00:30Z",
         "thumbnail": "https://i.ytimg.com/vi/FHZizk6_As8/mqdefault.jpg",
-        "viewCount": 9669,
-        "likeCount": 331,
-        "commentCount": 24,
+        "viewCount": 26352,
+        "likeCount": 485,
+        "commentCount": 35,
         "duration": 1250,
         "durationRaw": "PT20M50S",
-        "views_to_subs_ratio": 0.0055,
-        "channelName": "부읽남TV_내집마련부터건물주까지",
-        "channelId": "UC2QeHNJFfuQWB4cy3M-745g",
-        "subscribers": 1750000
-      },
-      {
-        "videoId": "YcWS5jsFZNU",
-        "title": "“월세지옥이 펼쳐질 겁니다” 전월세 시장 이렇게 됩니다 [제네시스박 3부]",
-        "publishedAt": "2026-04-07T11:01:02Z",
-        "thumbnail": "https://i.ytimg.com/vi/YcWS5jsFZNU/mqdefault.jpg",
-        "viewCount": 8751,
-        "likeCount": 326,
-        "commentCount": 54,
-        "duration": 945,
-        "durationRaw": "PT15M45S",
-        "views_to_subs_ratio": 0.005,
+        "views_to_subs_ratio": 0.0151,
         "channelName": "부읽남TV_내집마련부터건물주까지",
         "channelId": "UC2QeHNJFfuQWB4cy3M-745g",
         "subscribers": 1750000
@@ -158,31 +158,31 @@
     ],
     "7d": [
       {
-        "videoId": "zCV60ZMWTSc",
-        "title": "[매물번호.187]경남 고성 깔끔하고 막힘없는 주택(별장) 매매 !",
-        "publishedAt": "2026-04-02T09:30:29Z",
-        "thumbnail": "https://i.ytimg.com/vi/zCV60ZMWTSc/mqdefault.jpg",
-        "viewCount": 6113,
-        "likeCount": 19,
-        "commentCount": 0,
+        "videoId": "gi8rkwpFmqA",
+        "title": "[매물번호.189] 거제도 칠천도 바닷가앞 주택(별장) 매매 !",
+        "publishedAt": "2026-04-04T09:30:17Z",
+        "thumbnail": "https://i.ytimg.com/vi/gi8rkwpFmqA/mqdefault.jpg",
+        "viewCount": 6200,
+        "likeCount": 8,
+        "commentCount": 1,
         "duration": 11,
         "durationRaw": "PT11S",
-        "views_to_subs_ratio": 1.4053,
+        "views_to_subs_ratio": 1.4253,
         "channelName": "거제도부동산탐정",
         "channelId": "UCrEbgGa9dZRRkt4wYu1aycA",
         "subscribers": 4350
       },
       {
-        "videoId": "gi8rkwpFmqA",
-        "title": "[매물번호.189] 거제도 칠천도 바닷가앞 주택(별장) 매매 !",
-        "publishedAt": "2026-04-04T09:30:17Z",
-        "thumbnail": "https://i.ytimg.com/vi/gi8rkwpFmqA/mqdefault.jpg",
-        "viewCount": 5967,
-        "likeCount": 8,
-        "commentCount": 1,
+        "videoId": "zCV60ZMWTSc",
+        "title": "[매물번호.187]경남 고성 깔끔하고 막힘없는 주택(별장) 매매 !",
+        "publishedAt": "2026-04-02T09:30:29Z",
+        "thumbnail": "https://i.ytimg.com/vi/zCV60ZMWTSc/mqdefault.jpg",
+        "viewCount": 6159,
+        "likeCount": 19,
+        "commentCount": 0,
         "duration": 11,
         "durationRaw": "PT11S",
-        "views_to_subs_ratio": 1.3717,
+        "views_to_subs_ratio": 1.4159,
         "channelName": "거제도부동산탐정",
         "channelId": "UCrEbgGa9dZRRkt4wYu1aycA",
         "subscribers": 4350
@@ -192,12 +192,12 @@
         "title": "천재들이 장난에 진심이면 생기는 일",
         "publishedAt": "2026-04-01T07:21:15Z",
         "thumbnail": "https://i.ytimg.com/vi/1zoyuycjziQ/mqdefault.jpg",
-        "viewCount": 1469273,
-        "likeCount": 15626,
+        "viewCount": 1484803,
+        "likeCount": 15755,
         "commentCount": 136,
         "duration": 42,
         "durationRaw": "PT42S",
-        "views_to_subs_ratio": 1.0203,
+        "views_to_subs_ratio": 1.0311,
         "channelName": "셜록현준",
         "channelId": "UC7uDyFIqExDnfXAIZqumFrQ",
         "subscribers": 1440000
@@ -207,12 +207,12 @@
         "title": "[매물번호.188]거제도 바다인근 주택(촌집) 매매 !",
         "publishedAt": "2026-04-03T10:30:39Z",
         "thumbnail": "https://i.ytimg.com/vi/vnjSxEMCfyg/mqdefault.jpg",
-        "viewCount": 4349,
+        "viewCount": 4408,
         "likeCount": 13,
         "commentCount": 0,
         "duration": 11,
         "durationRaw": "PT11S",
-        "views_to_subs_ratio": 0.9998,
+        "views_to_subs_ratio": 1.0133,
         "channelName": "거제도부동산탐정",
         "channelId": "UCrEbgGa9dZRRkt4wYu1aycA",
         "subscribers": 4350
@@ -222,12 +222,12 @@
         "title": "[매물번호.187]경남 고성 깔끔하고 막힘없는 주택(별장) 매매 ! ! #고성전원주택#고성세컨하우스#고성촌집#고성부동산#상리면주택#상리면세컨하우스#고성주택#상리면촌집#고성별장",
         "publishedAt": "2026-04-02T07:00:15Z",
         "thumbnail": "https://i.ytimg.com/vi/NhA0LRsEoX0/mqdefault.jpg",
-        "viewCount": 2490,
+        "viewCount": 2500,
         "likeCount": 35,
         "commentCount": 0,
         "duration": 149,
         "durationRaw": "PT2M29S",
-        "views_to_subs_ratio": 0.5724,
+        "views_to_subs_ratio": 0.5747,
         "channelName": "거제도부동산탐정",
         "channelId": "UCrEbgGa9dZRRkt4wYu1aycA",
         "subscribers": 4350
@@ -237,12 +237,12 @@
         "title": "부산 5~6억대, 이제 '마피' 끝났습니다! 🚨: 요즘 실수요자분들이 가장 많이 찾는 5~6억대 알짜 아파트 TOP 3 핵심만 정리해 드립니다!",
         "publishedAt": "2026-04-04T04:18:47Z",
         "thumbnail": "https://i.ytimg.com/vi/Ca7E15hEOa8/mqdefault.jpg",
-        "viewCount": 4424,
-        "likeCount": 28,
+        "viewCount": 4678,
+        "likeCount": 29,
         "commentCount": 2,
         "duration": 40,
         "durationRaw": "PT40S",
-        "views_to_subs_ratio": 0.3847,
+        "views_to_subs_ratio": 0.4068,
         "channelName": "돈되는부동산TV",
         "channelId": "UCGYkgtujhVexqOp206OFj7A",
         "subscribers": 11500
@@ -252,12 +252,12 @@
         "title": "[매물번호.189] 거제도 칠천도 바닷가앞 주택(별장) 매매 ! ! #거제도주택#거제도세컨하우스#거제도촌집#하청면주택#거제도부동산#하청면#하청면세컨하우스#하청면촌집#거제도별장",
         "publishedAt": "2026-04-04T06:00:10Z",
         "thumbnail": "https://i.ytimg.com/vi/93hxrNRBquc/mqdefault.jpg",
-        "viewCount": 1648,
+        "viewCount": 1683,
         "likeCount": 31,
         "commentCount": 1,
         "duration": 138,
         "durationRaw": "PT2M18S",
-        "views_to_subs_ratio": 0.3789,
+        "views_to_subs_ratio": 0.3869,
         "channelName": "거제도부동산탐정",
         "channelId": "UCrEbgGa9dZRRkt4wYu1aycA",
         "subscribers": 4350
@@ -267,12 +267,12 @@
         "title": "[매물번호.188]거제도 바다인근 주택(촌집) 매매 ! ! #거제도주택#거제도세컨하우스#거제도촌집#동부면주택#거제도부동산#거제도별장#동부면별장#동부면세컨하우스#동부면주택#동부면촌집",
         "publishedAt": "2026-04-03T09:45:06Z",
         "thumbnail": "https://i.ytimg.com/vi/uVV3iAuAW2c/mqdefault.jpg",
-        "viewCount": 1616,
+        "viewCount": 1643,
         "likeCount": 28,
         "commentCount": 0,
         "duration": 219,
         "durationRaw": "PT3M39S",
-        "views_to_subs_ratio": 0.3715,
+        "views_to_subs_ratio": 0.3777,
         "channelName": "거제도부동산탐정",
         "channelId": "UCrEbgGa9dZRRkt4wYu1aycA",
         "subscribers": 4350
@@ -282,12 +282,12 @@
         "title": "삼성전자 '이 가격' 찍히면 사도 됩니다 [김대준 대표]",
         "publishedAt": "2026-04-04T10:00:10Z",
         "thumbnail": "https://i.ytimg.com/vi/9yuPZtjWEh0/mqdefault.jpg",
-        "viewCount": 613507,
-        "likeCount": 2587,
-        "commentCount": 184,
+        "viewCount": 655469,
+        "likeCount": 2714,
+        "commentCount": 187,
         "duration": 29,
         "durationRaw": "PT29S",
-        "views_to_subs_ratio": 0.3506,
+        "views_to_subs_ratio": 0.3746,
         "channelName": "부읽남TV_내집마련부터건물주까지",
         "channelId": "UC2QeHNJFfuQWB4cy3M-745g",
         "subscribers": 1750000
@@ -297,12 +297,12 @@
         "title": "[긴급] 부산 하이엔드아파트 P1천만원? 지금 안 잡으면 무조건 손해! 🚨",
         "publishedAt": "2026-04-05T01:25:25Z",
         "thumbnail": "https://i.ytimg.com/vi/mdgkg8-hf_M/mqdefault.jpg",
-        "viewCount": 3174,
-        "likeCount": 15,
+        "viewCount": 3395,
+        "likeCount": 17,
         "commentCount": 1,
         "duration": 36,
         "durationRaw": "PT36S",
-        "views_to_subs_ratio": 0.276,
+        "views_to_subs_ratio": 0.2952,
         "channelName": "돈되는부동산TV",
         "channelId": "UCGYkgtujhVexqOp206OFj7A",
         "subscribers": 11500
@@ -374,12 +374,12 @@
         "title": "[매물번호.185]통영 1억이하 바다인근 2층주택 매매 초급매 !",
         "publishedAt": "2026-03-31T09:30:05Z",
         "thumbnail": "https://i.ytimg.com/vi/E73Hbb_55jM/mqdefault.jpg",
-        "viewCount": 8745,
+        "viewCount": 8756,
         "likeCount": 22,
         "commentCount": 0,
         "duration": 11,
         "durationRaw": "PT11S",
-        "views_to_subs_ratio": 2.0103,
+        "views_to_subs_ratio": 2.0129,
         "channelName": "거제도부동산탐정",
         "channelId": "UCrEbgGa9dZRRkt4wYu1aycA",
         "subscribers": 4350
@@ -389,12 +389,12 @@
         "title": "[매물번호.176]통영 바다뷰 2층주택 초급매 매매 !",
         "publishedAt": "2026-03-11T10:00:05Z",
         "thumbnail": "https://i.ytimg.com/vi/2nAfXXeTodU/mqdefault.jpg",
-        "viewCount": 6592,
+        "viewCount": 6605,
         "likeCount": 28,
         "commentCount": 0,
         "duration": 11,
         "durationRaw": "PT11S",
-        "views_to_subs_ratio": 1.5154,
+        "views_to_subs_ratio": 1.5184,
         "channelName": "거제도부동산탐정",
         "channelId": "UCrEbgGa9dZRRkt4wYu1aycA",
         "subscribers": 4350
@@ -404,27 +404,12 @@
         "title": "[매물번호.177]통영 부분수리된 바닷가 2층주택 매매 초급매 !",
         "publishedAt": "2026-03-11T09:00:01Z",
         "thumbnail": "https://i.ytimg.com/vi/0uis5lMlgig/mqdefault.jpg",
-        "viewCount": 6304,
+        "viewCount": 6313,
         "likeCount": 21,
         "commentCount": 0,
         "duration": 11,
         "durationRaw": "PT11S",
-        "views_to_subs_ratio": 1.4492,
-        "channelName": "거제도부동산탐정",
-        "channelId": "UCrEbgGa9dZRRkt4wYu1aycA",
-        "subscribers": 4350
-      },
-      {
-        "videoId": "zCV60ZMWTSc",
-        "title": "[매물번호.187]경남 고성 깔끔하고 막힘없는 주택(별장) 매매 !",
-        "publishedAt": "2026-04-02T09:30:29Z",
-        "thumbnail": "https://i.ytimg.com/vi/zCV60ZMWTSc/mqdefault.jpg",
-        "viewCount": 6113,
-        "likeCount": 19,
-        "commentCount": 0,
-        "duration": 11,
-        "durationRaw": "PT11S",
-        "views_to_subs_ratio": 1.4053,
+        "views_to_subs_ratio": 1.4513,
         "channelName": "거제도부동산탐정",
         "channelId": "UCrEbgGa9dZRRkt4wYu1aycA",
         "subscribers": 4350
@@ -434,12 +419,27 @@
         "title": "[매물번호.189] 거제도 칠천도 바닷가앞 주택(별장) 매매 !",
         "publishedAt": "2026-04-04T09:30:17Z",
         "thumbnail": "https://i.ytimg.com/vi/gi8rkwpFmqA/mqdefault.jpg",
-        "viewCount": 5967,
+        "viewCount": 6200,
         "likeCount": 8,
         "commentCount": 1,
         "duration": 11,
         "durationRaw": "PT11S",
-        "views_to_subs_ratio": 1.3717,
+        "views_to_subs_ratio": 1.4253,
+        "channelName": "거제도부동산탐정",
+        "channelId": "UCrEbgGa9dZRRkt4wYu1aycA",
+        "subscribers": 4350
+      },
+      {
+        "videoId": "zCV60ZMWTSc",
+        "title": "[매물번호.187]경남 고성 깔끔하고 막힘없는 주택(별장) 매매 !",
+        "publishedAt": "2026-04-02T09:30:29Z",
+        "thumbnail": "https://i.ytimg.com/vi/zCV60ZMWTSc/mqdefault.jpg",
+        "viewCount": 6159,
+        "likeCount": 19,
+        "commentCount": 0,
+        "duration": 11,
+        "durationRaw": "PT11S",
+        "views_to_subs_ratio": 1.4159,
         "channelName": "거제도부동산탐정",
         "channelId": "UCrEbgGa9dZRRkt4wYu1aycA",
         "subscribers": 4350
@@ -449,12 +449,12 @@
         "title": "[매물번호.179]거제도 바다인근 가성비 좋은 주택 매매 !!#거제도촌집#거제도주택#거제도세컨하우스#사등면주택#거제도부동산#사등면부동산#사등면세컨하우스#사등면촌집#거제도바다인근주택",
         "publishedAt": "2026-03-17T08:15:03Z",
         "thumbnail": "https://i.ytimg.com/vi/P-KTTeDkFkg/mqdefault.jpg",
-        "viewCount": 5960,
+        "viewCount": 5993,
         "likeCount": 86,
         "commentCount": 1,
         "duration": 185,
         "durationRaw": "PT3M5S",
-        "views_to_subs_ratio": 1.3701,
+        "views_to_subs_ratio": 1.3777,
         "channelName": "거제도부동산탐정",
         "channelId": "UCrEbgGa9dZRRkt4wYu1aycA",
         "subscribers": 4350
@@ -492,66 +492,6 @@
         "subscribers": 2400
       },
       {
-        "videoId": "VJLjK5_h8U4",
-        "title": "Jaap Schaveling",
-        "publishedAt": "2011-08-18T11:23:42Z",
-        "thumbnail": "https://i.ytimg.com/vi/VJLjK5_h8U4/mqdefault.jpg",
-        "viewCount": 984,
-        "likeCount": 2,
-        "commentCount": 0,
-        "duration": 796,
-        "durationRaw": "PT13M16S",
-        "views_to_subs_ratio": 123.0,
-        "channelName": "zipconomy",
-        "channelId": "UChfcaYYrp1pfTSszTxSb26A",
-        "subscribers": 8
-      },
-      {
-        "videoId": "YE5UhGANpH4",
-        "title": "Kees Cools, de bevrijde aap",
-        "publishedAt": "2011-06-03T14:28:08Z",
-        "thumbnail": "https://i.ytimg.com/vi/YE5UhGANpH4/mqdefault.jpg",
-        "viewCount": 934,
-        "likeCount": 2,
-        "commentCount": 1,
-        "duration": 696,
-        "durationRaw": "PT11M36S",
-        "views_to_subs_ratio": 116.75,
-        "channelName": "zipconomy",
-        "channelId": "UChfcaYYrp1pfTSszTxSb26A",
-        "subscribers": 8
-      },
-      {
-        "videoId": "sryQfw8prOY",
-        "title": "Het geheim van een sterke indruk",
-        "publishedAt": "2011-02-17T10:26:31Z",
-        "thumbnail": "https://i.ytimg.com/vi/sryQfw8prOY/mqdefault.jpg",
-        "viewCount": 619,
-        "likeCount": 0,
-        "commentCount": 0,
-        "duration": 253,
-        "durationRaw": "PT4M13S",
-        "views_to_subs_ratio": 77.375,
-        "channelName": "zipconomy",
-        "channelId": "UChfcaYYrp1pfTSszTxSb26A",
-        "subscribers": 8
-      },
-      {
-        "videoId": "ULQBiDSm1Hw",
-        "title": "Linde Gonggrijp over ZiPconomy",
-        "publishedAt": "2010-12-29T12:31:35Z",
-        "thumbnail": "https://i.ytimg.com/vi/ULQBiDSm1Hw/mqdefault.jpg",
-        "viewCount": 393,
-        "likeCount": 0,
-        "commentCount": 0,
-        "duration": 201,
-        "durationRaw": "PT3M21S",
-        "views_to_subs_ratio": 49.125,
-        "channelName": "zipconomy",
-        "channelId": "UChfcaYYrp1pfTSszTxSb26A",
-        "subscribers": 8
-      },
-      {
         "videoId": "4suztxcEmmo",
         "title": "죽었다 깨어나도 절대 돈 못 모으는 사람 | 경제이슈",
         "publishedAt": "2026-01-20T22:00:06Z",
@@ -582,21 +522,6 @@
         "subscribers": 2660
       },
       {
-        "videoId": "0ycjJxei60o",
-        "title": "Atos InterimIndex 13 dec 2010",
-        "publishedAt": "2010-12-27T11:26:05Z",
-        "thumbnail": "https://i.ytimg.com/vi/0ycjJxei60o/mqdefault.jpg",
-        "viewCount": 96,
-        "likeCount": 0,
-        "commentCount": 0,
-        "duration": 229,
-        "durationRaw": "PT3M49S",
-        "views_to_subs_ratio": 12.0,
-        "channelName": "zipconomy",
-        "channelId": "UChfcaYYrp1pfTSszTxSb26A",
-        "subscribers": 8
-      },
-      {
         "videoId": "2eEKFPo1TUk",
         "title": "국세청이 제일 많이 잡아내는 거래 내역들 | 경제 읽어주는 여자",
         "publishedAt": "2026-01-16T08:08:19Z",
@@ -610,25 +535,92 @@
         "channelName": "경제 읽어주는 여자",
         "channelId": "UC2uMv7BCp4AZduNiIrk2OsQ",
         "subscribers": 2400
+      },
+      {
+        "videoId": "lt_HtdsWVGc",
+        "title": "1% 삶을 위한 이건희 회장의 성공명언 | 경제 읽어주는 여자",
+        "publishedAt": "2026-01-23T07:31:54Z",
+        "thumbnail": "https://i.ytimg.com/vi/lt_HtdsWVGc/mqdefault.jpg",
+        "viewCount": 22054,
+        "likeCount": 61,
+        "commentCount": 0,
+        "duration": 6,
+        "durationRaw": "PT6S",
+        "views_to_subs_ratio": 9.1892,
+        "channelName": "경제 읽어주는 여자",
+        "channelId": "UC2uMv7BCp4AZduNiIrk2OsQ",
+        "subscribers": 2400
+      },
+      {
+        "videoId": "Q6iNE7dyq0Q",
+        "title": "대치동 은마아파트 vs선경 우성 미도 비교 토지거래 허가제 영향 by 부동산마트 & 압구정소나무",
+        "publishedAt": "2020-07-31T09:24:32Z",
+        "thumbnail": "https://i.ytimg.com/vi/Q6iNE7dyq0Q/mqdefault.jpg",
+        "viewCount": 22787,
+        "likeCount": 511,
+        "commentCount": 30,
+        "duration": 1011,
+        "durationRaw": "PT16M51S",
+        "views_to_subs_ratio": 8.5665,
+        "channelName": "압구정소나무TV",
+        "channelId": "UCvRY6IMfdKwZIUOsFaBv7Kg",
+        "subscribers": 2660
+      },
+      {
+        "videoId": "7MZ-y2qFBXk",
+        "title": "돈을 야무지게 모으는 사람들의 공통습관 15 | 돈공부",
+        "publishedAt": "2026-02-03T07:48:36Z",
+        "thumbnail": "https://i.ytimg.com/vi/7MZ-y2qFBXk/mqdefault.jpg",
+        "viewCount": 19024,
+        "likeCount": 65,
+        "commentCount": 1,
+        "duration": 6,
+        "durationRaw": "PT6S",
+        "views_to_subs_ratio": 7.9267,
+        "channelName": "경제 읽어주는 여자",
+        "channelId": "UC2uMv7BCp4AZduNiIrk2OsQ",
+        "subscribers": 2400
+      },
+      {
+        "videoId": "OQBuk9Kt1Yg",
+        "title": "밖에서는 모르는 압구정 현대아파트 이야기 제1편 by 압구정소나무",
+        "publishedAt": "2020-11-05T11:29:59Z",
+        "thumbnail": "https://i.ytimg.com/vi/OQBuk9Kt1Yg/mqdefault.jpg",
+        "viewCount": 18621,
+        "likeCount": 255,
+        "commentCount": 16,
+        "duration": 1371,
+        "durationRaw": "PT22M51S",
+        "views_to_subs_ratio": 7.0004,
+        "channelName": "압구정소나무TV",
+        "channelId": "UCvRY6IMfdKwZIUOsFaBv7Kg",
+        "subscribers": 2660
+      },
+      {
+        "videoId": "HZQWtMHy6DM",
+        "title": "왜 다들 집을 팔지 않을까? | 돈공부 경제이슈",
+        "publishedAt": "2026-02-04T08:47:22Z",
+        "thumbnail": "https://i.ytimg.com/vi/HZQWtMHy6DM/mqdefault.jpg",
+        "viewCount": 15994,
+        "likeCount": 30,
+        "commentCount": 7,
+        "duration": 6,
+        "durationRaw": "PT6S",
+        "views_to_subs_ratio": 6.6642,
+        "channelName": "경제 읽어주는 여자",
+        "channelId": "UC2uMv7BCp4AZduNiIrk2OsQ",
+        "subscribers": 2400
       }
     ]
   },
   "trending_keywords": [
     {
       "keyword": "매매",
-      "count": 52
-    },
-    {
-      "keyword": "전원주택",
       "count": 45
     },
     {
       "keyword": "부동산",
-      "count": 44
-    },
-    {
-      "keyword": "매물번호",
-      "count": 33
+      "count": 37
     },
     {
       "keyword": "충주",
@@ -639,6 +631,14 @@
       "count": 26
     },
     {
+      "keyword": "이유",
+      "count": 25
+    },
+    {
+      "keyword": "매물번호",
+      "count": 25
+    },
+    {
       "keyword": "by",
       "count": 25
     },
@@ -647,28 +647,28 @@
       "count": 25
     },
     {
-      "keyword": "이유",
-      "count": 25
+      "keyword": "아파트",
+      "count": 21
     },
     {
-      "keyword": "양평",
-      "count": 24
+      "keyword": "전원주택",
+      "count": 21
     },
     {
       "keyword": "주택",
-      "count": 21
+      "count": 20
     },
     {
       "keyword": "별장",
       "count": 20
     },
     {
-      "keyword": "아파트",
-      "count": 19
+      "keyword": "집값",
+      "count": 18
     },
     {
       "keyword": "이렇게",
-      "count": 17
+      "count": 16
     },
     {
       "keyword": "경제이슈",
@@ -679,12 +679,12 @@
       "count": 15
     },
     {
-      "keyword": "집값",
-      "count": 15
-    },
-    {
       "keyword": "거제도",
       "count": 14
+    },
+    {
+      "keyword": "이제",
+      "count": 13
     },
     {
       "keyword": "단독주택",
@@ -695,11 +695,11 @@
       "count": 13
     },
     {
-      "keyword": "이제",
+      "keyword": "됩니다",
       "count": 12
     },
     {
-      "keyword": "없는",
+      "keyword": "신축",
       "count": 11
     },
     {
@@ -707,11 +707,7 @@
       "count": 11
     },
     {
-      "keyword": "됩니다",
-      "count": 10
-    },
-    {
-      "keyword": "신축",
+      "keyword": "없는",
       "count": 10
     },
     {
@@ -727,19 +723,11 @@
       "count": 10
     },
     {
-      "keyword": "양평전원주택",
+      "keyword": "방법",
       "count": 9
     },
     {
-      "keyword": "급매",
-      "count": 9
-    },
-    {
-      "keyword": "초급매",
-      "count": 9
-    },
-    {
-      "keyword": "전세",
+      "keyword": "1부",
       "count": 9
     },
     {
@@ -751,27 +739,7 @@
       "count": 9
     },
     {
-      "keyword": "방법",
-      "count": 9
-    },
-    {
-      "keyword": "1부",
-      "count": 9
-    },
-    {
-      "keyword": "급매물",
-      "count": 8
-    },
-    {
-      "keyword": "알짜부동산TV",
-      "count": 8
-    },
-    {
-      "keyword": "토지",
-      "count": 8
-    },
-    {
-      "keyword": "투자",
+      "keyword": "전세",
       "count": 8
     },
     {
@@ -779,7 +747,7 @@
       "count": 8
     },
     {
-      "keyword": "압구정",
+      "keyword": "흥청망청",
       "count": 8
     },
     {
@@ -795,11 +763,47 @@
       "count": 8
     },
     {
-      "keyword": "입지",
+      "keyword": "투자",
+      "count": 8
+    },
+    {
+      "keyword": "토지",
+      "count": 8
+    },
+    {
+      "keyword": "알짜부동산TV",
+      "count": 8
+    },
+    {
+      "keyword": "압구정",
+      "count": 8
+    },
+    {
+      "keyword": "서울",
       "count": 7
     },
     {
-      "keyword": "평생",
+      "keyword": "있습니다",
+      "count": 7
+    },
+    {
+      "keyword": "이후",
+      "count": 7
+    },
+    {
+      "keyword": "2026년",
+      "count": 7
+    },
+    {
+      "keyword": "보면",
+      "count": 7
+    },
+    {
+      "keyword": "2부",
+      "count": 7
+    },
+    {
+      "keyword": "사도",
       "count": 7
     },
     {
@@ -809,26 +813,9 @@
     {
       "keyword": "거제도세컨하우스",
       "count": 7
-    },
-    {
-      "keyword": "거제도촌집",
-      "count": 7
     }
   ],
   "channel_summaries": [
-    {
-      "name": "zipconomy",
-      "channelId": "UChfcaYYrp1pfTSszTxSb26A",
-      "handle": "@zipconomy",
-      "subscribers": 8,
-      "totalViews": 3061,
-      "videoCount": 6,
-      "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_n3M4_vjHdOyjzajcN4XDLRsHkHKv_sXtXNqYdiwe4=s88-c-k-c0x00ffffff-no-rj",
-      "recentVideoCount": 6,
-      "recentTotalViews": 3061,
-      "avgViews": 510,
-      "avgRatio": 63.7708
-    },
     {
       "name": "경제 읽어주는 여자",
       "channelId": "UC2uMv7BCp4AZduNiIrk2OsQ",
@@ -838,9 +825,9 @@
       "videoCount": 46,
       "thumbnail": "https://yt3.ggpht.com/24AT-lvI96Tty4gJ5wrCP86OKdGFnRnr-S_cp9W5VwIwL-Md6yygdUGu3mQzedVYmVacfgZs7g=s88-c-k-c0x00ffffff-no-rj",
       "recentVideoCount": 30,
-      "recentTotalViews": 1224634,
+      "recentTotalViews": 1224637,
       "avgViews": 40821,
-      "avgRatio": 17.0088
+      "avgRatio": 17.0089
     },
     {
       "name": "압구정소나무TV",
@@ -864,22 +851,9 @@
       "videoCount": 222,
       "thumbnail": "https://yt3.ggpht.com/KTcAyKhwiyin5rnva_SzLeIgtg1q2psY3h43-ac28Ct0Ee4y4CKHoZwmn0gwO8Fst43PZrsNWrM=s88-c-k-c0x00ffffff-no-rj",
       "recentVideoCount": 30,
-      "recentTotalViews": 107918,
-      "avgViews": 3597,
-      "avgRatio": 0.827
-    },
-    {
-      "name": "리치고TV. 부자되는 부동산 네비",
-      "channelId": "UC3nsb3SxlRrJQ9egkKNnlfg",
-      "handle": "",
-      "subscribers": 139000,
-      "totalViews": 18163019,
-      "videoCount": 1162,
-      "thumbnail": "https://yt3.ggpht.com/3DZOovrznEhl7oLqFigg_vXntGXv-mM80swKlPNoDDnKfJ6uANbRFV6i1xZVGntp6gcovCquOQ=s88-c-k-c0x00ffffff-no-rj",
-      "recentVideoCount": 30,
-      "recentTotalViews": 1012023,
-      "avgViews": 33734,
-      "avgRatio": 0.2427
+      "recentTotalViews": 108795,
+      "avgViews": 3626,
+      "avgRatio": 0.8337
     },
     {
       "name": "돈되는부동산TV",
@@ -890,9 +864,22 @@
       "videoCount": 1086,
       "thumbnail": "https://yt3.ggpht.com/ldDqds-9Fe3Y-tNmDf04xOOtfdQb0SCGiUC-DfGe08BQjdRQPxHvPWQUkC0wG49NgCzQvhLO=s88-c-k-c0x00ffffff-no-rj",
       "recentVideoCount": 30,
-      "recentTotalViews": 78629,
-      "avgViews": 2621,
-      "avgRatio": 0.2279
+      "recentTotalViews": 81117,
+      "avgViews": 2704,
+      "avgRatio": 0.2351
+    },
+    {
+      "name": "리치고TV. 부자되는 부동산 네비",
+      "channelId": "UC3nsb3SxlRrJQ9egkKNnlfg",
+      "handle": "@richgoTV",
+      "subscribers": 139000,
+      "totalViews": 18165026,
+      "videoCount": 1163,
+      "thumbnail": "https://yt3.ggpht.com/3DZOovrznEhl7oLqFigg_vXntGXv-mM80swKlPNoDDnKfJ6uANbRFV6i1xZVGntp6gcovCquOQ=s88-c-k-c0x00ffffff-no-rj",
+      "recentVideoCount": 30,
+      "recentTotalViews": 974348,
+      "avgViews": 32478,
+      "avgRatio": 0.2337
     },
     {
       "name": "셜록현준",
@@ -903,9 +890,9 @@
       "videoCount": 330,
       "thumbnail": "https://yt3.ggpht.com/GN-yohdLrGAInTN76ndfPpy3t_g9a49XPFoV6TR8cOs5GR0YJRfUSD3XbulbjUj36I4oGB1wCQ=s88-c-k-c0x00ffffff-no-rj",
       "recentVideoCount": 30,
-      "recentTotalViews": 8570206,
-      "avgViews": 285674,
-      "avgRatio": 0.1984
+      "recentTotalViews": 8594765,
+      "avgViews": 286492,
+      "avgRatio": 0.199
     },
     {
       "name": "알짜부동산TV (알짜부동산TV)",
@@ -916,7 +903,7 @@
       "videoCount": 100,
       "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_liSryIvofspRi6CzFDavqx6BBBCxickCXub6Tq6j7Xgw=s88-c-k-c0x00ffffff-no-rj",
       "recentVideoCount": 30,
-      "recentTotalViews": 48031,
+      "recentTotalViews": 48040,
       "avgViews": 1601,
       "avgRatio": 0.1525
     },
@@ -925,65 +912,65 @@
       "channelId": "UC6RUdJ9pYwEcaDfVfobvi3g",
       "handle": "@jipterview",
       "subscribers": 245000,
-      "totalViews": 48136644,
+      "totalViews": 48163626,
       "videoCount": 318,
       "thumbnail": "https://yt3.ggpht.com/wexWuuEmZXBO8PyVMF-PcWYvQPge5JkDXou9GnoK4vlQ7Eau72jD8q1KJiT1Za6mnIwxqEZsEA=s88-c-k-c0x00ffffff-no-rj",
       "recentVideoCount": 30,
-      "recentTotalViews": 1017674,
-      "avgViews": 33922,
-      "avgRatio": 0.1385
-    },
-    {
-      "name": "전원시대부동산 양평전원주택 매매 매물 ",
-      "channelId": "UCJy6dpsf-5freA9Vm8Y-ckw",
-      "handle": "@jeonse_king",
-      "subscribers": 27400,
-      "totalViews": 4960937,
-      "videoCount": 2328,
-      "thumbnail": "https://yt3.ggpht.com/Sy3RHru308WbJqUKh_l7TaR_Bb67N91fxB9pYN16DyrSvTru9L2CHHzzekJEtEZeeindli3icg=s88-c-k-c0x00ffffff-no-rj",
-      "recentVideoCount": 30,
-      "recentTotalViews": 79740,
-      "avgViews": 2658,
-      "avgRatio": 0.097
+      "recentTotalViews": 1026560,
+      "avgViews": 34219,
+      "avgRatio": 0.1397
     },
     {
       "name": "쉬운부동산",
       "channelId": "UCFZvSIQk2X3VrZJhc1QPJ_A",
-      "handle": "@budongsan_jiskim",
+      "handle": "@easybudongsan",
       "subscribers": 82300,
       "totalViews": 2312436,
       "videoCount": 115,
       "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_lnpQy6WnCP8U9VzlF8w5r-RaMbckEw08DERQpumtt_TQ=s88-c-k-c0x00ffffff-no-rj",
       "recentVideoCount": 30,
-      "recentTotalViews": 144525,
-      "avgViews": 4818,
-      "avgRatio": 0.0585
+      "recentTotalViews": 144562,
+      "avgViews": 4819,
+      "avgRatio": 0.0586
+    },
+    {
+      "name": "집코노미",
+      "channelId": "UCAVdqlngIAxHtwlCA2hjv3A",
+      "handle": "@zipconomy",
+      "subscribers": 616000,
+      "totalViews": 126549278,
+      "videoCount": 1990,
+      "thumbnail": "https://yt3.ggpht.com/csxhuGsfnI2IaDUwlYKYOKtOCfsLwkPiJwCDltp-aJKXfC0rzshcTobZnZhRN74RElx2cayzQ7Q=s88-c-k-c0x00ffffff-no-rj",
+      "recentVideoCount": 30,
+      "recentTotalViews": 932236,
+      "avgViews": 31075,
+      "avgRatio": 0.0504
     },
     {
       "name": "스마트튜브(스튜TV)",
       "channelId": "UCKosTo5bqKm4v264z2zDnFQ",
-      "handle": "@ppasyong",
+      "handle": "@smarttube",
       "subscribers": 243000,
       "totalViews": 74717298,
       "videoCount": 5571,
       "thumbnail": "https://yt3.ggpht.com/bMWUL1nk-GDdKvA8awfGbCx60JSNCVhbr-I3sFQIyTaT90Jo8lZrLbgVjdfVT37hMoevjR7dTA=s88-c-k-c0x00ffffff-no-rj",
       "recentVideoCount": 30,
-      "recentTotalViews": 347814,
-      "avgViews": 11594,
-      "avgRatio": 0.0477
+      "recentTotalViews": 357691,
+      "avgViews": 11923,
+      "avgRatio": 0.0491
     },
     {
       "name": "부읽남TV_내집마련부터건물주까지",
       "channelId": "UC2QeHNJFfuQWB4cy3M-745g",
-      "handle": "",
+      "handle": "@bureadman",
       "subscribers": 1750000,
       "totalViews": 626279746,
       "videoCount": 4329,
       "thumbnail": "https://yt3.ggpht.com/YVgyZe175-BfqGiPUFccAuScDra7tjebtCUWknMRLPrmQb5u9_yqox8ZoLpauXAU-k4gnQTArw=s88-c-k-c0x00ffffff-no-rj",
       "recentVideoCount": 30,
-      "recentTotalViews": 2275321,
-      "avgViews": 75844,
-      "avgRatio": 0.0433
+      "recentTotalViews": 2520475,
+      "avgViews": 84016,
+      "avgRatio": 0.048
     },
     {
       "name": "재테크 신선배, 부룡TV",
@@ -994,22 +981,22 @@
       "videoCount": 1096,
       "thumbnail": "https://yt3.ggpht.com/-5doVG76uI4DxIK6CiDqAu6Uht_HHQjnmdiJUwPmmk4VVUMn_L_8gj-YipBUuFtRYcegI__kUg=s88-c-k-c0x00ffffff-no-rj",
       "recentVideoCount": 30,
-      "recentTotalViews": 87581,
-      "avgViews": 2919,
-      "avgRatio": 0.0388
+      "recentTotalViews": 88480,
+      "avgViews": 2949,
+      "avgRatio": 0.0392
     },
     {
       "name": "라이트하우스",
       "channelId": "UCoROtLOzsB4pAMarab00ANQ",
       "handle": "@budongsan_house",
       "subscribers": 461000,
-      "totalViews": 224964537,
+      "totalViews": 224975332,
       "videoCount": 5116,
       "thumbnail": "https://yt3.ggpht.com/RTI07FaXNrzAARPcuZcoxxaeCmuxi3w0IQwNjQhaFIs31FOmfgVBkKf0iM-DsFZ2bmyzEBWTVg=s88-c-k-c0x00ffffff-no-rj",
       "recentVideoCount": 30,
-      "recentTotalViews": 277229,
-      "avgViews": 9241,
-      "avgRatio": 0.02
+      "recentTotalViews": 282511,
+      "avgViews": 9417,
+      "avgRatio": 0.0204
     },
     {
       "name": "부동산분석왕 TV",
