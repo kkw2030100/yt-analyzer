@@ -210,6 +210,17 @@ footer {
   <div class="section">
     <div class="section-header">
       <h2>🔥 TOP 10 영상 (구독자 대비 조회수 비율)</h2>
+      <div style="display:flex;align-items:center;gap:6px">
+        <label for="minViewSelect" style="color:var(--text-secondary);font-size:0.85em;margin-right:6px">최소 조회수:</label>
+        <select id="minViewSelect" onchange="onMinViewChange(this.value)" style="background:var(--bg-tertiary);border:1px solid var(--border);color:var(--text-primary);border-radius:6px;padding:4px 10px;font-size:0.85em">
+          <option value="0">없음</option>
+          <option value="10000">1만</option>
+          <option value="30000">3만</option>
+          <option value="50000" selected>5만</option>
+          <option value="100000">10만</option>
+          <option value="300000">30만</option>
+        </select>
+      </div>
       <div class="tabs-group">
         <div class="content-tabs">
           <div class="content-tab active" onclick="switchContentType('videos')">동영상</div>
@@ -297,6 +308,17 @@ footer {
 let analysisData = null;
 let currentContentType = 'videos';
 let currentPeriod = 'all';
+let minViewCount = 50000;
+
+function onMinViewChange(val) {
+  minViewCount = parseInt(val, 10);
+  renderTopVideos(currentPeriod);
+  updateStatsForContentType();
+}
+
+function updateStatsForContentType() {
+  updateStatsBar();
+}
 
 function formatNumber(n) {
   if (n >= 100000000) return (n / 100000000).toFixed(1) + '억';
@@ -333,7 +355,8 @@ function getTopData(contentType, period) {
 }
 
 function renderTopVideos(period) {
-  const videos = getTopData(currentContentType, period);
+  const rawVideos = getTopData(currentContentType, period);
+  const videos = rawVideos.filter(v => v.viewCount >= minViewCount);
   const tbody = document.getElementById('topVideosBody');
   const linkBase = currentContentType === 'shorts' ? 'https://youtube.com/shorts/' : 'https://youtube.com/watch?v=';
   if (!videos.length) {
@@ -361,7 +384,8 @@ function updateStatsBar() {
     ? (analysisData.total_shorts || 0)
     : (analysisData.total_regular || 0);
 
-  const allVideos = getTopData(currentContentType, 'all');
+  const allVideosRaw = getTopData(currentContentType, 'all');
+  const allVideos = allVideosRaw.filter(v => v.viewCount >= minViewCount);
   if (allVideos.length) {
     const avgR = allVideos.reduce((s, v) => s + v.views_to_subs_ratio, 0) / allVideos.length;
     document.getElementById('avgRatio').textContent = (avgR * 100).toFixed(1) + '%';

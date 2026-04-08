@@ -136,18 +136,22 @@ def main():
     top_shorts_lists = {}
     for period_name, days in periods.items():
         fv = filter_by_period(all_regular, days)
+        fv = [v for v in fv if v['viewCount'] >= 50000]
         fv.sort(key=lambda x: x['views_to_subs_ratio'], reverse=True)
         top_videos_lists[period_name] = fv[:10]
         
         fs = filter_by_period(all_shorts, days)
+        fs = [v for v in fs if v['viewCount'] >= 50000]
         fs.sort(key=lambda x: x['views_to_subs_ratio'], reverse=True)
         top_shorts_lists[period_name] = fs[:10]
     
     # Also create an overall top 10 (all time from collected data)
-    reg_sorted = sorted(all_regular, key=lambda x: x['views_to_subs_ratio'], reverse=True)
+    reg_filtered = [v for v in all_regular if v['viewCount'] >= 50000]
+    reg_sorted = sorted(reg_filtered, key=lambda x: x['views_to_subs_ratio'], reverse=True)
     top_videos_lists['all'] = reg_sorted[:10]
     
-    shorts_sorted = sorted(all_shorts, key=lambda x: x['views_to_subs_ratio'], reverse=True)
+    shorts_filtered = [v for v in all_shorts if v['viewCount'] >= 50000]
+    shorts_sorted = sorted(shorts_filtered, key=lambda x: x['views_to_subs_ratio'], reverse=True)
     top_shorts_lists['all'] = shorts_sorted[:10]
     
     # Extract trending keywords

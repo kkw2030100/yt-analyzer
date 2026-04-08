@@ -101,6 +101,204 @@
       "id": "UCJ5PQiIiI8cEKwxbFidjxmQ",
       "handle": "@sonamu",
       "category": "small"
+    },
+    {
+      "name": "슈카월드",
+      "id": "UCsJ6RuBiTVWRX156FVbeaGg",
+      "handle": "@syukaworld",
+      "category": "benchmark"
+    },
+    {
+      "name": "KBS News",
+      "id": "UCcQTRi69dsVYHN3exePtZ1A",
+      "handle": "@newskbs",
+      "category": "benchmark"
+    },
+    {
+      "name": "뉴스TVCHOSUN",
+      "id": "UCWlV3Lz_55UaX4JsMj-z__Q",
+      "handle": "@tvchosunnews",
+      "category": "benchmark"
+    },
+    {
+      "name": "삼프로TV 3PROTV",
+      "id": "UChlv4GSd7OQl3js-jkLOnFA",
+      "handle": "@3protv",
+      "category": "benchmark"
+    },
+    {
+      "name": "신사임당",
+      "id": "UCaJdckl6MBdDPDf75Ec_bJA",
+      "handle": "@ch신사임당",
+      "category": "benchmark"
+    },
+    {
+      "name": "김작가 TV",
+      "id": "UCvil4OAt-zShzkKHsg9EQAw",
+      "handle": "@lucky_tv",
+      "category": "benchmark"
+    },
+    {
+      "name": "MBN News",
+      "id": "UCG9aFJTZ-lMCHAiO1KJsirg",
+      "handle": "@mbn",
+      "category": "benchmark"
+    },
+    {
+      "name": "월급쟁이부자들TV",
+      "id": "UCDSj40X9FFUAnx1nv7gQhcA",
+      "handle": "@weolbu_official",
+      "category": "benchmark"
+    },
+    {
+      "name": "머니인사이드",
+      "id": "UCxfko2YOD6DODYRGzeOPhIQ",
+      "handle": "@moneyinside7",
+      "category": "benchmark"
+    },
+    {
+      "name": "노빠꾸탁재훈",
+      "id": "UCSSkHIU1-nL_FeCjeZ_Xtvg",
+      "handle": "@nobacktak",
+      "category": "benchmark"
+    },
+    {
+      "name": "아파트설명서TV",
+      "id": "UCgxqQveHlyKIqu2wDHMuAbg",
+      "handle": "@아파트설명서-tv",
+      "category": "benchmark"
+    },
+    {
+      "name": "KBS 1라디오",
+      "id": "UCMLJc_D3jgFcS_48G7i4V0A",
+      "handle": "@kbs_1radio",
+      "category": "benchmark"
+    },
+    {
+      "name": "머니코믹스 Money Comics",
+      "id": "UCJo6G1u0e_-wS-JQn3T-zEw",
+      "handle": "@moneymoneycomics",
+      "category": "benchmark"
+    },
+    {
+      "name": "한국경제TV",
+      "id": "UCF8AeLlUbEpKju6v1H6p8Eg",
+      "handle": "@hkwowtv",
+      "category": "benchmark"
+    },
+    {
+      "name": "언더스탠딩 : 세상의 모든 지식",
+      "id": "UCIUni4ScRp4mqPXsxy62L5w",
+      "handle": "@understanding.",
+      "category": "benchmark"
+    },
+    {
+      "name": "재테크읽어주는 파일럿",
+      "id": "UCaWi2foADm_lKAKnmeQwLSA",
+      "handle": "@재테크읽어주는파일럿",
+      "category": "benchmark"
+    },
+    {
+      "name": "전인구경제연구소",
+      "id": "UCznImSIaxZR7fdLCICLdgaQ",
+      "handle": "@moneydo",
+      "category": "benchmark"
+    },
+    {
+      "name": "박곰희TV",
+      "id": "UCr7XsrSrvAn_WcU4kF99bbQ",
+      "handle": "@gomhee",
+      "category": "benchmark"
+    },
+    {
+      "name": "소수몽키",
+      "id": "UCC3yfxS5qC6PCwDzetUuEWg",
+      "handle": "@sosumonkey",
+      "category": "benchmark"
+    },
+    {
+      "name": "김짠부",
+      "id": "UCiHCmazdsMM9j3Jbqx3p7Ig",
+      "handle": "@zzanboo",
+      "category": "benchmark"
+    },
+    {
+      "name": "연합뉴스경제TV",
+      "id": "UC6kZpTl39-_SqfBrF1-N2oQ",
+      "handle": "@연합뉴스경제tv",
+      "category": "benchmark"
+    },
+    {
+      "name": "크랩 KLAB",
+      "id": "UCoxT1kQSLq564FwpK473w-g",
+      "handle": "@klab",
+      "category": "benchmark"
+    },
+    {
+      "name": "매일경제TV",
+      "id": "UCnfwIKyFYRuqZzzKBDt6JOA",
+      "handle": "@mkeconomy_tv",
+      "category": "benchmark"
+    },
+    {
+      "name": "한경 글로벌마켓",
+      "id": "UCWskYkV4c4S9D__rsfOl2JA",
+      "handle": "@hkglobalmarket",
+      "category": "benchmark"
+    },
+    {
+      "name": "한경 코리아마켓",
+      "id": "UCGCGxsbmG_9nincyI7xypow",
+      "handle": "@hk_koreamarket",
+      "category": "benchmark"
+    },
+    {
+      "name": "발품부동산TV - 대한민국 주택 펜션 전문",
+      "id": "UCkRYaZLpNLRDqBIqPbD9NZA",
+      "handle": "@bpbdstv",
+      "category": "benchmark"
+    },
+    {
+      "name": "주식단테_20년차트고수",
+      "id": "UC6ij59Gy_HnqO4pFu9A_zgQ",
+      "handle": "@주식단테",
+      "category": "benchmark"
+    },
+    {
+      "name": "매경 월가월부",
+      "id": "UCIipmgxpUxDmPP-ma3Ahvbw",
+      "handle": "@mk_invest",
+      "category": "benchmark"
+    },
+    {
+      "name": "KBS 경제한방",
+      "id": "UCn_38aaCktkBLPv3EtfmiUA",
+      "handle": "@e-hanbang",
+      "category": "benchmark"
+    },
+    {
+      "name": "경제 읽어주는 남자(김광석TV)",
+      "id": "UC3pfEoxaRDT6hvZZjpHu7Tg",
+      "handle": "@경읽남_김광석tv",
+      "category": "benchmark"
+    },
+    {
+      "name": "김종갑의 경제부동산",
+      "id": "UCf85o3J5p2EDroOihH_ETxQ",
+      "handle": "@drapt99",
+      "category": "benchmark"
+    },
+    {
+      "name": "쇼킹부동산",
+      "id": "UCcloDgiDqz8twby7zvG-USg",
+      "handle": "@쇼킹부동산",
+      "category": "benchmark"
+    },
+    {
+      "name": "힐링여행자 ",
+      "id": "UCHpGooMnVgnILywqrpqvZcQ",
+      "handle": "@힐링여행자",
+      "category": "benchmark"
     }
   ]
 }
