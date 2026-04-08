@@ -251,6 +251,30 @@
       "id": "UCcloDgiDqz8twby7zvG-USg",
       "handle": "@쇼킹부동산",
       "category": "benchmark"
+    },
+    {
+      "name": "표영호 tv",
+      "id": "UCp8lZRI3NSCXxhn_a_WGVKQ",
+      "handle": "@tv0505",
+      "category": "benchmark"
+    },
+    {
+      "name": "한문도TV_부동산채널",
+      "id": "UCu9SkglGtbnwtht-fP75Nbw",
+      "handle": "@tv_4355",
+      "category": "benchmark"
+    },
+    {
+      "name": "채부심 - 채상욱의 부동산 심부름센터",
+      "id": "UCD9vzSxZ69pjcnf8hgCQXVQ",
+      "handle": "@chaeboosim",
+      "category": "benchmark"
+    },
+    {
+      "name": "이현철 아파트사이클연구소",
+      "id": "UCr8tO6DbPIaZw6R5nSNq07A",
+      "handle": "@aptcycle",
+      "category": "benchmark"
     }
   ]
 }
