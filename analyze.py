@@ -70,6 +70,8 @@ def main():
     # Flatten all videos with channel info
     all_videos = []
     channel_summaries = []
+    all_regular = []
+    all_shorts = []
     
     for ch in data['channels']:
         ch_name = ch['name']
@@ -79,6 +81,10 @@ def main():
         recent_views = sum(v['viewCount'] for v in ch['videos'])
         avg_views = recent_views / len(ch['videos']) if ch['videos'] else 0
         avg_ratio = sum(v['views_to_subs_ratio'] for v in ch['videos']) / len(ch['videos']) if ch['videos'] else 0
+        
+        # Separate counts for shorts vs regular
+        ch_regular = [v for v in ch['videos'] if not v.get('isShorts', v.get('duration', 0) <= 60)]
+        ch_shorts = [v for v in ch['videos'] if v.get('isShorts', v.get('duration', 0) <= 60)]
         
         channel_summaries.append({
             'name': ch_name,
@@ -92,15 +98,29 @@ def main():
             'recentTotalViews': recent_views,
             'avgViews': round(avg_views),
             'avgRatio': round(avg_ratio, 4),
+            'regularCount': len(ch_regular),
+            'shortsCount': len(ch_shorts),
+            'avgViewsRegular': round(sum(v['viewCount'] for v in ch_regular) / len(ch_regular)) if ch_regular else 0,
+            'avgViewsShorts': round(sum(v['viewCount'] for v in ch_shorts) / len(ch_shorts)) if ch_shorts else 0,
+            'avgRatioRegular': round(sum(v['views_to_subs_ratio'] for v in ch_regular) / len(ch_regular), 4) if ch_regular else 0,
+            'avgRatioShorts': round(sum(v['views_to_subs_ratio'] for v in ch_shorts) / len(ch_shorts), 4) if ch_shorts else 0,
         })
         
         for v in ch['videos']:
-            all_videos.append({
+            entry = {
                 **v,
                 'channelName': ch_name,
                 'channelId': ch['channelId'],
                 'subscribers': subs,
-            })
+            }
+            # Determine isShorts: use field if present, otherwise fallback to duration
+            is_short = v.get('isShorts', v.get('duration', 0) <= 60)
+            entry['isShorts'] = is_short
+            all_videos.append(entry)
+            if is_short:
+                all_shorts.append(entry)
+            else:
+                all_regular.append(entry)
     
     # Sort channel summaries by avg ratio
     channel_summaries.sort(key=lambda x: x['avgRatio'], reverse=True)
@@ -112,15 +132,23 @@ def main():
         '30d': 30,
     }
     
-    top_lists = {}
+    top_videos_lists = {}
+    top_shorts_lists = {}
     for period_name, days in periods.items():
-        filtered = filter_by_period(all_videos, days)
-        filtered.sort(key=lambda x: x['views_to_subs_ratio'], reverse=True)
-        top_lists[period_name] = filtered[:10]
+        fv = filter_by_period(all_regular, days)
+        fv.sort(key=lambda x: x['views_to_subs_ratio'], reverse=True)
+        top_videos_lists[period_name] = fv[:10]
+        
+        fs = filter_by_period(all_shorts, days)
+        fs.sort(key=lambda x: x['views_to_subs_ratio'], reverse=True)
+        top_shorts_lists[period_name] = fs[:10]
     
     # Also create an overall top 10 (all time from collected data)
-    all_sorted = sorted(all_videos, key=lambda x: x['views_to_subs_ratio'], reverse=True)
-    top_lists['all'] = all_sorted[:10]
+    reg_sorted = sorted(all_regular, key=lambda x: x['views_to_subs_ratio'], reverse=True)
+    top_videos_lists['all'] = reg_sorted[:10]
+    
+    shorts_sorted = sorted(all_shorts, key=lambda x: x['views_to_subs_ratio'], reverse=True)
+    top_shorts_lists['all'] = shorts_sorted[:10]
     
     # Extract trending keywords
     keyword_counter = Counter()
@@ -139,7 +167,10 @@ def main():
         'collected_at': collected_at,
         'total_channels': len(data['channels']),
         'total_videos': len(all_videos),
-        'top_videos': top_lists,
+        'total_regular': len(all_regular),
+        'total_shorts': len(all_shorts),
+        'top_videos': top_videos_lists,
+        'top_shorts': top_shorts_lists,
         'trending_keywords': trending_keywords,
         'channel_summaries': channel_summaries,
     }
@@ -156,12 +187,12 @@ def main():
     print("📊 유튜브 채널 분석 리포트")
     print(f"📅 수집: {collected_at[:10] if collected_at else 'N/A'}")
     print(f"📺 분석 채널: {len(data['channels'])}개")
-    print(f"🎬 분석 영상: {len(all_videos)}개")
+    print(f"🎬 분석 영상: {len(all_videos)}개 (동영상: {len(all_regular)} / Shorts: {len(all_shorts)})")
     print("=" * 50)
     
-    print("\n🔥 TOP 10 영상 (구독자 대비 조회수 비율 - 최근 7일)")
+    print("\n🔥 TOP 10 동영상 (구독자 대비 조회수 비율 - 최근 7일)")
     print("-" * 50)
-    top_7d = top_lists.get('7d', [])
+    top_7d = top_videos_lists.get('7d', [])
     if not top_7d:
         print("  최근 7일 데이터 없음")
     for i, v in enumerate(top_7d, 1):
@@ -169,12 +200,20 @@ def main():
         print(f"{i}. [{v['channelName']}] {v['title'][:40]}")
         print(f"   조회수: {v['viewCount']:,} | 구독자: {v['subscribers']:,} | 비율: {ratio_pct:.1f}%")
     
-    print("\n🔥 TOP 10 영상 (구독자 대비 조회수 비율 - 전체)")
+    print("\n🔥 TOP 10 동영상 (구독자 대비 조회수 비율 - 전체)")
     print("-" * 50)
-    for i, v in enumerate(top_lists['all'], 1):
+    for i, v in enumerate(top_videos_lists['all'], 1):
         ratio_pct = v['views_to_subs_ratio'] * 100
         print(f"{i}. [{v['channelName']}] {v['title'][:40]}")
         print(f"   조회수: {v['viewCount']:,} | 구독자: {v['subscribers']:,} | 비율: {ratio_pct:.1f}%")
+    
+    if top_shorts_lists.get('all'):
+        print("\n📱 TOP 5 Shorts (구독자 대비 조회수 비율 - 전체)")
+        print("-" * 50)
+        for i, v in enumerate(top_shorts_lists['all'][:5], 1):
+            ratio_pct = v['views_to_subs_ratio'] * 100
+            print(f"{i}. [{v['channelName']}] {v['title'][:40]}")
+            print(f"   조회수: {v['viewCount']:,} | 구독자: {v['subscribers']:,} | 비율: {ratio_pct:.1f}%")
     
     print("\n📈 트렌드 키워드 (상위 20개)")
     print("-" * 50)

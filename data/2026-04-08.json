@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-04-07T22:04:42.901408+00:00",
+  "collected_at": "2026-04-08T02:28:51.916894+00:00",
   "channels": [
     {
       "channelId": "UC3nsb3SxlRrJQ9egkKNnlfg",
@@ -15,59 +15,64 @@
           "title": "사람들은 잘 모르는 전국 부동산 현장 분위기",
           "publishedAt": "2026-04-07T22:00:02Z",
           "thumbnail": "https://i.ytimg.com/vi/af8PU0a2MlA/mqdefault.jpg",
-          "viewCount": 37,
-          "likeCount": 2,
-          "commentCount": 1,
+          "viewCount": 1323,
+          "likeCount": 85,
+          "commentCount": 6,
           "duration": 1134,
           "durationRaw": "PT18M54S",
-          "views_to_subs_ratio": 0.0003
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0095
         },
         {
           "videoId": "nR5sjr2sihA",
           "title": "서울 집값, 이번엔 다르다… 정부 속내 공개됩니다",
           "publishedAt": "2026-04-05T22:00:49Z",
           "thumbnail": "https://i.ytimg.com/vi/nR5sjr2sihA/mqdefault.jpg",
-          "viewCount": 8507,
-          "likeCount": 313,
+          "viewCount": 8650,
+          "likeCount": 315,
           "commentCount": 32,
           "duration": 471,
           "durationRaw": "PT7M51S",
-          "views_to_subs_ratio": 0.0612
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0622
         },
         {
           "videoId": "hzNLByxHQiY",
           "title": "한 번도 없던 공급 절벽 6개월 뒤 집값, 진짜 무너집니다",
           "publishedAt": "2026-04-01T22:00:52Z",
           "thumbnail": "https://i.ytimg.com/vi/hzNLByxHQiY/mqdefault.jpg",
-          "viewCount": 19264,
+          "viewCount": 19280,
           "likeCount": 647,
           "commentCount": 83,
           "duration": 671,
           "durationRaw": "PT11M11S",
-          "views_to_subs_ratio": 0.1386
+          "isShorts": false,
+          "views_to_subs_ratio": 0.1387
         },
         {
           "videoId": "MusNnR-6RaE",
           "title": "전세가 사라졌다… 서울 전세시장, 붕괴 시작됐습니다",
           "publishedAt": "2026-03-29T22:00:14Z",
           "thumbnail": "https://i.ytimg.com/vi/MusNnR-6RaE/mqdefault.jpg",
-          "viewCount": 18729,
+          "viewCount": 18731,
           "likeCount": 424,
           "commentCount": 125,
           "duration": 400,
           "durationRaw": "PT6M40S",
-          "views_to_subs_ratio": 0.1347
+          "isShorts": false,
+          "views_to_subs_ratio": 0.1348
         },
         {
           "videoId": "T-3NIG6OsoE",
           "title": "환율 1500원 돌파… 멀쩡한 부동산, 이미 무너지고 있습니다",
           "publishedAt": "2026-03-26T22:00:29Z",
           "thumbnail": "https://i.ytimg.com/vi/T-3NIG6OsoE/mqdefault.jpg",
-          "viewCount": 15997,
+          "viewCount": 16004,
           "likeCount": 548,
           "commentCount": 53,
           "duration": 800,
           "durationRaw": "PT13M20S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.1151
         },
         {
@@ -75,11 +80,12 @@
           "title": "강남 다주택자들끼리 짜고 치던 부동산 판이 완전히 엎어졌습니다",
           "publishedAt": "2026-03-24T22:00:09Z",
           "thumbnail": "https://i.ytimg.com/vi/At6CV-3ygWw/mqdefault.jpg",
-          "viewCount": 15080,
+          "viewCount": 15081,
           "likeCount": 602,
           "commentCount": 66,
           "duration": 434,
           "durationRaw": "PT7M14S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.1085
         },
         {
@@ -92,6 +98,7 @@
           "commentCount": 13,
           "duration": 723,
           "durationRaw": "PT12M3S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0393
         },
         {
@@ -99,24 +106,26 @@
           "title": "전세 계약 전 무조건 보세요… 전세사기 판 완전히 바뀌었습니다",
           "publishedAt": "2026-03-18T22:00:21Z",
           "thumbnail": "https://i.ytimg.com/vi/Jvd4R9FD3-o/mqdefault.jpg",
-          "viewCount": 69527,
-          "likeCount": 2246,
+          "viewCount": 69541,
+          "likeCount": 2247,
           "commentCount": 249,
           "duration": 725,
           "durationRaw": "PT12M5S",
-          "views_to_subs_ratio": 0.5002
+          "isShorts": false,
+          "views_to_subs_ratio": 0.5003
         },
         {
           "videoId": "BWTKvpqQ_uQ",
           "title": "경기도 부동산 지각변동 시작됐다. 분당 지고 이곳 뜬다?",
           "publishedAt": "2026-03-15T22:00:09Z",
           "thumbnail": "https://i.ytimg.com/vi/BWTKvpqQ_uQ/mqdefault.jpg",
-          "viewCount": 14365,
+          "viewCount": 14382,
           "likeCount": 334,
           "commentCount": 57,
           "duration": 614,
           "durationRaw": "PT10M14S",
-          "views_to_subs_ratio": 0.1033
+          "isShorts": false,
+          "views_to_subs_ratio": 0.1035
         },
         {
           "videoId": "Hh5EYEe6Awo",
@@ -128,6 +137,7 @@
           "commentCount": 54,
           "duration": 751,
           "durationRaw": "PT12M31S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0331
         },
         {
@@ -135,23 +145,25 @@
           "title": "갭투자 결국 무너진다 전세로 버티던 집주인들 비상",
           "publishedAt": "2026-03-11T08:00:53Z",
           "thumbnail": "https://i.ytimg.com/vi/prh3oPBVl_A/mqdefault.jpg",
-          "viewCount": 29096,
+          "viewCount": 29103,
           "likeCount": 381,
           "commentCount": 39,
           "duration": 61,
           "durationRaw": "PT1M1S",
-          "views_to_subs_ratio": 0.2093
+          "isShorts": false,
+          "views_to_subs_ratio": 0.2094
         },
         {
           "videoId": "HO8OaghgZ7g",
           "title": "강남 집값 -16%… 서울 불패 신화 끝나가고 있습니다",
           "publishedAt": "2026-03-08T22:00:15Z",
           "thumbnail": "https://i.ytimg.com/vi/HO8OaghgZ7g/mqdefault.jpg",
-          "viewCount": 27196,
+          "viewCount": 27197,
           "likeCount": 819,
           "commentCount": 162,
           "duration": 727,
           "durationRaw": "PT12M7S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.1957
         },
         {
@@ -159,11 +171,12 @@
           "title": "전세금 HUG가 가져간다? 갭투자 이제 불가능? 전세 제도 핵심 정리",
           "publishedAt": "2026-03-04T22:01:00Z",
           "thumbnail": "https://i.ytimg.com/vi/kTPkDKClyGw/mqdefault.jpg",
-          "viewCount": 76787,
+          "viewCount": 76788,
           "likeCount": 2276,
           "commentCount": 573,
           "duration": 543,
           "durationRaw": "PT9M3S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.5524
         },
         {
@@ -176,6 +189,7 @@
           "commentCount": 3,
           "duration": 722,
           "durationRaw": "PT12M2S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.018
         },
         {
@@ -188,6 +202,7 @@
           "commentCount": 170,
           "duration": 834,
           "durationRaw": "PT13M54S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.2722
         },
         {
@@ -195,11 +210,12 @@
           "title": "[속보] 다주택자 돈줄 끊겼다… 집값 붕괴 신호탄?",
           "publishedAt": "2026-02-24T22:00:33Z",
           "thumbnail": "https://i.ytimg.com/vi/NnyCKxkwR98/mqdefault.jpg",
-          "viewCount": 96070,
+          "viewCount": 96072,
           "likeCount": 2498,
           "commentCount": 517,
           "duration": 441,
           "durationRaw": "PT7M21S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.6912
         },
         {
@@ -212,6 +228,7 @@
           "commentCount": 93,
           "duration": 434,
           "durationRaw": "PT7M14S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.1357
         },
         {
@@ -219,11 +236,12 @@
           "title": "정부가 전세시장에 손댄다 | 4차 엠바고 분석",
           "publishedAt": "2026-02-16T23:00:36Z",
           "thumbnail": "https://i.ytimg.com/vi/VORqypQj2v0/mqdefault.jpg",
-          "viewCount": 229111,
+          "viewCount": 229113,
           "likeCount": 1596,
           "commentCount": 149,
           "duration": 33,
           "durationRaw": "PT33S",
+          "isShorts": true,
           "views_to_subs_ratio": 1.6483
         },
         {
@@ -236,6 +254,7 @@
           "commentCount": 44,
           "duration": 33,
           "durationRaw": "PT33S",
+          "isShorts": true,
           "views_to_subs_ratio": 0.5236
         },
         {
@@ -248,6 +267,7 @@
           "commentCount": 156,
           "duration": 608,
           "durationRaw": "PT10M8S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0803
         },
         {
@@ -255,11 +275,12 @@
           "title": "실거주 의무 유예 확정, 다주택자에게 열린 마지막 선택지",
           "publishedAt": "2026-02-10T22:00:33Z",
           "thumbnail": "https://i.ytimg.com/vi/Ssu4ekr9OkQ/mqdefault.jpg",
-          "viewCount": 13755,
+          "viewCount": 13756,
           "likeCount": 343,
           "commentCount": 86,
           "duration": 259,
           "durationRaw": "PT4M19S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.099
         },
         {
@@ -267,11 +288,12 @@
           "title": "전세 살며 돈 모아 내 집 마련? 죄송하지만 이제 불가능합니다",
           "publishedAt": "2026-02-08T22:00:10Z",
           "thumbnail": "https://i.ytimg.com/vi/59dLXtqqzGQ/mqdefault.jpg",
-          "viewCount": 21776,
+          "viewCount": 21778,
           "likeCount": 649,
           "commentCount": 141,
           "duration": 495,
           "durationRaw": "PT8M15S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.1567
         },
         {
@@ -284,6 +306,7 @@
           "commentCount": 21,
           "duration": 550,
           "durationRaw": "PT9M10S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.1206
         },
         {
@@ -296,6 +319,7 @@
           "commentCount": 0,
           "duration": 31,
           "durationRaw": "PT31S",
+          "isShorts": true,
           "views_to_subs_ratio": 0.0487
         },
         {
@@ -308,6 +332,7 @@
           "commentCount": 0,
           "duration": 27,
           "durationRaw": "PT27S",
+          "isShorts": true,
           "views_to_subs_ratio": 0.0601
         },
         {
@@ -320,6 +345,7 @@
           "commentCount": 6,
           "duration": 661,
           "durationRaw": "PT11M1S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0403
         },
         {
@@ -332,6 +358,7 @@
           "commentCount": 232,
           "duration": 485,
           "durationRaw": "PT8M5S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.379
         },
         {
@@ -344,6 +371,7 @@
           "commentCount": 21,
           "duration": 639,
           "durationRaw": "PT10M39S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0638
         },
         {
@@ -351,11 +379,12 @@
           "title": "지방아파트, 이제 다 망한다? 살아남는 곳은 이미 정해져 있습니다",
           "publishedAt": "2026-01-21T09:00:11Z",
           "thumbnail": "https://i.ytimg.com/vi/7cWggZ2KZeQ/mqdefault.jpg",
-          "viewCount": 17484,
+          "viewCount": 17486,
           "likeCount": 406,
           "commentCount": 45,
           "duration": 851,
           "durationRaw": "PT14M11S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.1258
         },
         {
@@ -368,6 +397,7 @@
           "commentCount": 108,
           "duration": 2940,
           "durationRaw": "PT49M",
+          "isShorts": false,
           "views_to_subs_ratio": 0.3549
         }
       ]
@@ -386,47 +416,51 @@
           "title": "걸러야 할 부동산 속임수 | 흥청망청",
           "publishedAt": "2026-04-07T09:30:07Z",
           "thumbnail": "https://i.ytimg.com/vi/FR5ulBL4yrU/mqdefault.jpg",
-          "viewCount": 20903,
-          "likeCount": 444,
-          "commentCount": 56,
+          "viewCount": 25641,
+          "likeCount": 530,
+          "commentCount": 70,
           "duration": 321,
           "durationRaw": "PT5M21S",
-          "views_to_subs_ratio": 0.0339
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0416
         },
         {
           "videoId": "mpTXUP9VC9Q",
           "title": "노인을 위한 나라 | 총총견문록 [4K]",
           "publishedAt": "2026-04-06T09:30:32Z",
           "thumbnail": "https://i.ytimg.com/vi/mpTXUP9VC9Q/mqdefault.jpg",
-          "viewCount": 16583,
-          "likeCount": 352,
-          "commentCount": 77,
+          "viewCount": 16905,
+          "likeCount": 363,
+          "commentCount": 78,
           "duration": 1297,
           "durationRaw": "PT21M37S",
-          "views_to_subs_ratio": 0.0269
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0274
         },
         {
           "videoId": "J5DljPaTh0w",
           "title": "아파트 짓기 한 달이면 됩니다👍",
           "publishedAt": "2026-04-04T06:00:26Z",
           "thumbnail": "https://i.ytimg.com/vi/J5DljPaTh0w/mqdefault.jpg",
-          "viewCount": 40571,
-          "likeCount": 119,
-          "commentCount": 21,
+          "viewCount": 41534,
+          "likeCount": 121,
+          "commentCount": 22,
           "duration": 54,
           "durationRaw": "PT54S",
-          "views_to_subs_ratio": 0.0659
+          "isShorts": true,
+          "views_to_subs_ratio": 0.0674
         },
         {
           "videoId": "9M262RwBPxU",
           "title": "그래프로 한눈에 보는 집값 | 차트레이스",
           "publishedAt": "2026-04-03T11:00:12Z",
           "thumbnail": "https://i.ytimg.com/vi/9M262RwBPxU/mqdefault.jpg",
-          "viewCount": 23265,
-          "likeCount": 294,
-          "commentCount": 72,
+          "viewCount": 23292,
+          "likeCount": 295,
+          "commentCount": 73,
           "duration": 117,
           "durationRaw": "PT1M57S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0378
         },
         {
@@ -434,47 +468,51 @@
           "title": "부동산뉴스 총정리📝 대출받기 더 힘들어진다 | 집코노미 타임즈",
           "publishedAt": "2026-04-02T14:50:25Z",
           "thumbnail": "https://i.ytimg.com/vi/Px1Jq_ymlaY/mqdefault.jpg",
-          "viewCount": 21923,
+          "viewCount": 21975,
           "likeCount": 315,
-          "commentCount": 73,
+          "commentCount": 74,
           "duration": 2068,
           "durationRaw": "PT34M28S",
-          "views_to_subs_ratio": 0.0356
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0357
         },
         {
           "videoId": "S2l3LPpstPA",
           "title": "최저가 30억부터 출발하는 이촌르엘 등판 | 흥청망청",
           "publishedAt": "2026-03-31T09:30:18Z",
           "thumbnail": "https://i.ytimg.com/vi/S2l3LPpstPA/mqdefault.jpg",
-          "viewCount": 42686,
-          "likeCount": 525,
+          "viewCount": 42820,
+          "likeCount": 528,
           "commentCount": 98,
           "duration": 394,
           "durationRaw": "PT6M34S",
-          "views_to_subs_ratio": 0.0693
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0695
         },
         {
           "videoId": "WC1poWxAQkU",
           "title": "송도의 고민, 중고차 단지 | 총총견문록 [4K]",
           "publishedAt": "2026-03-30T09:30:13Z",
           "thumbnail": "https://i.ytimg.com/vi/WC1poWxAQkU/mqdefault.jpg",
-          "viewCount": 42622,
-          "likeCount": 592,
-          "commentCount": 143,
+          "viewCount": 42822,
+          "likeCount": 594,
+          "commentCount": 145,
           "duration": 1063,
           "durationRaw": "PT17M43S",
-          "views_to_subs_ratio": 0.0692
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0695
         },
         {
           "videoId": "G9kRANSl3t0",
           "title": "청약 계획 이렇게 세우시면 됩니다",
           "publishedAt": "2026-03-28T06:00:16Z",
           "thumbnail": "https://i.ytimg.com/vi/G9kRANSl3t0/mqdefault.jpg",
-          "viewCount": 15671,
+          "viewCount": 15673,
           "likeCount": 115,
           "commentCount": 5,
           "duration": 61,
           "durationRaw": "PT1M1S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0254
         },
         {
@@ -482,35 +520,38 @@
           "title": "안 긁은 복권 노량진, 1번타자 라클라체자이드파인 | 흥청망청",
           "publishedAt": "2026-03-27T11:00:51Z",
           "thumbnail": "https://i.ytimg.com/vi/_UNIBQrSbl8/mqdefault.jpg",
-          "viewCount": 44607,
-          "likeCount": 507,
+          "viewCount": 44654,
+          "likeCount": 509,
           "commentCount": 150,
           "duration": 298,
           "durationRaw": "PT4M58S",
-          "views_to_subs_ratio": 0.0724
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0725
         },
         {
           "videoId": "kxnZEYxPseU",
           "title": "부동산뉴스 총정리📝 신축 아파트 국민주택채권 부활 추진 | 집코노미 타임즈",
           "publishedAt": "2026-03-26T14:41:14Z",
           "thumbnail": "https://i.ytimg.com/vi/kxnZEYxPseU/mqdefault.jpg",
-          "viewCount": 30269,
-          "likeCount": 385,
+          "viewCount": 30300,
+          "likeCount": 386,
           "commentCount": 148,
           "duration": 2043,
           "durationRaw": "PT34M3S",
-          "views_to_subs_ratio": 0.0491
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0492
         },
         {
           "videoId": "GPmVZ-Yyf70",
           "title": "압구정도 10억 뚝😮 집값 이번엔 잡힐까요 | 총총견문록 [4K]",
           "publishedAt": "2026-03-24T09:30:15Z",
           "thumbnail": "https://i.ytimg.com/vi/GPmVZ-Yyf70/mqdefault.jpg",
-          "viewCount": 60552,
-          "likeCount": 719,
+          "viewCount": 60578,
+          "likeCount": 721,
           "commentCount": 297,
           "duration": 1120,
           "durationRaw": "PT18M40S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0983
         },
         {
@@ -518,11 +559,12 @@
           "title": "강남역이 우리집, 아크로드서초 | 흥청망청",
           "publishedAt": "2026-03-23T09:30:00Z",
           "thumbnail": "https://i.ytimg.com/vi/3G7Syj3s_rE/mqdefault.jpg",
-          "viewCount": 28857,
-          "likeCount": 300,
+          "viewCount": 28858,
+          "likeCount": 302,
           "commentCount": 42,
           "duration": 243,
           "durationRaw": "PT4M3S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0468
         },
         {
@@ -530,11 +572,12 @@
           "title": "집 팔 때 세금 더 내는 사람, 덜 내는 사람",
           "publishedAt": "2026-03-21T23:00:08Z",
           "thumbnail": "https://i.ytimg.com/vi/AGXm87hff0M/mqdefault.jpg",
-          "viewCount": 9144,
+          "viewCount": 9147,
           "likeCount": 218,
           "commentCount": 14,
           "duration": 1004,
           "durationRaw": "PT16M44S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0148
         },
         {
@@ -542,11 +585,12 @@
           "title": "광화문은 타임스스퀘어가 될 수 있을까?🤔",
           "publishedAt": "2026-03-21T06:00:13Z",
           "thumbnail": "https://i.ytimg.com/vi/OoVO0XWwUKM/mqdefault.jpg",
-          "viewCount": 18836,
+          "viewCount": 18839,
           "likeCount": 80,
           "commentCount": 9,
           "duration": 45,
           "durationRaw": "PT45S",
+          "isShorts": true,
           "views_to_subs_ratio": 0.0306
         },
         {
@@ -554,11 +598,12 @@
           "title": "BTS 야외 콘서트 장소, 원래는 이렇습니다 | 집코노미 AIR 광화문",
           "publishedAt": "2026-03-20T13:01:20Z",
           "thumbnail": "https://i.ytimg.com/vi/k0--zsCHQpc/mqdefault.jpg",
-          "viewCount": 35420,
+          "viewCount": 35421,
           "likeCount": 136,
           "commentCount": 2,
           "duration": 30,
           "durationRaw": "PT30S",
+          "isShorts": true,
           "views_to_subs_ratio": 0.0575
         },
         {
@@ -566,11 +611,12 @@
           "title": "아는 사람만 아는 실거주 강자 동네 | 당장! 임장",
           "publishedAt": "2026-03-20T11:01:22Z",
           "thumbnail": "https://i.ytimg.com/vi/iyudc-aeHFc/mqdefault.jpg",
-          "viewCount": 60241,
+          "viewCount": 60275,
           "likeCount": 674,
-          "commentCount": 185,
+          "commentCount": 186,
           "duration": 991,
           "durationRaw": "PT16M31S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0978
         },
         {
@@ -583,6 +629,7 @@
           "commentCount": 104,
           "duration": 1943,
           "durationRaw": "PT32M23S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0475
         },
         {
@@ -590,11 +637,12 @@
           "title": "집값 반토막 나도 이득이라는 오티에르반포 | 흥청망청",
           "publishedAt": "2026-03-18T09:30:08Z",
           "thumbnail": "https://i.ytimg.com/vi/A-VjYghpURo/mqdefault.jpg",
-          "viewCount": 55439,
-          "likeCount": 470,
+          "viewCount": 55449,
+          "likeCount": 471,
           "commentCount": 110,
           "duration": 320,
           "durationRaw": "PT5M20S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.09
         },
         {
@@ -602,11 +650,12 @@
           "title": "어떻게 해야 보유세 덜 낼까",
           "publishedAt": "2026-03-17T09:30:13Z",
           "thumbnail": "https://i.ytimg.com/vi/DqSH8PpGZ7Q/mqdefault.jpg",
-          "viewCount": 27529,
+          "viewCount": 27532,
           "likeCount": 475,
           "commentCount": 62,
           "duration": 909,
           "durationRaw": "PT15M9S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0447
         },
         {
@@ -614,11 +663,12 @@
           "title": "테헤란로에 남은 강남의 비밀들 | 총총견문록 [4K]",
           "publishedAt": "2026-03-16T09:30:01Z",
           "thumbnail": "https://i.ytimg.com/vi/3i2xyJ1G1Ug/mqdefault.jpg",
-          "viewCount": 20904,
-          "likeCount": 394,
+          "viewCount": 20906,
+          "likeCount": 395,
           "commentCount": 86,
           "duration": 1326,
           "durationRaw": "PT22M6S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0339
         },
         {
@@ -626,11 +676,12 @@
           "title": "집 살 땐 세금 얼마나 내야 할까",
           "publishedAt": "2026-03-14T23:00:39Z",
           "thumbnail": "https://i.ytimg.com/vi/WUPHNb2YEwY/mqdefault.jpg",
-          "viewCount": 11070,
-          "likeCount": 248,
+          "viewCount": 11090,
+          "likeCount": 249,
           "commentCount": 25,
           "duration": 637,
           "durationRaw": "PT10M37S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.018
         },
         {
@@ -638,11 +689,12 @@
           "title": "이대로 운행해도 괜찮을까요🤔",
           "publishedAt": "2026-03-14T06:00:06Z",
           "thumbnail": "https://i.ytimg.com/vi/BTWhkkH2wyA/mqdefault.jpg",
-          "viewCount": 83342,
+          "viewCount": 83374,
           "likeCount": 413,
           "commentCount": 218,
           "duration": 34,
           "durationRaw": "PT34S",
+          "isShorts": true,
           "views_to_subs_ratio": 0.1353
         },
         {
@@ -650,11 +702,12 @@
           "title": "청약 당첨, 이제 시작이라고요? | 백家사전",
           "publishedAt": "2026-03-13T11:00:35Z",
           "thumbnail": "https://i.ytimg.com/vi/GP3QeaqWm3w/mqdefault.jpg",
-          "viewCount": 18518,
+          "viewCount": 18534,
           "likeCount": 377,
           "commentCount": 24,
           "duration": 386,
           "durationRaw": "PT6M26S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0301
         },
         {
@@ -667,6 +720,7 @@
           "commentCount": 34,
           "duration": 1813,
           "durationRaw": "PT30M13S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0308
         },
         {
@@ -674,11 +728,12 @@
           "title": "아무도 모르게 등판한 더샵프리엘라 | 흥청망청",
           "publishedAt": "2026-03-11T09:30:18Z",
           "thumbnail": "https://i.ytimg.com/vi/LuPl4P7YGFk/mqdefault.jpg",
-          "viewCount": 24961,
+          "viewCount": 24964,
           "likeCount": 299,
           "commentCount": 35,
           "duration": 283,
           "durationRaw": "PT4M43S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0405
         },
         {
@@ -686,11 +741,12 @@
           "title": "천지개벽 앞둔 강남권 유일한 뉴타운 | 당장! 임장",
           "publishedAt": "2026-03-10T09:30:06Z",
           "thumbnail": "https://i.ytimg.com/vi/8543fSSkM3Y/mqdefault.jpg",
-          "viewCount": 39077,
+          "viewCount": 39080,
           "likeCount": 593,
           "commentCount": 115,
           "duration": 1141,
           "durationRaw": "PT19M1S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0634
         },
         {
@@ -698,11 +754,12 @@
           "title": "알아야 덜 내는 부동산세금 완전정복 (2배속 권장)",
           "publishedAt": "2026-03-09T09:30:28Z",
           "thumbnail": "https://i.ytimg.com/vi/z6SKLuXkQSM/mqdefault.jpg",
-          "viewCount": 14535,
+          "viewCount": 14542,
           "likeCount": 489,
           "commentCount": 28,
           "duration": 2915,
           "durationRaw": "PT48M35S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0236
         },
         {
@@ -710,11 +767,12 @@
           "title": "마곡은 직주근접이 아니라 직·주·락이다 | 흥청망청 [AD]",
           "publishedAt": "2026-03-07T13:00:33Z",
           "thumbnail": "https://i.ytimg.com/vi/HtpAM4Z0VF0/mqdefault.jpg",
-          "viewCount": 39332,
+          "viewCount": 39336,
           "likeCount": 427,
           "commentCount": 103,
           "duration": 359,
           "durationRaw": "PT5M59S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0639
         },
         {
@@ -722,11 +780,12 @@
           "title": "교통망·수목원 품은 쌍용더플래티넘온수역 | 흥청망청 [AD]",
           "publishedAt": "2026-03-06T11:01:11Z",
           "thumbnail": "https://i.ytimg.com/vi/iZpUb7USKVc/mqdefault.jpg",
-          "viewCount": 16765,
+          "viewCount": 16770,
           "likeCount": 199,
           "commentCount": 46,
           "duration": 241,
           "durationRaw": "PT4M1S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0272
         },
         {
@@ -739,6 +798,7 @@
           "commentCount": 72,
           "duration": 1561,
           "durationRaw": "PT26M1S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.033
         }
       ]
@@ -757,71 +817,77 @@
           "title": "트럼프 대국민 연설, 사실 미국은 웃고 있다?",
           "publishedAt": "2026-04-02T12:42:44Z",
           "thumbnail": "https://i.ytimg.com/vi/CBHYYM_DlqQ/mqdefault.jpg",
-          "viewCount": 220307,
-          "likeCount": 2123,
-          "commentCount": 394,
+          "viewCount": 220877,
+          "likeCount": 2132,
+          "commentCount": 395,
           "duration": 52,
           "durationRaw": "PT52S",
-          "views_to_subs_ratio": 0.153
+          "isShorts": true,
+          "views_to_subs_ratio": 0.1534
         },
         {
           "videoId": "xkzNxNYFsls",
           "title": "결국 MIT에게 고소당한 건물",
           "publishedAt": "2026-04-01T07:21:17Z",
           "thumbnail": "https://i.ytimg.com/vi/xkzNxNYFsls/mqdefault.jpg",
-          "viewCount": 110816,
-          "likeCount": 675,
+          "viewCount": 111063,
+          "likeCount": 678,
           "commentCount": 22,
           "duration": 37,
           "durationRaw": "PT37S",
-          "views_to_subs_ratio": 0.077
+          "isShorts": true,
+          "views_to_subs_ratio": 0.0771
         },
         {
           "videoId": "1zoyuycjziQ",
           "title": "천재들이 장난에 진심이면 생기는 일",
           "publishedAt": "2026-04-01T07:21:15Z",
           "thumbnail": "https://i.ytimg.com/vi/1zoyuycjziQ/mqdefault.jpg",
-          "viewCount": 1484803,
-          "likeCount": 15755,
+          "viewCount": 1490951,
+          "likeCount": 15822,
           "commentCount": 136,
           "duration": 42,
           "durationRaw": "PT42S",
-          "views_to_subs_ratio": 1.0311
+          "isShorts": true,
+          "views_to_subs_ratio": 1.0354
         },
         {
           "videoId": "Zm19HrPSOgY",
           "title": "미국 천재 너드들이 노는 방법",
           "publishedAt": "2026-03-28T12:58:44Z",
           "thumbnail": "https://i.ytimg.com/vi/Zm19HrPSOgY/mqdefault.jpg",
-          "viewCount": 181476,
-          "likeCount": 1824,
+          "viewCount": 181575,
+          "likeCount": 1825,
           "commentCount": 18,
           "duration": 51,
           "durationRaw": "PT51S",
-          "views_to_subs_ratio": 0.126
+          "isShorts": true,
+          "views_to_subs_ratio": 0.1261
         },
         {
           "videoId": "7LK-udy2lm8",
           "title": "천재 공대생들의 대학, MIT에서 배운 공부보다 중요한 OO은?",
           "publishedAt": "2026-03-28T12:57:33Z",
           "thumbnail": "https://i.ytimg.com/vi/7LK-udy2lm8/mqdefault.jpg",
-          "viewCount": 148044,
-          "likeCount": 2950,
+          "viewCount": 148265,
+          "likeCount": 2954,
           "commentCount": 134,
           "duration": 2532,
           "durationRaw": "PT42M12S",
-          "views_to_subs_ratio": 0.1028
+          "isShorts": false,
+          "views_to_subs_ratio": 0.103
         },
         {
           "videoId": "zhlclyze9Mk",
           "title": "전설적인 하버드 연극 동아리에서 생긴 일",
           "publishedAt": "2026-03-17T08:49:45Z",
           "thumbnail": "https://i.ytimg.com/vi/zhlclyze9Mk/mqdefault.jpg",
-          "viewCount": 83085,
+          "viewCount": 83090,
           "likeCount": 990,
           "commentCount": 14,
           "duration": 68,
           "durationRaw": "PT1M8S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0577
         },
         {
@@ -829,11 +895,12 @@
           "title": "싱글벙글 하버드 대학생활",
           "publishedAt": "2026-03-17T05:31:06Z",
           "thumbnail": "https://i.ytimg.com/vi/x2oZ2-8-TWc/mqdefault.jpg",
-          "viewCount": 109996,
+          "viewCount": 110003,
           "likeCount": 622,
           "commentCount": 8,
           "duration": 45,
           "durationRaw": "PT45S",
+          "isShorts": true,
           "views_to_subs_ratio": 0.0764
         },
         {
@@ -841,59 +908,64 @@
           "title": "둥근 기둥이 가진 의외의 효과",
           "publishedAt": "2026-03-16T08:43:06Z",
           "thumbnail": "https://i.ytimg.com/vi/LGq97HwiSOU/mqdefault.jpg",
-          "viewCount": 428296,
-          "likeCount": 3249,
+          "viewCount": 428543,
+          "likeCount": 3250,
           "commentCount": 88,
           "duration": 31,
           "durationRaw": "PT31S",
-          "views_to_subs_ratio": 0.2974
+          "isShorts": true,
+          "views_to_subs_ratio": 0.2976
         },
         {
           "videoId": "Sk-rh4qiHZY",
           "title": "버스 정류장, 이제는 지하로?",
           "publishedAt": "2026-03-15T12:36:15Z",
           "thumbnail": "https://i.ytimg.com/vi/Sk-rh4qiHZY/mqdefault.jpg",
-          "viewCount": 1515543,
-          "likeCount": 10239,
-          "commentCount": 833,
+          "viewCount": 1516340,
+          "likeCount": 10262,
+          "commentCount": 835,
           "duration": 51,
           "durationRaw": "PT51S",
-          "views_to_subs_ratio": 1.0525
+          "isShorts": true,
+          "views_to_subs_ratio": 1.053
         },
         {
           "videoId": "1KzqwOOBXNU",
           "title": "하버드 학생들이 성공하는 이유",
           "publishedAt": "2026-03-15T12:34:51Z",
           "thumbnail": "https://i.ytimg.com/vi/1KzqwOOBXNU/mqdefault.jpg",
-          "viewCount": 287385,
-          "likeCount": 2935,
-          "commentCount": 67,
+          "viewCount": 287608,
+          "likeCount": 2936,
+          "commentCount": 68,
           "duration": 54,
           "durationRaw": "PT54S",
-          "views_to_subs_ratio": 0.1996
+          "isShorts": true,
+          "views_to_subs_ratio": 0.1997
         },
         {
           "videoId": "SKjLNX4MlWQ",
           "title": "졸업생 건축가가 설명해주는 세계 1위 대학의 차이",
           "publishedAt": "2026-03-15T12:26:24Z",
           "thumbnail": "https://i.ytimg.com/vi/SKjLNX4MlWQ/mqdefault.jpg",
-          "viewCount": 217028,
-          "likeCount": 4128,
+          "viewCount": 217424,
+          "likeCount": 4132,
           "commentCount": 235,
           "duration": 3090,
           "durationRaw": "PT51M30S",
-          "views_to_subs_ratio": 0.1507
+          "isShorts": false,
+          "views_to_subs_ratio": 0.151
         },
         {
           "videoId": "SaORBjV030Q",
           "title": "장항준 감독에게 가장 어울리는 동네는?",
           "publishedAt": "2026-03-12T08:46:02Z",
           "thumbnail": "https://i.ytimg.com/vi/SaORBjV030Q/mqdefault.jpg",
-          "viewCount": 574349,
-          "likeCount": 3384,
+          "viewCount": 574435,
+          "likeCount": 3385,
           "commentCount": 247,
           "duration": 46,
           "durationRaw": "PT46S",
+          "isShorts": true,
           "views_to_subs_ratio": 0.3989
         },
         {
@@ -901,11 +973,12 @@
           "title": "유난히 부유했던 장항준 감독의 어린 시절",
           "publishedAt": "2026-03-12T08:41:43Z",
           "thumbnail": "https://i.ytimg.com/vi/TZjpVZsW5lc/mqdefault.jpg",
-          "viewCount": 372915,
+          "viewCount": 372927,
           "likeCount": 2720,
           "commentCount": 77,
           "duration": 48,
           "durationRaw": "PT48S",
+          "isShorts": true,
           "views_to_subs_ratio": 0.259
         },
         {
@@ -913,11 +986,12 @@
           "title": "샤넬, 루이비통 오픈런...사실 고도의 전략?",
           "publishedAt": "2026-03-04T12:53:14Z",
           "thumbnail": "https://i.ytimg.com/vi/GcinspV6ur0/mqdefault.jpg",
-          "viewCount": 55855,
+          "viewCount": 55857,
           "likeCount": 277,
           "commentCount": 4,
           "duration": 48,
           "durationRaw": "PT48S",
+          "isShorts": true,
           "views_to_subs_ratio": 0.0388
         },
         {
@@ -925,11 +999,12 @@
           "title": "알고 보면 소름 돋는 명품 매장 설계",
           "publishedAt": "2026-03-04T12:53:13Z",
           "thumbnail": "https://i.ytimg.com/vi/j97T1vnt9qQ/mqdefault.jpg",
-          "viewCount": 85176,
+          "viewCount": 85179,
           "likeCount": 619,
           "commentCount": 12,
           "duration": 63,
           "durationRaw": "PT1M3S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0592
         },
         {
@@ -937,11 +1012,12 @@
           "title": "루이비통부터 에르메스까지.. 명품 매장은 보이지만 볼 수가 없다",
           "publishedAt": "2026-03-01T11:11:23Z",
           "thumbnail": "https://i.ytimg.com/vi/Phncs3QMbvM/mqdefault.jpg",
-          "viewCount": 132350,
-          "likeCount": 2528,
+          "viewCount": 132380,
+          "likeCount": 2529,
           "commentCount": 68,
           "duration": 994,
           "durationRaw": "PT16M34S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0919
         },
         {
@@ -949,11 +1025,12 @@
           "title": "건축가가 한국 전통을 재해석해 만든 도서관",
           "publishedAt": "2026-02-19T23:47:02Z",
           "thumbnail": "https://i.ytimg.com/vi/D0j3bCWjZSg/mqdefault.jpg",
-          "viewCount": 420632,
-          "likeCount": 12417,
+          "viewCount": 420685,
+          "likeCount": 12419,
           "commentCount": 1110,
           "duration": 1371,
           "durationRaw": "PT22M51S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.2921
         },
         {
@@ -961,11 +1038,12 @@
           "title": "서울에만 유독 벤치가 없는 이유",
           "publishedAt": "2026-02-08T11:20:32Z",
           "thumbnail": "https://i.ytimg.com/vi/jKAACmX1Zs0/mqdefault.jpg",
-          "viewCount": 117344,
+          "viewCount": 117356,
           "likeCount": 3157,
           "commentCount": 503,
           "duration": 932,
           "durationRaw": "PT15M32S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0815
         },
         {
@@ -973,35 +1051,38 @@
           "title": "건축가가 알려주는 자취방 배치 실전유형별 정리!",
           "publishedAt": "2026-02-01T01:38:14Z",
           "thumbnail": "https://i.ytimg.com/vi/DjLHELeJvlk/mqdefault.jpg",
-          "viewCount": 166382,
+          "viewCount": 166412,
           "likeCount": 3895,
           "commentCount": 162,
           "duration": 1658,
           "durationRaw": "PT27M38S",
-          "views_to_subs_ratio": 0.1155
+          "isShorts": false,
+          "views_to_subs_ratio": 0.1156
         },
         {
           "videoId": "nuNYOLMvOdQ",
           "title": "물고기를 건물로 만들고 싶었던 건축가 : 프랭크 게리",
           "publishedAt": "2026-01-23T11:51:55Z",
           "thumbnail": "https://i.ytimg.com/vi/nuNYOLMvOdQ/mqdefault.jpg",
-          "viewCount": 72792,
+          "viewCount": 72814,
           "likeCount": 1708,
           "commentCount": 86,
           "duration": 1825,
           "durationRaw": "PT30M25S",
-          "views_to_subs_ratio": 0.0505
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0506
         },
         {
           "videoId": "0pMzj8_apc4",
           "title": "인공지능과 로봇을 감당하기 위해 당장 해야하는 것",
           "publishedAt": "2026-01-15T11:43:29Z",
           "thumbnail": "https://i.ytimg.com/vi/0pMzj8_apc4/mqdefault.jpg",
-          "viewCount": 200938,
+          "viewCount": 200940,
           "likeCount": 4463,
           "commentCount": 252,
           "duration": 1041,
           "durationRaw": "PT17M21S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.1395
         },
         {
@@ -1009,11 +1090,12 @@
           "title": "세계 대도시들의 특징, 스카이라인으로 알아보기",
           "publishedAt": "2026-01-08T07:27:00Z",
           "thumbnail": "https://i.ytimg.com/vi/GYUhRwRqoQQ/mqdefault.jpg",
-          "viewCount": 133373,
+          "viewCount": 133384,
           "likeCount": 2844,
           "commentCount": 457,
           "duration": 1608,
           "durationRaw": "PT26M48S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0926
         },
         {
@@ -1021,11 +1103,12 @@
           "title": "한국에는 없는 해리포터 마법 학교를 직접 만든다면?",
           "publishedAt": "2025-12-30T12:46:26Z",
           "thumbnail": "https://i.ytimg.com/vi/exSjRSpZLXQ/mqdefault.jpg",
-          "viewCount": 60543,
+          "viewCount": 60547,
           "likeCount": 1723,
           "commentCount": 137,
           "duration": 1674,
           "durationRaw": "PT27M54S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.042
         },
         {
@@ -1033,11 +1116,12 @@
           "title": "호그와트의 건축 설계를 분석해보니..? 건축가의 눈으로 본 마법 학교!",
           "publishedAt": "2025-12-24T14:53:37Z",
           "thumbnail": "https://i.ytimg.com/vi/PAfOe4FQJQQ/mqdefault.jpg",
-          "viewCount": 84682,
+          "viewCount": 84689,
           "likeCount": 1962,
           "commentCount": 138,
           "duration": 1652,
           "durationRaw": "PT27M32S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0588
         },
         {
@@ -1045,11 +1129,12 @@
           "title": "오픈하자마자 세계가 극찬? 세계 1위 호텔 브랜드가 일본 최고의 휴양섬에 지은 숙소",
           "publishedAt": "2025-12-21T12:01:01Z",
           "thumbnail": "https://i.ytimg.com/vi/EapJRQLE1iE/mqdefault.jpg",
-          "viewCount": 166261,
+          "viewCount": 166281,
           "likeCount": 3294,
           "commentCount": 120,
           "duration": 2617,
           "durationRaw": "PT43M37S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.1155
         },
         {
@@ -1057,11 +1142,12 @@
           "title": "일론 머스크 감성의 집약체? 테슬라 다이너 분석",
           "publishedAt": "2025-12-12T13:09:10Z",
           "thumbnail": "https://i.ytimg.com/vi/jdZMyWp7AGA/mqdefault.jpg",
-          "viewCount": 297504,
+          "viewCount": 297508,
           "likeCount": 6051,
           "commentCount": 182,
           "duration": 1360,
           "durationRaw": "PT22M40S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.2066
         },
         {
@@ -1069,23 +1155,25 @@
           "title": "디자인은 못해도 바우하우스는 알아두자",
           "publishedAt": "2025-12-04T13:20:34Z",
           "thumbnail": "https://i.ytimg.com/vi/DGnL_UiSDAE/mqdefault.jpg",
-          "viewCount": 265448,
-          "likeCount": 6537,
+          "viewCount": 265627,
+          "likeCount": 6541,
           "commentCount": 232,
           "duration": 1415,
           "durationRaw": "PT23M35S",
-          "views_to_subs_ratio": 0.1843
+          "isShorts": false,
+          "views_to_subs_ratio": 0.1845
         },
         {
           "videoId": "nmZ4tHcYgPw",
           "title": "미국과 중국을 지정학으로 봐야하는 이유",
           "publishedAt": "2025-11-27T12:34:23Z",
           "thumbnail": "https://i.ytimg.com/vi/nmZ4tHcYgPw/mqdefault.jpg",
-          "viewCount": 249354,
+          "viewCount": 249366,
           "likeCount": 5075,
           "commentCount": 962,
           "duration": 839,
           "durationRaw": "PT13M59S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.1732
         },
         {
@@ -1093,11 +1181,12 @@
           "title": "세계적인 스타들이 한국에 못 오는 이유",
           "publishedAt": "2025-11-21T10:32:02Z",
           "thumbnail": "https://i.ytimg.com/vi/eJk1UBrmhyk/mqdefault.jpg",
-          "viewCount": 131063,
+          "viewCount": 131071,
           "likeCount": 2415,
           "commentCount": 378,
           "duration": 922,
           "durationRaw": "PT15M22S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.091
         },
         {
@@ -1105,11 +1194,12 @@
           "title": "조감도보다 영롱한 도쿄 빌딩, 한국에서는 이런거 못한다?",
           "publishedAt": "2025-11-14T14:36:02Z",
           "thumbnail": "https://i.ytimg.com/vi/MkJiqrZNvKk/mqdefault.jpg",
-          "viewCount": 221025,
+          "viewCount": 221029,
           "likeCount": 4426,
           "commentCount": 804,
           "duration": 1058,
           "durationRaw": "PT17M38S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.1535
         }
       ]
@@ -1120,175 +1210,202 @@
       "handle": "@bureadman",
       "subscribers": 1750000,
       "totalViews": 626279746,
-      "videoCount": 4329,
+      "videoCount": 4334,
       "thumbnail": "https://yt3.ggpht.com/YVgyZe175-BfqGiPUFccAuScDra7tjebtCUWknMRLPrmQb5u9_yqox8ZoLpauXAU-k4gnQTArw=s88-c-k-c0x00ffffff-no-rj",
       "videos": [
+        {
+          "videoId": "ybZORjQqvNY",
+          "title": "정부는 집값 잡으려고 이렇게 할 겁니다 [제네시스박]",
+          "publishedAt": "2026-04-07T22:30:14Z",
+          "thumbnail": "https://i.ytimg.com/vi/ybZORjQqvNY/mqdefault.jpg",
+          "viewCount": 15971,
+          "likeCount": 167,
+          "commentCount": 10,
+          "duration": 33,
+          "durationRaw": "PT33S",
+          "isShorts": true,
+          "views_to_subs_ratio": 0.0091
+        },
         {
           "videoId": "YcWS5jsFZNU",
           "title": "“월세지옥이 펼쳐질 겁니다” 전월세 시장 이렇게 됩니다 [제네시스박 3부]",
           "publishedAt": "2026-04-07T11:01:02Z",
           "thumbnail": "https://i.ytimg.com/vi/YcWS5jsFZNU/mqdefault.jpg",
-          "viewCount": 38045,
-          "likeCount": 659,
-          "commentCount": 120,
+          "viewCount": 57682,
+          "likeCount": 895,
+          "commentCount": 162,
           "duration": 945,
           "durationRaw": "PT15M45S",
-          "views_to_subs_ratio": 0.0217
+          "isShorts": false,
+          "views_to_subs_ratio": 0.033
         },
         {
           "videoId": "S0NDw7-UVs0",
           "title": "외국인들 한국주식 싹다 팔았다? 현금 항상 갖고 계셔야 합니다 [박현상 부장 1부]",
           "publishedAt": "2026-04-07T10:00:43Z",
           "thumbnail": "https://i.ytimg.com/vi/S0NDw7-UVs0/mqdefault.jpg",
-          "viewCount": 15398,
-          "likeCount": 239,
-          "commentCount": 9,
+          "viewCount": 20521,
+          "likeCount": 284,
+          "commentCount": 10,
           "duration": 1325,
           "durationRaw": "PT22M5S",
-          "views_to_subs_ratio": 0.0088
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0117
         },
         {
           "videoId": "FHZizk6_As8",
           "title": "삼성전자 소름돋는 예상 나왔어요, “상상 못했던 일 벌어질 겁니다” [박세익 대표 2부]",
           "publishedAt": "2026-04-07T09:00:30Z",
           "thumbnail": "https://i.ytimg.com/vi/FHZizk6_As8/mqdefault.jpg",
-          "viewCount": 26352,
-          "likeCount": 485,
+          "viewCount": 27984,
+          "likeCount": 519,
           "commentCount": 35,
           "duration": 1250,
           "durationRaw": "PT20M50S",
-          "views_to_subs_ratio": 0.0151
+          "isShorts": false,
+          "views_to_subs_ratio": 0.016
         },
         {
           "videoId": "F_mbHPyhEUM",
           "title": "삼성전자 '이 가격' 찍히면 걱정 말고 많이 사도 됩니다 [김대준 대표 풀버전]",
           "publishedAt": "2026-04-07T08:00:26Z",
           "thumbnail": "https://i.ytimg.com/vi/F_mbHPyhEUM/mqdefault.jpg",
-          "viewCount": 21772,
-          "likeCount": 534,
+          "viewCount": 24768,
+          "likeCount": 572,
           "commentCount": 25,
           "duration": 4700,
           "durationRaw": "PT1H18M20S",
-          "views_to_subs_ratio": 0.0124
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0142
         },
         {
           "videoId": "d72wvWMqlBA",
           "title": "지금은 오히려 '여기'가 기회일 수 있어요 [박원갑 위원]",
           "publishedAt": "2026-04-06T22:30:18Z",
           "thumbnail": "https://i.ytimg.com/vi/d72wvWMqlBA/mqdefault.jpg",
-          "viewCount": 28959,
-          "likeCount": 92,
+          "viewCount": 29714,
+          "likeCount": 97,
           "commentCount": 7,
           "duration": 37,
           "durationRaw": "PT37S",
-          "views_to_subs_ratio": 0.0165
+          "isShorts": true,
+          "views_to_subs_ratio": 0.017
         },
         {
           "videoId": "M4Jq_xri5E4",
-          "title": "10년 전과 거의 똑같습니다, 안타깝지만 집값 이렇게 됩니다 [제네시스박 2부]",
+          "title": "문재인 정부 때와 비슷합니다, 안타깝지만 집값 이렇게 됩니다 [제네시스박 2부]",
           "publishedAt": "2026-04-06T11:00:38Z",
           "thumbnail": "https://i.ytimg.com/vi/M4Jq_xri5E4/mqdefault.jpg",
-          "viewCount": 112949,
-          "likeCount": 1382,
-          "commentCount": 216,
+          "viewCount": 119012,
+          "likeCount": 1447,
+          "commentCount": 226,
           "duration": 1186,
           "durationRaw": "PT19M46S",
-          "views_to_subs_ratio": 0.0645
+          "isShorts": false,
+          "views_to_subs_ratio": 0.068
         },
         {
           "videoId": "bGy1_4eSMDM",
           "title": "코스피 지금 안 팔고 버티면 장기적으로 '이렇게' 될 겁니다 [박연미 경제평론가 1부]",
           "publishedAt": "2026-04-06T10:00:53Z",
           "thumbnail": "https://i.ytimg.com/vi/bGy1_4eSMDM/mqdefault.jpg",
-          "viewCount": 67958,
-          "likeCount": 1114,
-          "commentCount": 104,
+          "viewCount": 82659,
+          "likeCount": 1238,
+          "commentCount": 119,
           "duration": 1365,
           "durationRaw": "PT22M45S",
-          "views_to_subs_ratio": 0.0388
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0472
         },
         {
           "videoId": "ZOf_EzUwcj0",
           "title": "\"저도 33년 만에 처음 봅니다\" 주식시장에 나타난 이상현상 [박세익 대표 1부]",
           "publishedAt": "2026-04-06T09:00:57Z",
           "thumbnail": "https://i.ytimg.com/vi/ZOf_EzUwcj0/mqdefault.jpg",
-          "viewCount": 69868,
-          "likeCount": 1379,
-          "commentCount": 70,
+          "viewCount": 77420,
+          "likeCount": 1474,
+          "commentCount": 75,
           "duration": 1148,
           "durationRaw": "PT19M8S",
-          "views_to_subs_ratio": 0.0399
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0442
         },
         {
           "videoId": "QxGOyu6NI_M",
           "title": "\"이란과 러시아는 쉬쉬하고 있어요\" 한국에 관한 무서운 소문 들립니다 [조의준 대표 풀버전]",
           "publishedAt": "2026-04-06T08:00:27Z",
           "thumbnail": "https://i.ytimg.com/vi/QxGOyu6NI_M/mqdefault.jpg",
-          "viewCount": 42370,
-          "likeCount": 1603,
-          "commentCount": 69,
+          "viewCount": 50164,
+          "likeCount": 1844,
+          "commentCount": 93,
           "duration": 3652,
           "durationRaw": "PT1H52S",
-          "views_to_subs_ratio": 0.0242
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0287
         },
         {
           "videoId": "vWJxL5pSv88",
           "title": "7월 세제개편 나오면 집값 이렇게 될 겁니다 [제네시스박]",
           "publishedAt": "2026-04-05T22:30:12Z",
           "thumbnail": "https://i.ytimg.com/vi/vWJxL5pSv88/mqdefault.jpg",
-          "viewCount": 166149,
-          "likeCount": 736,
-          "commentCount": 33,
+          "viewCount": 169817,
+          "likeCount": 746,
+          "commentCount": 34,
           "duration": 46,
           "durationRaw": "PT46S",
-          "views_to_subs_ratio": 0.0949
+          "isShorts": true,
+          "views_to_subs_ratio": 0.097
         },
         {
           "videoId": "8f90ReqZp2Q",
           "title": "\"대한민국이 변하고 있어요\" 전세가 사라지는 근본적인 이유 [박원갑 위원 풀버전]",
           "publishedAt": "2026-04-05T11:00:08Z",
           "thumbnail": "https://i.ytimg.com/vi/8f90ReqZp2Q/mqdefault.jpg",
-          "viewCount": 55589,
-          "likeCount": 718,
+          "viewCount": 56391,
+          "likeCount": 729,
           "commentCount": 138,
           "duration": 5287,
           "durationRaw": "PT1H28M7S",
-          "views_to_subs_ratio": 0.0318
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0322
         },
         {
           "videoId": "h6xwSitcwzY",
           "title": "5월 9일 지나면 집값 이렇게 됩니다 [제네시스박]",
           "publishedAt": "2026-04-05T09:00:49Z",
           "thumbnail": "https://i.ytimg.com/vi/h6xwSitcwzY/mqdefault.jpg",
-          "viewCount": 349525,
-          "likeCount": 1482,
+          "viewCount": 352815,
+          "likeCount": 1498,
           "commentCount": 66,
           "duration": 32,
           "durationRaw": "PT32S",
-          "views_to_subs_ratio": 0.1997
+          "isShorts": true,
+          "views_to_subs_ratio": 0.2016
         },
         {
           "videoId": "Ex8_ELzhpd8",
           "title": "미국을 움직이는 마법의 주문 1마디 [조의준 대표]",
           "publishedAt": "2026-04-05T09:00:16Z",
           "thumbnail": "https://i.ytimg.com/vi/Ex8_ELzhpd8/mqdefault.jpg",
-          "viewCount": 22031,
+          "viewCount": 22165,
           "likeCount": 182,
           "commentCount": 2,
           "duration": 47,
           "durationRaw": "PT47S",
-          "views_to_subs_ratio": 0.0126
+          "isShorts": true,
+          "views_to_subs_ratio": 0.0127
         },
         {
           "videoId": "9XYosikl9vA",
           "title": "\"다들 반대로 알고 있어요\" 전쟁이 한국에 기회인 이유 [조의준 대표 3부]",
           "publishedAt": "2026-04-05T08:00:15Z",
           "thumbnail": "https://i.ytimg.com/vi/9XYosikl9vA/mqdefault.jpg",
-          "viewCount": 15026,
-          "likeCount": 306,
+          "viewCount": 15122,
+          "likeCount": 307,
           "commentCount": 37,
           "duration": 1168,
           "durationRaw": "PT19M28S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0086
         },
         {
@@ -1296,167 +1413,181 @@
           "title": "외국인들도 사고 있어요, '이 섹터' 바닥입니다 [김대준 대표]",
           "publishedAt": "2026-04-05T07:00:41Z",
           "thumbnail": "https://i.ytimg.com/vi/fKfwqSC4gxQ/mqdefault.jpg",
-          "viewCount": 36702,
-          "likeCount": 207,
+          "viewCount": 36880,
+          "likeCount": 209,
           "commentCount": 1,
           "duration": 41,
           "durationRaw": "PT41S",
-          "views_to_subs_ratio": 0.021
+          "isShorts": true,
+          "views_to_subs_ratio": 0.0211
         },
         {
           "videoId": "YAQA966mb8U",
           "title": "원전 무식하게 '이 주식' 사두세요, 전세계 돈 싹 끌어모을 겁니다 [김대준 대표 4부]",
           "publishedAt": "2026-04-05T05:00:25Z",
           "thumbnail": "https://i.ytimg.com/vi/YAQA966mb8U/mqdefault.jpg",
-          "viewCount": 25331,
-          "likeCount": 635,
-          "commentCount": 28,
+          "viewCount": 25639,
+          "likeCount": 641,
+          "commentCount": 29,
           "duration": 1383,
           "durationRaw": "PT23M3S",
-          "views_to_subs_ratio": 0.0145
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0147
         },
         {
           "videoId": "5MU_kcXXxzU",
           "title": "에코프로 '이때' 전고점 돌파합니다 [김대준 대표]",
           "publishedAt": "2026-04-05T03:00:03Z",
           "thumbnail": "https://i.ytimg.com/vi/5MU_kcXXxzU/mqdefault.jpg",
-          "viewCount": 25897,
+          "viewCount": 25975,
           "likeCount": 126,
           "commentCount": 2,
           "duration": 50,
           "durationRaw": "PT50S",
+          "isShorts": true,
           "views_to_subs_ratio": 0.0148
         },
         {
           "videoId": "JHiseve7OL8",
-          "title": "현금 있으면 S&P500 이렇게 사세요 “돈 걱정 평생 안해도 됩니다” [김경록 고문 풀버전]",
+          "title": "현금 있으면 S&P500 이렇게 사세요, 죽을 때까지 돈 걱정 없습니다 [김경록 고문 풀버전]",
           "publishedAt": "2026-04-05T01:00:29Z",
           "thumbnail": "https://i.ytimg.com/vi/JHiseve7OL8/mqdefault.jpg",
-          "viewCount": 63137,
-          "likeCount": 1057,
-          "commentCount": 51,
+          "viewCount": 64246,
+          "likeCount": 1070,
+          "commentCount": 52,
           "duration": 4714,
           "durationRaw": "PT1H18M34S",
-          "views_to_subs_ratio": 0.0361
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0367
         },
         {
           "videoId": "gABbjz8oi7o",
           "title": "심상치 않은 부동산 현장 분위기 [제네시스박]",
           "publishedAt": "2026-04-05T00:00:44Z",
           "thumbnail": "https://i.ytimg.com/vi/gABbjz8oi7o/mqdefault.jpg",
-          "viewCount": 84081,
-          "likeCount": 421,
-          "commentCount": 5,
+          "viewCount": 85091,
+          "likeCount": 424,
+          "commentCount": 6,
           "duration": 34,
           "durationRaw": "PT34S",
-          "views_to_subs_ratio": 0.048
+          "isShorts": true,
+          "views_to_subs_ratio": 0.0486
         },
         {
           "videoId": "g2TzbyJ7Wg0",
           "title": "미국이 실패한 전쟁을 계속하는 이유 [조의준 대표]",
           "publishedAt": "2026-04-04T23:00:42Z",
           "thumbnail": "https://i.ytimg.com/vi/g2TzbyJ7Wg0/mqdefault.jpg",
-          "viewCount": 57950,
-          "likeCount": 471,
-          "commentCount": 43,
+          "viewCount": 58257,
+          "likeCount": 475,
+          "commentCount": 44,
           "duration": 49,
           "durationRaw": "PT49S",
-          "views_to_subs_ratio": 0.0331
+          "isShorts": true,
+          "views_to_subs_ratio": 0.0333
         },
         {
           "videoId": "2r10wX_l404",
           "title": "빌라 몸테크가 지칩니다, 이제는 이사 가야 될까요?",
           "publishedAt": "2026-04-04T11:00:04Z",
           "thumbnail": "https://i.ytimg.com/vi/2r10wX_l404/mqdefault.jpg",
-          "viewCount": 102586,
-          "likeCount": 1343,
-          "commentCount": 243,
+          "viewCount": 103642,
+          "likeCount": 1349,
+          "commentCount": 244,
           "duration": 1129,
           "durationRaw": "PT18M49S",
-          "views_to_subs_ratio": 0.0586
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0592
         },
         {
           "videoId": "9yuPZtjWEh0",
           "title": "삼성전자 '이 가격' 찍히면 사도 됩니다 [김대준 대표]",
           "publishedAt": "2026-04-04T10:00:10Z",
           "thumbnail": "https://i.ytimg.com/vi/9yuPZtjWEh0/mqdefault.jpg",
-          "viewCount": 655469,
-          "likeCount": 2714,
-          "commentCount": 187,
+          "viewCount": 659783,
+          "likeCount": 2729,
+          "commentCount": 188,
           "duration": 29,
           "durationRaw": "PT29S",
-          "views_to_subs_ratio": 0.3746
+          "isShorts": true,
+          "views_to_subs_ratio": 0.377
         },
         {
           "videoId": "Tzo30t8RbPI",
           "title": "1달 안에 부동산 판도 뒤집힙니다, “집값 5월부터 이렇게 됩니다” [제네시스박 1부]",
           "publishedAt": "2026-04-04T08:00:25Z",
           "thumbnail": "https://i.ytimg.com/vi/Tzo30t8RbPI/mqdefault.jpg",
-          "viewCount": 167499,
-          "likeCount": 1785,
+          "viewCount": 168465,
+          "likeCount": 1790,
           "commentCount": 215,
           "duration": 1278,
           "durationRaw": "PT21M18S",
-          "views_to_subs_ratio": 0.0957
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0963
         },
         {
           "videoId": "b4Aqq-fMcOI",
           "title": "주식시장 2028년까지 오릅니다 [김대준 대표]",
           "publishedAt": "2026-04-04T07:15:01Z",
           "thumbnail": "https://i.ytimg.com/vi/b4Aqq-fMcOI/mqdefault.jpg",
-          "viewCount": 73863,
-          "likeCount": 257,
+          "viewCount": 74371,
+          "likeCount": 259,
           "commentCount": 22,
           "duration": 47,
           "durationRaw": "PT47S",
-          "views_to_subs_ratio": 0.0422
+          "isShorts": true,
+          "views_to_subs_ratio": 0.0425
         },
         {
           "videoId": "CUproYNkVec",
           "title": "에코프로, 포스코 꽉 잡으세요, '이때' 23년 전고점 넘어갑니다 [김대준 대표 3부]",
           "publishedAt": "2026-04-04T05:00:08Z",
           "thumbnail": "https://i.ytimg.com/vi/CUproYNkVec/mqdefault.jpg",
-          "viewCount": 36455,
-          "likeCount": 878,
+          "viewCount": 36627,
+          "likeCount": 882,
           "commentCount": 62,
           "duration": 1298,
           "durationRaw": "PT21M38S",
-          "views_to_subs_ratio": 0.0208
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0209
         },
         {
           "videoId": "4perRHUhZnA",
           "title": "\"언론들도 쉬쉬하고 있어요\" 한국에 무서운 위기 닥칩니다 [조의준 대표 2부]",
           "publishedAt": "2026-04-04T03:00:10Z",
           "thumbnail": "https://i.ytimg.com/vi/4perRHUhZnA/mqdefault.jpg",
-          "viewCount": 50709,
-          "likeCount": 1296,
-          "commentCount": 132,
+          "viewCount": 52097,
+          "likeCount": 1342,
+          "commentCount": 134,
           "duration": 1225,
           "durationRaw": "PT20M25S",
-          "views_to_subs_ratio": 0.029
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0298
         },
         {
           "videoId": "747ZQGsCFwQ",
           "title": "현금 있으면 S&P500 이렇게 사세요, 평생 돈 걱정 없어집니다 [김경록 고문 4부]",
           "publishedAt": "2026-04-04T01:00:07Z",
           "thumbnail": "https://i.ytimg.com/vi/747ZQGsCFwQ/mqdefault.jpg",
-          "viewCount": 35205,
-          "likeCount": 672,
-          "commentCount": 36,
+          "viewCount": 36513,
+          "likeCount": 691,
+          "commentCount": 38,
           "duration": 1327,
           "durationRaw": "PT22M7S",
-          "views_to_subs_ratio": 0.0201
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0209
         },
         {
           "videoId": "rGhrPeJa2X0",
           "title": "서울 수도권 부동산 '여기' 보세요, 나중에 큰 부가 될 겁니다 [박원갑 위원 4부]",
           "publishedAt": "2026-04-03T11:01:20Z",
           "thumbnail": "https://i.ytimg.com/vi/rGhrPeJa2X0/mqdefault.jpg",
-          "viewCount": 21986,
-          "likeCount": 265,
+          "viewCount": 22064,
+          "likeCount": 266,
           "commentCount": 23,
           "duration": 1629,
           "durationRaw": "PT27M9S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0126
         },
         {
@@ -1464,24 +1595,13 @@
           "title": "삼성전자 '이 가격' 밑에서 사세요, 삼성전자 결국 40만 원 갈 겁니다 [김대준 대표 2부]",
           "publishedAt": "2026-04-03T10:00:35Z",
           "thumbnail": "https://i.ytimg.com/vi/HlQnhLOguKc/mqdefault.jpg",
-          "viewCount": 36297,
-          "likeCount": 670,
+          "viewCount": 36417,
+          "likeCount": 674,
           "commentCount": 55,
           "duration": 1143,
           "durationRaw": "PT19M3S",
-          "views_to_subs_ratio": 0.0207
-        },
-        {
-          "videoId": "RoaJ2P0Mcy4",
-          "title": "전세계가 긴장하고 있습니다, 이란 전쟁 최악의 시나리오는요 [조의준 대표 1부]",
-          "publishedAt": "2026-04-03T09:00:41Z",
-          "thumbnail": "https://i.ytimg.com/vi/RoaJ2P0Mcy4/mqdefault.jpg",
-          "viewCount": 15317,
-          "likeCount": 285,
-          "commentCount": 19,
-          "duration": 1361,
-          "durationRaw": "PT22M41S",
-          "views_to_subs_ratio": 0.0088
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0208
         }
       ]
     },
@@ -1491,187 +1611,202 @@
       "handle": "@smarttube",
       "subscribers": 243000,
       "totalViews": 74717298,
-      "videoCount": 5571,
+      "videoCount": 5573,
       "thumbnail": "https://yt3.ggpht.com/bMWUL1nk-GDdKvA8awfGbCx60JSNCVhbr-I3sFQIyTaT90Jo8lZrLbgVjdfVT37hMoevjR7dTA=s88-c-k-c0x00ffffff-no-rj",
       "videos": [
         {
           "videoId": "hRzf9l7Eb_o",
           "title": "누구를 위한 전쟁인가? 누가 지금 이익을 보고 있는가? 피해자들만 양산하고 있을뿐!",
-          "publishedAt": "2026-04-07T21:36:34Z",
-          "thumbnail": "https://i.ytimg.com/vi/hRzf9l7Eb_o/mqdefault_live.jpg",
-          "viewCount": 0,
-          "likeCount": 1,
-          "commentCount": 0,
-          "duration": 0,
-          "durationRaw": "P0D",
-          "views_to_subs_ratio": 0.0
+          "publishedAt": "2026-04-07T23:10:17Z",
+          "thumbnail": "https://i.ytimg.com/vi/hRzf9l7Eb_o/mqdefault.jpg",
+          "viewCount": 5925,
+          "likeCount": 509,
+          "commentCount": 22,
+          "duration": 2417,
+          "durationRaw": "PT40M17S",
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0244
         },
         {
           "videoId": "Ir8ZqGGJ7B0",
           "title": "조심해야 하는 상가 강사 유형",
           "publishedAt": "2026-04-07T12:00:37Z",
           "thumbnail": "https://i.ytimg.com/vi/Ir8ZqGGJ7B0/mqdefault.jpg",
-          "viewCount": 3975,
-          "likeCount": 27,
+          "viewCount": 4502,
+          "likeCount": 32,
           "commentCount": 1,
           "duration": 32,
           "durationRaw": "PT32S",
-          "views_to_subs_ratio": 0.0164
+          "isShorts": true,
+          "views_to_subs_ratio": 0.0185
         },
         {
           "videoId": "4TLSFugdSUQ",
           "title": "빠숑의 생가 답사기! 마포 홍대 투어",
           "publishedAt": "2026-04-07T11:30:04Z",
           "thumbnail": "https://i.ytimg.com/vi/4TLSFugdSUQ/mqdefault.jpg",
-          "viewCount": 1047,
-          "likeCount": 44,
+          "viewCount": 1290,
+          "likeCount": 52,
           "commentCount": 5,
           "duration": 746,
           "durationRaw": "PT12M26S",
-          "views_to_subs_ratio": 0.0043
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0053
         },
         {
           "videoId": "LWcDDU3Lq7Y",
           "title": "(김종율 대표)진짜요? 투자 결과까지 공개해 주는 건가요? 남들이 모르는 토지 투자법!",
           "publishedAt": "2026-04-07T11:13:51Z",
           "thumbnail": "https://i.ytimg.com/vi/LWcDDU3Lq7Y/mqdefault.jpg",
-          "viewCount": 821,
-          "likeCount": 20,
+          "viewCount": 918,
+          "likeCount": 28,
           "commentCount": 0,
           "duration": 1142,
           "durationRaw": "PT19M2S",
-          "views_to_subs_ratio": 0.0034
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0038
         },
         {
           "videoId": "gTk18MhCyVc",
           "title": "연장, 연장 평행이론! 깔짝깔짝해서는 효과가 없습니다!",
           "publishedAt": "2026-04-07T00:07:46Z",
           "thumbnail": "https://i.ytimg.com/vi/gTk18MhCyVc/mqdefault.jpg",
-          "viewCount": 17433,
-          "likeCount": 783,
-          "commentCount": 30,
+          "viewCount": 18016,
+          "likeCount": 802,
+          "commentCount": 31,
           "duration": 3151,
           "durationRaw": "PT52M31S",
-          "views_to_subs_ratio": 0.0717
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0741
         },
         {
           "videoId": "DOW83hzLbgo",
           "title": "집값 잡는다더니…월세는 왜?",
           "publishedAt": "2026-04-06T10:30:06Z",
           "thumbnail": "https://i.ytimg.com/vi/DOW83hzLbgo/mqdefault.jpg",
-          "viewCount": 23235,
-          "likeCount": 703,
-          "commentCount": 51,
+          "viewCount": 23939,
+          "likeCount": 731,
+          "commentCount": 52,
           "duration": 75,
           "durationRaw": "PT1M15S",
-          "views_to_subs_ratio": 0.0956
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0985
         },
         {
           "videoId": "rynmiTe-1NE",
           "title": "서민 전세대출도 다 막힌다",
           "publishedAt": "2026-04-06T10:01:18Z",
           "thumbnail": "https://i.ytimg.com/vi/rynmiTe-1NE/mqdefault.jpg",
-          "viewCount": 19771,
-          "likeCount": 321,
-          "commentCount": 36,
+          "viewCount": 20364,
+          "likeCount": 335,
+          "commentCount": 37,
           "duration": 75,
           "durationRaw": "PT1M15S",
-          "views_to_subs_ratio": 0.0814
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0838
         },
         {
           "videoId": "VE_cf2DvwCk",
           "title": "(김종율 대표)상가투자 다 망한다더니 저는 벌었습니다! 그 방법 알려드립니다!",
           "publishedAt": "2026-04-06T09:00:39Z",
           "thumbnail": "https://i.ytimg.com/vi/VE_cf2DvwCk/mqdefault.jpg",
-          "viewCount": 1761,
-          "likeCount": 48,
+          "viewCount": 1824,
+          "likeCount": 50,
           "commentCount": 5,
           "duration": 859,
           "durationRaw": "PT14M19S",
-          "views_to_subs_ratio": 0.0072
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0075
         },
         {
           "videoId": "lSM93WR5-oE",
           "title": "(스마트튜브 경제아카데미 대구 오프라인 세미나)지금 사야 할 부동산 2026 실전 투자 전략",
           "publishedAt": "2026-04-06T01:13:31Z",
           "thumbnail": "https://i.ytimg.com/vi/lSM93WR5-oE/mqdefault.jpg",
-          "viewCount": 688,
+          "viewCount": 743,
           "likeCount": 8,
           "commentCount": 0,
           "duration": 51,
           "durationRaw": "PT51S",
-          "views_to_subs_ratio": 0.0028
+          "isShorts": true,
+          "views_to_subs_ratio": 0.0031
         },
         {
           "videoId": "WOyPCw5vXxY",
           "title": "이제 서울의 바겐세일은 끝났다! 이제 서울이 아닌 지역에서 그 해답을 찾아라!",
           "publishedAt": "2026-04-06T00:01:23Z",
           "thumbnail": "https://i.ytimg.com/vi/WOyPCw5vXxY/mqdefault.jpg",
-          "viewCount": 19703,
-          "likeCount": 837,
+          "viewCount": 19812,
+          "likeCount": 835,
           "commentCount": 35,
           "duration": 2800,
           "durationRaw": "PT46M40S",
-          "views_to_subs_ratio": 0.0811
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0815
         },
         {
           "videoId": "13gNP-gnHtU",
           "title": "(부동산 인사이트)부동산 투에서 세금,대출이 더 공포스러운이유",
           "publishedAt": "2026-04-05T11:00:01Z",
           "thumbnail": "https://i.ytimg.com/vi/13gNP-gnHtU/mqdefault.jpg",
-          "viewCount": 1723,
+          "viewCount": 1740,
           "likeCount": 49,
           "commentCount": 0,
           "duration": 332,
           "durationRaw": "PT5M32S",
-          "views_to_subs_ratio": 0.0071
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0072
         },
         {
           "videoId": "q9NOfKtUe-Y",
           "title": "사대문 안에 있으면 이렇게 됩니다",
           "publishedAt": "2026-04-05T05:00:54Z",
           "thumbnail": "https://i.ytimg.com/vi/q9NOfKtUe-Y/mqdefault.jpg",
-          "viewCount": 7051,
-          "likeCount": 43,
+          "viewCount": 7120,
+          "likeCount": 44,
           "commentCount": 1,
           "duration": 57,
           "durationRaw": "PT57S",
-          "views_to_subs_ratio": 0.029
+          "isShorts": true,
+          "views_to_subs_ratio": 0.0293
         },
         {
           "videoId": "mHfSffuJLH8",
           "title": "다주택자가 모두 집을 팔면 모두가 내 집마련이 가능할까?",
           "publishedAt": "2026-04-05T04:00:52Z",
           "thumbnail": "https://i.ytimg.com/vi/mHfSffuJLH8/mqdefault.jpg",
-          "viewCount": 16161,
-          "likeCount": 280,
+          "viewCount": 16512,
+          "likeCount": 282,
           "commentCount": 19,
           "duration": 62,
           "durationRaw": "PT1M2S",
-          "views_to_subs_ratio": 0.0665
+          "isShorts": false,
+          "views_to_subs_ratio": 0.068
         },
         {
           "videoId": "OV6bdq0GwWY",
           "title": "지금 시장이 더 공포스러운 이유! 세금과 대출! 그 해결책을 제안하다!!",
           "publishedAt": "2026-04-04T12:35:33Z",
           "thumbnail": "https://i.ytimg.com/vi/OV6bdq0GwWY/mqdefault.jpg",
-          "viewCount": 7347,
+          "viewCount": 7353,
           "likeCount": 300,
           "commentCount": 14,
           "duration": 1120,
           "durationRaw": "PT18M40S",
-          "views_to_subs_ratio": 0.0302
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0303
         },
         {
           "videoId": "5iPrYiwq6Po",
           "title": "(투미 김제경소장)토허제인데 이게 가능하다고요?! 성수 규제 뚫는 방법 대공개",
           "publishedAt": "2026-04-04T11:00:10Z",
           "thumbnail": "https://i.ytimg.com/vi/5iPrYiwq6Po/mqdefault.jpg",
-          "viewCount": 2472,
+          "viewCount": 2488,
           "likeCount": 60,
           "commentCount": 0,
           "duration": 1041,
           "durationRaw": "PT17M21S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0102
         },
         {
@@ -1679,35 +1814,38 @@
           "title": "증여는 규제 때문이 아니다",
           "publishedAt": "2026-04-04T05:00:01Z",
           "thumbnail": "https://i.ytimg.com/vi/1b-J-2a44oY/mqdefault.jpg",
-          "viewCount": 13485,
-          "likeCount": 193,
+          "viewCount": 13601,
+          "likeCount": 195,
           "commentCount": 3,
           "duration": 80,
           "durationRaw": "PT1M20S",
-          "views_to_subs_ratio": 0.0555
+          "isShorts": false,
+          "views_to_subs_ratio": 0.056
         },
         {
           "videoId": "B3ORr63Ok-I",
           "title": "집 값은 왜 안 내려갈까?!",
           "publishedAt": "2026-04-04T04:00:10Z",
           "thumbnail": "https://i.ytimg.com/vi/B3ORr63Ok-I/mqdefault.jpg",
-          "viewCount": 22585,
-          "likeCount": 302,
+          "viewCount": 22821,
+          "likeCount": 303,
           "commentCount": 8,
           "duration": 67,
           "durationRaw": "PT1M7S",
-          "views_to_subs_ratio": 0.0929
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0939
         },
         {
           "videoId": "DiwM48o7zac",
           "title": "마지막 1주일이다! 아직은 기회가 있다!",
           "publishedAt": "2026-04-04T00:24:24Z",
           "thumbnail": "https://i.ytimg.com/vi/DiwM48o7zac/mqdefault.jpg",
-          "viewCount": 11197,
+          "viewCount": 11204,
           "likeCount": 566,
           "commentCount": 15,
           "duration": 2365,
           "durationRaw": "PT39M25S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0461
         },
         {
@@ -1715,12 +1853,13 @@
           "title": "대출만기연장 금지 타켓은 노도강, 금관구 인가요?",
           "publishedAt": "2026-04-03T10:00:21Z",
           "thumbnail": "https://i.ytimg.com/vi/Ft2NzUYZrGE/mqdefault.jpg",
-          "viewCount": 17839,
-          "likeCount": 417,
+          "viewCount": 18009,
+          "likeCount": 421,
           "commentCount": 35,
           "duration": 83,
           "durationRaw": "PT1M23S",
-          "views_to_subs_ratio": 0.0734
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0741
         },
         {
           "videoId": "7rAYmBcRAfg",
@@ -1732,6 +1871,7 @@
           "commentCount": 0,
           "duration": 266,
           "durationRaw": "PT4M26S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0025
         },
         {
@@ -1739,23 +1879,25 @@
           "title": "(투미 김제경소장)지금이 제일 싸다! 성수의 전체 판이 바뀐다!",
           "publishedAt": "2026-04-03T09:00:48Z",
           "thumbnail": "https://i.ytimg.com/vi/XpNQbE87dgg/mqdefault.jpg",
-          "viewCount": 3227,
+          "viewCount": 3245,
           "likeCount": 70,
           "commentCount": 1,
           "duration": 1056,
           "durationRaw": "PT17M36S",
-          "views_to_subs_ratio": 0.0133
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0134
         },
         {
           "videoId": "wdAEQiKC4eY",
           "title": "세금과 대출이 모든 것을 결정하는 시대!",
           "publishedAt": "2026-04-03T08:01:09Z",
           "thumbnail": "https://i.ytimg.com/vi/wdAEQiKC4eY/mqdefault.jpg",
-          "viewCount": 6434,
+          "viewCount": 6443,
           "likeCount": 251,
           "commentCount": 6,
           "duration": 1286,
           "durationRaw": "PT21M26S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0265
         },
         {
@@ -1763,47 +1905,51 @@
           "title": "서울이 다시 더 많이 반응하기 시작했다! 매매도, 전세도, 월세도!",
           "publishedAt": "2026-04-03T00:11:49Z",
           "thumbnail": "https://i.ytimg.com/vi/D-lhQdEVd5I/mqdefault.jpg",
-          "viewCount": 28665,
-          "likeCount": 1187,
+          "viewCount": 28700,
+          "likeCount": 1188,
           "commentCount": 65,
           "duration": 3494,
           "durationRaw": "PT58M14S",
-          "views_to_subs_ratio": 0.118
+          "isShorts": false,
+          "views_to_subs_ratio": 0.1181
         },
         {
           "videoId": "OLt0Czr0Li8",
           "title": "4.1부동산 대출 규제 의미가 없는 이유",
           "publishedAt": "2026-04-02T11:00:29Z",
           "thumbnail": "https://i.ytimg.com/vi/OLt0Czr0Li8/mqdefault.jpg",
-          "viewCount": 25100,
-          "likeCount": 395,
+          "viewCount": 25229,
+          "likeCount": 396,
           "commentCount": 26,
           "duration": 59,
           "durationRaw": "PT59S",
-          "views_to_subs_ratio": 0.1033
+          "isShorts": true,
+          "views_to_subs_ratio": 0.1038
         },
         {
           "videoId": "xCUd5KIiBgw",
           "title": "5월 9일 지나면 바로 집값 폭등 하는 시나리오!",
           "publishedAt": "2026-04-02T10:01:19Z",
           "thumbnail": "https://i.ytimg.com/vi/xCUd5KIiBgw/mqdefault.jpg",
-          "viewCount": 60992,
-          "likeCount": 542,
+          "viewCount": 61569,
+          "likeCount": 545,
           "commentCount": 15,
           "duration": 35,
           "durationRaw": "PT35S",
-          "views_to_subs_ratio": 0.251
+          "isShorts": true,
+          "views_to_subs_ratio": 0.2534
         },
         {
           "videoId": "xtBtmKTxW-o",
           "title": "(투미 김제경소장)아니 빨리 통과 시킬 수 있었잖아요! 왜 안 해주고 있었던거에요?!",
           "publishedAt": "2026-04-02T09:01:14Z",
           "thumbnail": "https://i.ytimg.com/vi/xtBtmKTxW-o/mqdefault.jpg",
-          "viewCount": 3079,
+          "viewCount": 3080,
           "likeCount": 94,
           "commentCount": 5,
           "duration": 879,
           "durationRaw": "PT14M39S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0127
         },
         {
@@ -1811,11 +1957,12 @@
           "title": "수익형 숙박업으로 노는 공간 월세 3배로 받는 방법과 노하우!",
           "publishedAt": "2026-04-02T07:18:31Z",
           "thumbnail": "https://i.ytimg.com/vi/WMs1a7Z0Pmk/mqdefault.jpg",
-          "viewCount": 3332,
+          "viewCount": 3339,
           "likeCount": 136,
           "commentCount": 7,
           "duration": 3281,
           "durationRaw": "PT54M41S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0137
         },
         {
@@ -1823,23 +1970,25 @@
           "title": "'이 구역'은 GS건설이 찍었다! 건설사들이 뛰어든 이곳!",
           "publishedAt": "2026-04-02T04:54:26Z",
           "thumbnail": "https://i.ytimg.com/vi/w8D2qcf6LhM/mqdefault.jpg",
-          "viewCount": 3365,
+          "viewCount": 3382,
           "likeCount": 69,
           "commentCount": 11,
           "duration": 851,
           "durationRaw": "PT14M11S",
-          "views_to_subs_ratio": 0.0138
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0139
         },
         {
           "videoId": "Z8u56vb90bw",
           "title": "(스마트튜브 경제아카데미)(오프라인 정규강의)공간활용 + AI로 수익형 부동산을 선점하라",
           "publishedAt": "2026-04-02T04:04:06Z",
           "thumbnail": "https://i.ytimg.com/vi/Z8u56vb90bw/mqdefault.jpg",
-          "viewCount": 842,
-          "likeCount": 9,
+          "viewCount": 844,
+          "likeCount": 10,
           "commentCount": 0,
           "duration": 54,
           "durationRaw": "PT54S",
+          "isShorts": true,
           "views_to_subs_ratio": 0.0035
         },
         {
@@ -1847,11 +1996,12 @@
           "title": "대출규제가 발표되었다 근데 이게 뭐지??? 의미가 없는 이유!",
           "publishedAt": "2026-04-02T00:04:13Z",
           "thumbnail": "https://i.ytimg.com/vi/hxBHFUnOzak/mqdefault.jpg",
-          "viewCount": 33749,
-          "likeCount": 1223,
+          "viewCount": 33763,
+          "likeCount": 1224,
           "commentCount": 84,
           "duration": 3187,
           "durationRaw": "PT53M7S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.1389
         }
       ]
@@ -1870,60 +2020,65 @@
           "title": "[매물번호.190]통영 바다뷰 손 볼곳없는 깔끔한 전원주택 매매 ! ! #통영전원주택#통영세컨하우스#통영촌집#용남면주택#통영부동산#용남면전원주택#용남면세컨하우스#통영주택#용남면촌집",
           "publishedAt": "2026-04-07T10:15:01Z",
           "thumbnail": "https://i.ytimg.com/vi/ILTPXvQCw-I/mqdefault.jpg",
-          "viewCount": 358,
-          "likeCount": 16,
+          "viewCount": 421,
+          "likeCount": 18,
           "commentCount": 0,
           "duration": 316,
           "durationRaw": "PT5M16S",
-          "views_to_subs_ratio": 0.0823
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0968
         },
         {
           "videoId": "gi8rkwpFmqA",
           "title": "[매물번호.189] 거제도 칠천도 바닷가앞 주택(별장) 매매 !",
           "publishedAt": "2026-04-04T09:30:17Z",
           "thumbnail": "https://i.ytimg.com/vi/gi8rkwpFmqA/mqdefault.jpg",
-          "viewCount": 6200,
+          "viewCount": 6282,
           "likeCount": 8,
           "commentCount": 1,
           "duration": 11,
           "durationRaw": "PT11S",
-          "views_to_subs_ratio": 1.4253
+          "isShorts": true,
+          "views_to_subs_ratio": 1.4441
         },
         {
           "videoId": "93hxrNRBquc",
           "title": "[매물번호.189] 거제도 칠천도 바닷가앞 주택(별장) 매매 ! ! #거제도주택#거제도세컨하우스#거제도촌집#하청면주택#거제도부동산#하청면#하청면세컨하우스#하청면촌집#거제도별장",
           "publishedAt": "2026-04-04T06:00:10Z",
           "thumbnail": "https://i.ytimg.com/vi/93hxrNRBquc/mqdefault.jpg",
-          "viewCount": 1683,
+          "viewCount": 1702,
           "likeCount": 31,
           "commentCount": 1,
           "duration": 138,
           "durationRaw": "PT2M18S",
-          "views_to_subs_ratio": 0.3869
+          "isShorts": false,
+          "views_to_subs_ratio": 0.3913
         },
         {
           "videoId": "vnjSxEMCfyg",
           "title": "[매물번호.188]거제도 바다인근 주택(촌집) 매매 !",
           "publishedAt": "2026-04-03T10:30:39Z",
           "thumbnail": "https://i.ytimg.com/vi/vnjSxEMCfyg/mqdefault.jpg",
-          "viewCount": 4408,
+          "viewCount": 4414,
           "likeCount": 13,
           "commentCount": 0,
           "duration": 11,
           "durationRaw": "PT11S",
-          "views_to_subs_ratio": 1.0133
+          "isShorts": true,
+          "views_to_subs_ratio": 1.0147
         },
         {
           "videoId": "uVV3iAuAW2c",
           "title": "[매물번호.188]거제도 바다인근 주택(촌집) 매매 ! ! #거제도주택#거제도세컨하우스#거제도촌집#동부면주택#거제도부동산#거제도별장#동부면별장#동부면세컨하우스#동부면주택#동부면촌집",
           "publishedAt": "2026-04-03T09:45:06Z",
           "thumbnail": "https://i.ytimg.com/vi/uVV3iAuAW2c/mqdefault.jpg",
-          "viewCount": 1643,
+          "viewCount": 1651,
           "likeCount": 28,
           "commentCount": 0,
           "duration": 219,
           "durationRaw": "PT3M39S",
-          "views_to_subs_ratio": 0.3777
+          "isShorts": false,
+          "views_to_subs_ratio": 0.3795
         },
         {
           "videoId": "hSqSjcAV8p4",
@@ -1935,6 +2090,7 @@
           "commentCount": 0,
           "duration": 262,
           "durationRaw": "PT4M22S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0763
         },
         {
@@ -1942,84 +2098,91 @@
           "title": "[매물번호.187]경남 고성 깔끔하고 막힘없는 주택(별장) 매매 !",
           "publishedAt": "2026-04-02T09:30:29Z",
           "thumbnail": "https://i.ytimg.com/vi/zCV60ZMWTSc/mqdefault.jpg",
-          "viewCount": 6159,
+          "viewCount": 6170,
           "likeCount": 19,
           "commentCount": 0,
           "duration": 11,
           "durationRaw": "PT11S",
-          "views_to_subs_ratio": 1.4159
+          "isShorts": true,
+          "views_to_subs_ratio": 1.4184
         },
         {
           "videoId": "NhA0LRsEoX0",
           "title": "[매물번호.187]경남 고성 깔끔하고 막힘없는 주택(별장) 매매 ! ! #고성전원주택#고성세컨하우스#고성촌집#고성부동산#상리면주택#상리면세컨하우스#고성주택#상리면촌집#고성별장",
           "publishedAt": "2026-04-02T07:00:15Z",
           "thumbnail": "https://i.ytimg.com/vi/NhA0LRsEoX0/mqdefault.jpg",
-          "viewCount": 2500,
+          "viewCount": 2507,
           "likeCount": 35,
           "commentCount": 0,
           "duration": 149,
           "durationRaw": "PT2M29S",
-          "views_to_subs_ratio": 0.5747
+          "isShorts": false,
+          "views_to_subs_ratio": 0.5763
         },
         {
           "videoId": "Z1BthJ-kfyI",
           "title": "[거래완료]",
           "publishedAt": "2026-04-01T03:45:01Z",
           "thumbnail": "https://i.ytimg.com/vi/Z1BthJ-kfyI/mqdefault.jpg",
-          "viewCount": 900,
+          "viewCount": 901,
           "likeCount": 20,
           "commentCount": 0,
           "duration": 168,
           "durationRaw": "PT2M48S",
-          "views_to_subs_ratio": 0.2069
+          "isShorts": false,
+          "views_to_subs_ratio": 0.2071
         },
         {
           "videoId": "E73Hbb_55jM",
           "title": "[매물번호.185]통영 1억이하 바다인근 2층주택 매매 초급매 !",
           "publishedAt": "2026-03-31T09:30:05Z",
           "thumbnail": "https://i.ytimg.com/vi/E73Hbb_55jM/mqdefault.jpg",
-          "viewCount": 8756,
+          "viewCount": 8759,
           "likeCount": 22,
           "commentCount": 0,
           "duration": 11,
           "durationRaw": "PT11S",
-          "views_to_subs_ratio": 2.0129
+          "isShorts": true,
+          "views_to_subs_ratio": 2.0136
         },
         {
           "videoId": "ybkgzcWbkx4",
           "title": "[매물번호.185]통영 1억이하 바다인근 2층주택 매매 초급매 ! ! #통영전원주택#통영세컨하우스#통영촌집#용남면주택#통영부동산#용남면세컨하우스#통영주택#용남면촌집#통영바다인근주택",
           "publishedAt": "2026-03-31T04:30:23Z",
           "thumbnail": "https://i.ytimg.com/vi/ybkgzcWbkx4/mqdefault.jpg",
-          "viewCount": 4618,
+          "viewCount": 4622,
           "likeCount": 70,
           "commentCount": 3,
           "duration": 273,
           "durationRaw": "PT4M33S",
-          "views_to_subs_ratio": 1.0616
+          "isShorts": false,
+          "views_to_subs_ratio": 1.0625
         },
         {
           "videoId": "J-dZlzaOhto",
           "title": "[매물번호.184] 거제도 손볼 곳 없는 올수리된 2층 주택 매매 !",
           "publishedAt": "2026-03-30T10:00:15Z",
           "thumbnail": "https://i.ytimg.com/vi/J-dZlzaOhto/mqdefault.jpg",
-          "viewCount": 3738,
+          "viewCount": 3743,
           "likeCount": 11,
           "commentCount": 0,
           "duration": 11,
           "durationRaw": "PT11S",
-          "views_to_subs_ratio": 0.8593
+          "isShorts": true,
+          "views_to_subs_ratio": 0.8605
         },
         {
           "videoId": "acz3uRqy3eA",
           "title": "[매물번호.184] 거제도 손볼 곳 없는 올수리된 2층 주택 매매 ! ! #거제도주택#거제도세컨하우스#거제도촌집#수월동주택#거제도부동산#사등면#수월동세컨하우스#수월동촌집#거제도별장",
           "publishedAt": "2026-03-30T06:00:01Z",
           "thumbnail": "https://i.ytimg.com/vi/acz3uRqy3eA/mqdefault.jpg",
-          "viewCount": 1089,
+          "viewCount": 1091,
           "likeCount": 12,
           "commentCount": 0,
           "duration": 225,
           "durationRaw": "PT3M45S",
-          "views_to_subs_ratio": 0.2503
+          "isShorts": false,
+          "views_to_subs_ratio": 0.2508
         },
         {
           "videoId": "Qky4mTJyuyM",
@@ -2031,6 +2194,7 @@
           "commentCount": 0,
           "duration": 210,
           "durationRaw": "PT3M30S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.3191
         },
         {
@@ -2038,108 +2202,117 @@
           "title": "[매물번호.182] 거제도 바닷가 바로 앞 주택(별장) 매매 !",
           "publishedAt": "2026-03-24T11:01:29Z",
           "thumbnail": "https://i.ytimg.com/vi/sSv43cMZ1B8/mqdefault.jpg",
-          "viewCount": 3771,
+          "viewCount": 3776,
           "likeCount": 12,
           "commentCount": 0,
           "duration": 11,
           "durationRaw": "PT11S",
-          "views_to_subs_ratio": 0.8669
+          "isShorts": true,
+          "views_to_subs_ratio": 0.868
         },
         {
           "videoId": "6NygNcPEDr0",
           "title": "[매물번호.182] 거제도 바닷가 바로 앞 주택(별장) 매매 ! ! #거제도주택#거제도세컨하우스#거제도촌집#하청면주택#거제도부동산#하청면#하청면세컨하우스#하청면촌집#거제도별장",
           "publishedAt": "2026-03-24T10:00:14Z",
           "thumbnail": "https://i.ytimg.com/vi/6NygNcPEDr0/mqdefault.jpg",
-          "viewCount": 2198,
-          "likeCount": 28,
+          "viewCount": 2202,
+          "likeCount": 29,
           "commentCount": 4,
           "duration": 326,
           "durationRaw": "PT5M26S",
-          "views_to_subs_ratio": 0.5053
+          "isShorts": false,
+          "views_to_subs_ratio": 0.5062
         },
         {
           "videoId": "GUYAXaMUbbM",
           "title": "[매물번호.168] 거제도 손볼 곳 없는 바다뷰 주택(별장) 매매 !",
           "publishedAt": "2026-03-21T10:00:19Z",
           "thumbnail": "https://i.ytimg.com/vi/GUYAXaMUbbM/mqdefault.jpg",
-          "viewCount": 5632,
+          "viewCount": 5633,
           "likeCount": 24,
           "commentCount": 0,
           "duration": 11,
           "durationRaw": "PT11S",
-          "views_to_subs_ratio": 1.2947
+          "isShorts": true,
+          "views_to_subs_ratio": 1.2949
         },
         {
           "videoId": "l3OLHzgejJM",
           "title": "[매물번호.168] 거제도 손볼 곳 없는 바다뷰 주택(별장) 매매 ! ! #거제도주택#거제도세컨하우스#거제도촌집#사등면주택#거제도부동산#사등면#사등면세컨하우스#사등면촌집#거제도별장",
           "publishedAt": "2026-03-21T08:45:08Z",
           "thumbnail": "https://i.ytimg.com/vi/l3OLHzgejJM/mqdefault.jpg",
-          "viewCount": 3438,
+          "viewCount": 3445,
           "likeCount": 46,
           "commentCount": 9,
           "duration": 279,
           "durationRaw": "PT4M39S",
-          "views_to_subs_ratio": 0.7903
+          "isShorts": false,
+          "views_to_subs_ratio": 0.792
         },
         {
           "videoId": "dU2089LSaJg",
           "title": "[매물번호.181] 거제도 바닷가 앞 올리모델링 주택(별장) 매매 !",
           "publishedAt": "2026-03-19T10:01:07Z",
           "thumbnail": "https://i.ytimg.com/vi/dU2089LSaJg/mqdefault.jpg",
-          "viewCount": 4180,
+          "viewCount": 4182,
           "likeCount": 22,
           "commentCount": 0,
           "duration": 11,
           "durationRaw": "PT11S",
-          "views_to_subs_ratio": 0.9609
+          "isShorts": true,
+          "views_to_subs_ratio": 0.9614
         },
         {
           "videoId": "jQPoJ1uY_1s",
           "title": "[매물번호.181] 거제도 바닷가 앞 올리모델링 주택(별장) 매매 ! ! #거제도주택#거제도세컨하우스#거제도촌집#남부면주택#거제도부동산#남부면#남부면세컨하우스#남부면촌집#거제도별장",
           "publishedAt": "2026-03-19T09:15:08Z",
           "thumbnail": "https://i.ytimg.com/vi/jQPoJ1uY_1s/mqdefault.jpg",
-          "viewCount": 3801,
+          "viewCount": 3806,
           "likeCount": 43,
           "commentCount": 0,
           "duration": 254,
           "durationRaw": "PT4M14S",
-          "views_to_subs_ratio": 0.8738
+          "isShorts": false,
+          "views_to_subs_ratio": 0.8749
         },
         {
           "videoId": "93umOXfvJyU",
           "title": "[매물번호.180]통영 감성넘치는 바다인근 주택(촌집)매매급매 !",
           "publishedAt": "2026-03-18T10:00:15Z",
           "thumbnail": "https://i.ytimg.com/vi/93umOXfvJyU/mqdefault.jpg",
-          "viewCount": 4470,
+          "viewCount": 4474,
           "likeCount": 13,
           "commentCount": 0,
           "duration": 11,
           "durationRaw": "PT11S",
-          "views_to_subs_ratio": 1.0276
+          "isShorts": true,
+          "views_to_subs_ratio": 1.0285
         },
         {
           "videoId": "l9QTjOuEyGk",
           "title": "[매물번호.180]통영 감성넘치는 바다인근 주택(촌집)매매급매 ! ! #통영전원주택#통영세컨하우스#통영촌집#산양읍주택#통영부동산#산양읍세컨하우스#통영주택#산양읍촌집#통영바다인근주택",
           "publishedAt": "2026-03-18T08:30:34Z",
           "thumbnail": "https://i.ytimg.com/vi/l9QTjOuEyGk/mqdefault.jpg",
-          "viewCount": 2367,
+          "viewCount": 2368,
           "likeCount": 36,
           "commentCount": 0,
           "duration": 344,
           "durationRaw": "PT5M44S",
-          "views_to_subs_ratio": 0.5441
+          "isShorts": false,
+          "views_to_subs_ratio": 0.5444
         },
         {
           "videoId": "P-KTTeDkFkg",
           "title": "[매물번호.179]거제도 바다인근 가성비 좋은 주택 매매 !!#거제도촌집#거제도주택#거제도세컨하우스#사등면주택#거제도부동산#사등면부동산#사등면세컨하우스#사등면촌집#거제도바다인근주택",
           "publishedAt": "2026-03-17T08:15:03Z",
           "thumbnail": "https://i.ytimg.com/vi/P-KTTeDkFkg/mqdefault.jpg",
-          "viewCount": 5993,
+          "viewCount": 6001,
           "likeCount": 86,
           "commentCount": 1,
           "duration": 185,
           "durationRaw": "PT3M5S",
-          "views_to_subs_ratio": 1.3777
+          "isShorts": false,
+          "views_to_subs_ratio": 1.3795
         },
         {
           "videoId": "Tdmzk372xwc",
@@ -2151,6 +2324,7 @@
           "commentCount": 0,
           "duration": 193,
           "durationRaw": "PT3M13S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.4067
         },
         {
@@ -2158,12 +2332,13 @@
           "title": "[매물번호.176]통영 바다뷰 2층주택 초급매 매매 !",
           "publishedAt": "2026-03-11T10:00:05Z",
           "thumbnail": "https://i.ytimg.com/vi/2nAfXXeTodU/mqdefault.jpg",
-          "viewCount": 6605,
+          "viewCount": 6613,
           "likeCount": 28,
           "commentCount": 0,
           "duration": 11,
           "durationRaw": "PT11S",
-          "views_to_subs_ratio": 1.5184
+          "isShorts": true,
+          "views_to_subs_ratio": 1.5202
         },
         {
           "videoId": "0uis5lMlgig",
@@ -2175,6 +2350,7 @@
           "commentCount": 0,
           "duration": 11,
           "durationRaw": "PT11S",
+          "isShorts": true,
           "views_to_subs_ratio": 1.4513
         },
         {
@@ -2187,6 +2363,7 @@
           "commentCount": 1,
           "duration": 281,
           "durationRaw": "PT4M41S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.5354
         },
         {
@@ -2194,12 +2371,13 @@
           "title": "[매물번호.176]통영 바다뷰 2층주택 초급매 매매 ! ! #통영전원주택#통영세컨하우스#통영촌집#도산면주택#통영부동산#도산면#도산면세컨하우스#통영주택#도산면촌집#통영바다인근",
           "publishedAt": "2026-03-10T09:00:01Z",
           "thumbnail": "https://i.ytimg.com/vi/-zQ-KU_WNBk/mqdefault.jpg",
-          "viewCount": 2233,
+          "viewCount": 2235,
           "likeCount": 31,
           "commentCount": 1,
           "duration": 316,
           "durationRaw": "PT5M16S",
-          "views_to_subs_ratio": 0.5133
+          "isShorts": false,
+          "views_to_subs_ratio": 0.5138
         },
         {
           "videoId": "6IcHRnCng_4",
@@ -2211,6 +2389,7 @@
           "commentCount": 0,
           "duration": 262,
           "durationRaw": "PT4M22S",
+          "isShorts": false,
           "views_to_subs_ratio": 1.0375
         },
         {
@@ -2223,6 +2402,7 @@
           "commentCount": 0,
           "duration": 11,
           "durationRaw": "PT11S",
+          "isShorts": true,
           "views_to_subs_ratio": 1.2439
         }
       ]
@@ -2246,6 +2426,7 @@
           "commentCount": 0,
           "duration": 354,
           "durationRaw": "PT5M54S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.2309
         },
         {
@@ -2258,6 +2439,7 @@
           "commentCount": 0,
           "duration": 294,
           "durationRaw": "PT4M54S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0418
         },
         {
@@ -2270,6 +2452,7 @@
           "commentCount": 0,
           "duration": 373,
           "durationRaw": "PT6M13S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0657
         },
         {
@@ -2282,6 +2465,7 @@
           "commentCount": 0,
           "duration": 157,
           "durationRaw": "PT2M37S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0637
         },
         {
@@ -2289,12 +2473,13 @@
           "title": "충주 전원주택 매매 노은면 수룡리 봄뜰마을 단독주택 주말주택 별장 추천 급매물",
           "publishedAt": "2025-05-12T07:09:20Z",
           "thumbnail": "https://i.ytimg.com/vi/oDtflfjKWQI/mqdefault.jpg",
-          "viewCount": 1009,
+          "viewCount": 1011,
           "likeCount": 8,
           "commentCount": 0,
           "duration": 544,
           "durationRaw": "PT9M4S",
-          "views_to_subs_ratio": 0.0961
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0963
         },
         {
           "videoId": "0mUh3xOvJoo",
@@ -2306,6 +2491,7 @@
           "commentCount": 0,
           "duration": 338,
           "durationRaw": "PT5M38S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0343
         },
         {
@@ -2318,6 +2504,7 @@
           "commentCount": 0,
           "duration": 371,
           "durationRaw": "PT6M11S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.3663
         },
         {
@@ -2330,6 +2517,7 @@
           "commentCount": 0,
           "duration": 216,
           "durationRaw": "PT3M36S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0356
         },
         {
@@ -2342,6 +2530,7 @@
           "commentCount": 0,
           "duration": 323,
           "durationRaw": "PT5M23S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.1145
         },
         {
@@ -2354,6 +2543,7 @@
           "commentCount": 0,
           "duration": 244,
           "durationRaw": "PT4M4S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0991
         },
         {
@@ -2366,6 +2556,7 @@
           "commentCount": 0,
           "duration": 292,
           "durationRaw": "PT4M52S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.1116
         },
         {
@@ -2378,6 +2569,7 @@
           "commentCount": 0,
           "duration": 351,
           "durationRaw": "PT5M51S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0968
         },
         {
@@ -2390,6 +2582,7 @@
           "commentCount": 0,
           "duration": 243,
           "durationRaw": "PT4M3S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.083
         },
         {
@@ -2402,6 +2595,7 @@
           "commentCount": 0,
           "duration": 130,
           "durationRaw": "PT2M10S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0621
         },
         {
@@ -2414,6 +2608,7 @@
           "commentCount": 0,
           "duration": 198,
           "durationRaw": "PT3M18S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0228
         },
         {
@@ -2426,6 +2621,7 @@
           "commentCount": 0,
           "duration": 377,
           "durationRaw": "PT6M17S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.1773
         },
         {
@@ -2433,12 +2629,13 @@
           "title": "충주 목벌동 신축 전원주택 단독주택",
           "publishedAt": "2024-04-05T06:54:45Z",
           "thumbnail": "https://i.ytimg.com/vi/IkpM9t5L0eg/mqdefault.jpg",
-          "viewCount": 1157,
+          "viewCount": 1158,
           "likeCount": 7,
           "commentCount": 1,
           "duration": 41,
           "durationRaw": "PT41S",
-          "views_to_subs_ratio": 0.1102
+          "isShorts": true,
+          "views_to_subs_ratio": 0.1103
         },
         {
           "videoId": "FtocXnWn7Fo",
@@ -2450,6 +2647,7 @@
           "commentCount": 1,
           "duration": 318,
           "durationRaw": "PT5M18S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.3664
         },
         {
@@ -2462,6 +2660,7 @@
           "commentCount": 0,
           "duration": 198,
           "durationRaw": "PT3M18S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0291
         },
         {
@@ -2474,6 +2673,7 @@
           "commentCount": 0,
           "duration": 357,
           "durationRaw": "PT5M57S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.2582
         },
         {
@@ -2486,6 +2686,7 @@
           "commentCount": 0,
           "duration": 358,
           "durationRaw": "PT5M58S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.1214
         },
         {
@@ -2498,6 +2699,7 @@
           "commentCount": 1,
           "duration": 170,
           "durationRaw": "PT2M50S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.2932
         },
         {
@@ -2510,6 +2712,7 @@
           "commentCount": 0,
           "duration": 216,
           "durationRaw": "PT3M36S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.1576
         },
         {
@@ -2522,6 +2725,7 @@
           "commentCount": 1,
           "duration": 281,
           "durationRaw": "PT4M41S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.229
         },
         {
@@ -2534,6 +2738,7 @@
           "commentCount": 1,
           "duration": 54,
           "durationRaw": "PT54S",
+          "isShorts": true,
           "views_to_subs_ratio": 0.3399
         },
         {
@@ -2546,6 +2751,7 @@
           "commentCount": 1,
           "duration": 53,
           "durationRaw": "PT53S",
+          "isShorts": true,
           "views_to_subs_ratio": 0.2545
         },
         {
@@ -2553,12 +2759,13 @@
           "title": "충주 전원주택 주말주택 별장 매매 #Shorts",
           "publishedAt": "2023-06-05T12:40:47Z",
           "thumbnail": "https://i.ytimg.com/vi/m5pcb3ZyEOQ/mqdefault.jpg",
-          "viewCount": 4329,
+          "viewCount": 4330,
           "likeCount": 23,
           "commentCount": 0,
           "duration": 51,
           "durationRaw": "PT51S",
-          "views_to_subs_ratio": 0.4123
+          "isShorts": true,
+          "views_to_subs_ratio": 0.4124
         },
         {
           "videoId": "aH-tLpHIXJo",
@@ -2570,6 +2777,7 @@
           "commentCount": 0,
           "duration": 60,
           "durationRaw": "PT1M",
+          "isShorts": true,
           "views_to_subs_ratio": 0.0797
         },
         {
@@ -2582,6 +2790,7 @@
           "commentCount": 1,
           "duration": 223,
           "durationRaw": "PT3M43S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0752
         },
         {
@@ -2594,6 +2803,7 @@
           "commentCount": 0,
           "duration": 284,
           "durationRaw": "PT4M44S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.1469
         }
       ]
@@ -2612,120 +2822,130 @@
           "title": "🌸 삼비 17평 매수 시 25·36평 신청 가능!",
           "publishedAt": "2026-04-07T09:42:38Z",
           "thumbnail": "https://i.ytimg.com/vi/NFbG7ypp-FA/mqdefault.jpg",
-          "viewCount": 2297,
-          "likeCount": 9,
+          "viewCount": 2713,
+          "likeCount": 10,
           "commentCount": 3,
           "duration": 20,
           "durationRaw": "PT20S",
-          "views_to_subs_ratio": 0.1997
+          "isShorts": true,
+          "views_to_subs_ratio": 0.2359
         },
         {
           "videoId": "HOQ_hrOVdCc",
           "title": "부산에서 6~7억 대로 내 집 마련을 고민 중이신가요? 🏠 실거주와 투자 가치를 모두 잡은 부산 아파트 TOP 3를 요약해 드립니다! #부산부동산 #부산내집마련",
           "publishedAt": "2026-04-05T13:30:08Z",
           "thumbnail": "https://i.ytimg.com/vi/HOQ_hrOVdCc/mqdefault.jpg",
-          "viewCount": 3054,
+          "viewCount": 3076,
           "likeCount": 18,
           "commentCount": 0,
           "duration": 58,
           "durationRaw": "PT58S",
-          "views_to_subs_ratio": 0.2656
+          "isShorts": true,
+          "views_to_subs_ratio": 0.2675
         },
         {
           "videoId": "9Onx6sYJtwA",
           "title": "[내집마련] 부산 6억~7억 대 아파트 추천 TOP 3! 여기는 꼭 보세요",
           "publishedAt": "2026-04-05T12:18:32Z",
           "thumbnail": "https://i.ytimg.com/vi/9Onx6sYJtwA/mqdefault.jpg",
-          "viewCount": 2062,
+          "viewCount": 2074,
           "likeCount": 20,
           "commentCount": 4,
           "duration": 205,
           "durationRaw": "PT3M25S",
-          "views_to_subs_ratio": 0.1793
+          "isShorts": false,
+          "views_to_subs_ratio": 0.1803
         },
         {
           "videoId": "n8XWjx-4rX8",
           "title": "📍 해운대베뉴브, 4월14일 전매 제한 해제! 지금 바로 선점하세요!",
           "publishedAt": "2026-04-05T01:41:27Z",
           "thumbnail": "https://i.ytimg.com/vi/n8XWjx-4rX8/mqdefault.jpg",
-          "viewCount": 415,
+          "viewCount": 418,
           "likeCount": 7,
           "commentCount": 0,
           "duration": 138,
           "durationRaw": "PT2M18S",
-          "views_to_subs_ratio": 0.0361
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0363
         },
         {
           "videoId": "mdgkg8-hf_M",
           "title": "[긴급] 부산 하이엔드아파트 P1천만원? 지금 안 잡으면 무조건 손해! 🚨",
           "publishedAt": "2026-04-05T01:25:25Z",
           "thumbnail": "https://i.ytimg.com/vi/mdgkg8-hf_M/mqdefault.jpg",
-          "viewCount": 3395,
+          "viewCount": 3429,
           "likeCount": 17,
           "commentCount": 1,
           "duration": 36,
           "durationRaw": "PT36S",
-          "views_to_subs_ratio": 0.2952
+          "isShorts": true,
+          "views_to_subs_ratio": 0.2982
         },
         {
           "videoId": "5y_FomBGUxc",
           "title": "📢 해운대 베뉴브, 전매 제한 해제 D-Day! 지금 안 보면 늦습니다.",
           "publishedAt": "2026-04-04T23:53:23Z",
           "thumbnail": "https://i.ytimg.com/vi/5y_FomBGUxc/mqdefault.jpg",
-          "viewCount": 1335,
+          "viewCount": 1352,
           "likeCount": 15,
           "commentCount": 0,
           "duration": 60,
           "durationRaw": "PT1M",
-          "views_to_subs_ratio": 0.1161
+          "isShorts": true,
+          "views_to_subs_ratio": 0.1176
         },
         {
           "videoId": "kWShyKZgxnI",
           "title": "해운대 마린시티 아파트, 얼마면 살 수 있을까? 💸 (제니스 vs 아이파크)",
           "publishedAt": "2026-04-04T04:42:11Z",
           "thumbnail": "https://i.ytimg.com/vi/kWShyKZgxnI/mqdefault.jpg",
-          "viewCount": 2629,
+          "viewCount": 2638,
           "likeCount": 27,
           "commentCount": 2,
           "duration": 267,
           "durationRaw": "PT4M27S",
-          "views_to_subs_ratio": 0.2286
+          "isShorts": false,
+          "views_to_subs_ratio": 0.2294
         },
         {
           "videoId": "Ca7E15hEOa8",
           "title": "부산 5~6억대, 이제 '마피' 끝났습니다! 🚨: 요즘 실수요자분들이 가장 많이 찾는 5~6억대 알짜 아파트 TOP 3 핵심만 정리해 드립니다!",
           "publishedAt": "2026-04-04T04:18:47Z",
           "thumbnail": "https://i.ytimg.com/vi/Ca7E15hEOa8/mqdefault.jpg",
-          "viewCount": 4678,
-          "likeCount": 29,
+          "viewCount": 4731,
+          "likeCount": 30,
           "commentCount": 2,
           "duration": 40,
           "durationRaw": "PT40S",
-          "views_to_subs_ratio": 0.4068
+          "isShorts": true,
+          "views_to_subs_ratio": 0.4114
         },
         {
           "videoId": "xwUZiCOOocQ",
           "title": "\"딱 6억까지! 무피 매물 다 팔리기 전에 무조건 잡아야 할 부산 단지 3곳\"",
           "publishedAt": "2026-04-04T03:51:30Z",
           "thumbnail": "https://i.ytimg.com/vi/xwUZiCOOocQ/mqdefault.jpg",
-          "viewCount": 2218,
+          "viewCount": 2222,
           "likeCount": 31,
           "commentCount": 4,
           "duration": 451,
           "durationRaw": "PT7M31S",
-          "views_to_subs_ratio": 0.1929
+          "isShorts": false,
+          "views_to_subs_ratio": 0.1932
         },
         {
           "videoId": "qtEXe846r8w",
           "title": "(live) 이재명 정부 부동산 정책 대비 집 사도 될까요? 팔아야할까요?",
           "publishedAt": "2026-03-31T23:19:54Z",
           "thumbnail": "https://i.ytimg.com/vi/qtEXe846r8w/mqdefault.jpg",
-          "viewCount": 613,
+          "viewCount": 614,
           "likeCount": 17,
           "commentCount": 0,
           "duration": 4864,
           "durationRaw": "PT1H21M4S",
-          "views_to_subs_ratio": 0.0533
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0534
         },
         {
           "videoId": "uZTbAAyXfpU",
@@ -2737,6 +2957,7 @@
           "commentCount": 0,
           "duration": 0,
           "durationRaw": "P0D",
+          "isShorts": true,
           "views_to_subs_ratio": 0.0
         },
         {
@@ -2749,6 +2970,7 @@
           "commentCount": 1,
           "duration": 27,
           "durationRaw": "PT27S",
+          "isShorts": true,
           "views_to_subs_ratio": 0.2542
         },
         {
@@ -2756,12 +2978,13 @@
           "title": "🌊포레나 부산대연 59타입 사전점검! 고층 바다뷰부터 내부 구조까지 싹 다 보여드립니다👀",
           "publishedAt": "2026-03-23T04:27:01Z",
           "thumbnail": "https://i.ytimg.com/vi/2frFMYWdP9I/mqdefault.jpg",
-          "viewCount": 3800,
+          "viewCount": 3801,
           "likeCount": 32,
           "commentCount": 3,
           "duration": 420,
           "durationRaw": "PT7M",
-          "views_to_subs_ratio": 0.3304
+          "isShorts": false,
+          "views_to_subs_ratio": 0.3305
         },
         {
           "videoId": "6qMdg8XbSqM",
@@ -2773,6 +2996,7 @@
           "commentCount": 6,
           "duration": 1097,
           "durationRaw": "PT18M17S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.2878
         },
         {
@@ -2780,48 +3004,52 @@
           "title": "🚨당장 내일(15일) 열리는 역대급 특강! 🚨 대한민국 최고 부동산 전문가 '빠숑'님의 부동산강의, 부산에서 진행됩니다.",
           "publishedAt": "2026-03-14T08:26:25Z",
           "thumbnail": "https://i.ytimg.com/vi/7R9hS48hRqQ/mqdefault.jpg",
-          "viewCount": 2346,
+          "viewCount": 2347,
           "likeCount": 10,
           "commentCount": 0,
           "duration": 52,
           "durationRaw": "PT52S",
-          "views_to_subs_ratio": 0.204
+          "isShorts": true,
+          "views_to_subs_ratio": 0.2041
         },
         {
           "videoId": "q-BXFjfR5w4",
           "title": "🚨당장 내일(15일) 열리는 역대급 특강! 🚨 대한민국 최고 부동산 전문가 '빠숑'님의 부동산강의, 부산에서 진행됩니다.",
           "publishedAt": "2026-03-14T07:48:11Z",
           "thumbnail": "https://i.ytimg.com/vi/q-BXFjfR5w4/mqdefault.jpg",
-          "viewCount": 2565,
+          "viewCount": 2566,
           "likeCount": 14,
           "commentCount": 0,
           "duration": 61,
           "durationRaw": "PT1M1S",
-          "views_to_subs_ratio": 0.223
+          "isShorts": false,
+          "views_to_subs_ratio": 0.2231
         },
         {
           "videoId": "ZhKlOHFwn40",
           "title": "해운대 핵심 입지에 들어설 다음 분양 소식! 현장에 직접 다녀왔습니다. 🏃‍♀️🏃‍♂️",
           "publishedAt": "2026-03-13T14:42:24Z",
           "thumbnail": "https://i.ytimg.com/vi/ZhKlOHFwn40/mqdefault.jpg",
-          "viewCount": 4379,
+          "viewCount": 4380,
           "likeCount": 23,
           "commentCount": 3,
           "duration": 27,
           "durationRaw": "PT27S",
-          "views_to_subs_ratio": 0.3808
+          "isShorts": true,
+          "views_to_subs_ratio": 0.3809
         },
         {
           "videoId": "tI5EZvSaAXc",
           "title": "해운대 백사장을 밝히는 이 화려한 건물의 정체는?! ✨",
           "publishedAt": "2026-03-13T00:11:15Z",
           "thumbnail": "https://i.ytimg.com/vi/tI5EZvSaAXc/mqdefault.jpg",
-          "viewCount": 4002,
+          "viewCount": 4004,
           "likeCount": 15,
           "commentCount": 0,
           "duration": 22,
           "durationRaw": "PT22S",
-          "views_to_subs_ratio": 0.348
+          "isShorts": true,
+          "views_to_subs_ratio": 0.3482
         },
         {
           "videoId": "uYlgmEe655I",
@@ -2833,6 +3061,7 @@
           "commentCount": 1,
           "duration": 50,
           "durationRaw": "PT50S",
+          "isShorts": true,
           "views_to_subs_ratio": 0.2893
         },
         {
@@ -2840,12 +3069,13 @@
           "title": "서면 써밋 '돈되는' 추천 매물 (3월12일)",
           "publishedAt": "2026-03-11T23:55:41Z",
           "thumbnail": "https://i.ytimg.com/vi/uTC1MriLygk/mqdefault.jpg",
-          "viewCount": 3286,
+          "viewCount": 3287,
           "likeCount": 23,
           "commentCount": 2,
           "duration": 43,
           "durationRaw": "PT43S",
-          "views_to_subs_ratio": 0.2857
+          "isShorts": true,
+          "views_to_subs_ratio": 0.2858
         },
         {
           "videoId": "ECCHN0Ve__U",
@@ -2857,6 +3087,7 @@
           "commentCount": 2,
           "duration": 33,
           "durationRaw": "PT33S",
+          "isShorts": true,
           "views_to_subs_ratio": 0.4775
         },
         {
@@ -2869,6 +3100,7 @@
           "commentCount": 0,
           "duration": 198,
           "durationRaw": "PT3M18S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.1168
         },
         {
@@ -2876,24 +3108,26 @@
           "title": "🚨 센텀르엘 미분양 현황 팩트체크! 투자할까? 말까?",
           "publishedAt": "2026-03-10T04:36:23Z",
           "thumbnail": "https://i.ytimg.com/vi/MYQDjOJMpwg/mqdefault.jpg",
-          "viewCount": 4272,
+          "viewCount": 4276,
           "likeCount": 18,
           "commentCount": 0,
           "duration": 59,
           "durationRaw": "PT59S",
-          "views_to_subs_ratio": 0.3715
+          "isShorts": true,
+          "views_to_subs_ratio": 0.3718
         },
         {
           "videoId": "z2qkrTuxTwk",
           "title": "🚨초반 완판 신화! 센텀 르엘 104C타입 로얄동·로얄층 추천 매물🚨",
           "publishedAt": "2026-03-09T10:01:03Z",
           "thumbnail": "https://i.ytimg.com/vi/z2qkrTuxTwk/mqdefault.jpg",
-          "viewCount": 2538,
+          "viewCount": 2539,
           "likeCount": 12,
           "commentCount": 0,
           "duration": 51,
           "durationRaw": "PT51S",
-          "views_to_subs_ratio": 0.2207
+          "isShorts": true,
+          "views_to_subs_ratio": 0.2208
         },
         {
           "videoId": "RDJZQlX_eEQ",
@@ -2905,6 +3139,7 @@
           "commentCount": 6,
           "duration": 208,
           "durationRaw": "PT3M28S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0796
         },
         {
@@ -2917,6 +3152,7 @@
           "commentCount": 0,
           "duration": 26,
           "durationRaw": "PT26S",
+          "isShorts": true,
           "views_to_subs_ratio": 0.3363
         },
         {
@@ -2929,6 +3165,7 @@
           "commentCount": 1,
           "duration": 49,
           "durationRaw": "PT49S",
+          "isShorts": true,
           "views_to_subs_ratio": 0.3023
         },
         {
@@ -2941,6 +3178,7 @@
           "commentCount": 3,
           "duration": 57,
           "durationRaw": "PT57S",
+          "isShorts": true,
           "views_to_subs_ratio": 0.2004
         },
         {
@@ -2953,6 +3191,7 @@
           "commentCount": 0,
           "duration": 50,
           "durationRaw": "PT50S",
+          "isShorts": true,
           "views_to_subs_ratio": 0.199
         },
         {
@@ -2960,12 +3199,13 @@
           "title": "📸 남천써밋 압도적 드론샷 공개📸",
           "publishedAt": "2026-03-03T02:03:31Z",
           "thumbnail": "https://i.ytimg.com/vi/A1xN2tUYCsg/mqdefault.jpg",
-          "viewCount": 1986,
+          "viewCount": 1987,
           "likeCount": 25,
           "commentCount": 5,
           "duration": 382,
           "durationRaw": "PT6M22S",
-          "views_to_subs_ratio": 0.1727
+          "isShorts": false,
+          "views_to_subs_ratio": 0.1728
         }
       ]
     },
@@ -2988,6 +3228,7 @@
           "commentCount": 0,
           "duration": 0,
           "durationRaw": "P0D",
+          "isShorts": true,
           "views_to_subs_ratio": 0.0
         },
         {
@@ -2995,12 +3236,13 @@
           "title": "\"분양가 7억 후반 실화?\" 한화포레나 부산당리 청약 전 반드시 봐야 하는 영상 (vs 힐스테이트 사하역)",
           "publishedAt": "2026-03-29T21:00:00Z",
           "thumbnail": "https://i.ytimg.com/vi/TeVhZ_5isbw/mqdefault.jpg",
-          "viewCount": 3055,
+          "viewCount": 3068,
           "likeCount": 71,
           "commentCount": 11,
           "duration": 856,
           "durationRaw": "PT14M16S",
-          "views_to_subs_ratio": 0.0371
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0373
         },
         {
           "videoId": "B3p8_M8DDjU",
@@ -3012,6 +3254,7 @@
           "commentCount": 1,
           "duration": 5013,
           "durationRaw": "PT1H23M33S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0323
         },
         {
@@ -3024,6 +3267,7 @@
           "commentCount": 9,
           "duration": 463,
           "durationRaw": "PT7M43S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0308
         },
         {
@@ -3031,12 +3275,13 @@
           "title": "부산 아파트 지금 사도 될까? 2026년~2027년 입주물량 및 현장 심리 리얼 체크",
           "publishedAt": "2026-03-10T21:00:00Z",
           "thumbnail": "https://i.ytimg.com/vi/7Z9yi3AyCMs/mqdefault.jpg",
-          "viewCount": 5647,
+          "viewCount": 5652,
           "likeCount": 123,
           "commentCount": 7,
           "duration": 658,
           "durationRaw": "PT10M58S",
-          "views_to_subs_ratio": 0.0686
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0687
         },
         {
           "videoId": "BwP94TpP-W0",
@@ -3048,6 +3293,7 @@
           "commentCount": 20,
           "duration": 634,
           "durationRaw": "PT10M34S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0589
         },
         {
@@ -3060,6 +3306,7 @@
           "commentCount": 9,
           "duration": 574,
           "durationRaw": "PT9M34S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0634
         },
         {
@@ -3067,11 +3314,12 @@
           "title": "생숙 규제 풀렸다! 이제 합법적 에어비앤비 가능합니다",
           "publishedAt": "2026-01-13T21:00:24Z",
           "thumbnail": "https://i.ytimg.com/vi/DMCBVaKXUzc/mqdefault.jpg",
-          "viewCount": 3061,
+          "viewCount": 3063,
           "likeCount": 43,
           "commentCount": 8,
           "duration": 360,
           "durationRaw": "PT6M",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0372
         },
         {
@@ -3079,11 +3327,12 @@
           "title": "초중고를 품은 아파트 분양 동래푸르지오에듀포레",
           "publishedAt": "2025-12-21T21:00:24Z",
           "thumbnail": "https://i.ytimg.com/vi/Rz-izGmkPqI/mqdefault.jpg",
-          "viewCount": 4321,
+          "viewCount": 4322,
           "likeCount": 55,
           "commentCount": 30,
           "duration": 552,
           "durationRaw": "PT9M12S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0525
         },
         {
@@ -3091,11 +3340,12 @@
           "title": "울산 야음동의 새로운 분양 힐스테이트 선암호수공원",
           "publishedAt": "2025-12-18T21:00:00Z",
           "thumbnail": "https://i.ytimg.com/vi/2-US6K-aHcw/mqdefault.jpg",
-          "viewCount": 13324,
+          "viewCount": 13325,
           "likeCount": 27,
           "commentCount": 0,
           "duration": 374,
           "durationRaw": "PT6M14S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.1619
         },
         {
@@ -3108,6 +3358,7 @@
           "commentCount": 6,
           "duration": 893,
           "durationRaw": "PT14M53S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0475
         },
         {
@@ -3115,11 +3366,12 @@
           "title": "부동산 시세 상승장과 하락장에 봐야할 통계는 다르다",
           "publishedAt": "2025-11-30T21:00:35Z",
           "thumbnail": "https://i.ytimg.com/vi/VZv2reulfGg/mqdefault.jpg",
-          "viewCount": 899,
+          "viewCount": 900,
           "likeCount": 25,
           "commentCount": 0,
           "duration": 258,
           "durationRaw": "PT4M18S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0109
         },
         {
@@ -3127,11 +3379,12 @@
           "title": "실거래가를 보면 부산은 확실히 턴어라운드 했죠",
           "publishedAt": "2025-11-18T21:00:47Z",
           "thumbnail": "https://i.ytimg.com/vi/f0JWit53coo/mqdefault.jpg",
-          "viewCount": 4371,
+          "viewCount": 4372,
           "likeCount": 106,
           "commentCount": 14,
           "duration": 639,
           "durationRaw": "PT10M39S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0531
         },
         {
@@ -3144,6 +3397,7 @@
           "commentCount": 6,
           "duration": 47,
           "durationRaw": "PT47S",
+          "isShorts": true,
           "views_to_subs_ratio": 0.0938
         },
         {
@@ -3151,11 +3405,12 @@
           "title": "베뉴브 완판을 보면서 부산이 확실이 분위기가 좋구나 생각합니다",
           "publishedAt": "2025-11-05T21:00:55Z",
           "thumbnail": "https://i.ytimg.com/vi/eN9OhtoPguI/mqdefault.jpg",
-          "viewCount": 4214,
+          "viewCount": 4215,
           "likeCount": 112,
           "commentCount": 11,
           "duration": 836,
           "durationRaw": "PT13M56S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0512
         },
         {
@@ -3168,6 +3423,7 @@
           "commentCount": 11,
           "duration": 500,
           "durationRaw": "PT8M20S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.053
         },
         {
@@ -3180,6 +3436,7 @@
           "commentCount": 6,
           "duration": 32,
           "durationRaw": "PT32S",
+          "isShorts": true,
           "views_to_subs_ratio": 0.0444
         },
         {
@@ -3192,6 +3449,7 @@
           "commentCount": 5,
           "duration": 1089,
           "durationRaw": "PT18M9S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0538
         },
         {
@@ -3204,6 +3462,7 @@
           "commentCount": 12,
           "duration": 553,
           "durationRaw": "PT9M13S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0635
         },
         {
@@ -3216,6 +3475,7 @@
           "commentCount": 8,
           "duration": 679,
           "durationRaw": "PT11M19S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0494
         },
         {
@@ -3228,6 +3488,7 @@
           "commentCount": 19,
           "duration": 416,
           "durationRaw": "PT6M56S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.1043
         },
         {
@@ -3240,6 +3501,7 @@
           "commentCount": 34,
           "duration": 1148,
           "durationRaw": "PT19M8S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0907
         },
         {
@@ -3252,6 +3514,7 @@
           "commentCount": 15,
           "duration": 1073,
           "durationRaw": "PT17M53S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0444
         },
         {
@@ -3264,6 +3527,7 @@
           "commentCount": 6,
           "duration": 302,
           "durationRaw": "PT5M2S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0578
         },
         {
@@ -3276,6 +3540,7 @@
           "commentCount": 6,
           "duration": 729,
           "durationRaw": "PT12M9S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.1159
         },
         {
@@ -3288,6 +3553,7 @@
           "commentCount": 37,
           "duration": 1123,
           "durationRaw": "PT18M43S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.1595
         },
         {
@@ -3300,6 +3566,7 @@
           "commentCount": 4,
           "duration": 252,
           "durationRaw": "PT4M12S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0075
         },
         {
@@ -3312,6 +3579,7 @@
           "commentCount": 2,
           "duration": 135,
           "durationRaw": "PT2M15S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0294
         },
         {
@@ -3324,6 +3592,7 @@
           "commentCount": 7,
           "duration": 886,
           "durationRaw": "PT14M46S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0521
         },
         {
@@ -3336,6 +3605,7 @@
           "commentCount": 14,
           "duration": 609,
           "durationRaw": "PT10M9S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0316
         }
       ]
@@ -3369,6 +3639,7 @@
           "commentCount": 3,
           "duration": 1379,
           "durationRaw": "PT22M59S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.1703
         },
         {
@@ -3381,6 +3652,7 @@
           "commentCount": 10,
           "duration": 1353,
           "durationRaw": "PT22M33S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.2094
         },
         {
@@ -3393,6 +3665,7 @@
           "commentCount": 40,
           "duration": 1600,
           "durationRaw": "PT26M40S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.3688
         },
         {
@@ -3405,6 +3678,7 @@
           "commentCount": 10,
           "duration": 1275,
           "durationRaw": "PT21M15S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.288
         },
         {
@@ -3417,6 +3691,7 @@
           "commentCount": 10,
           "duration": 1688,
           "durationRaw": "PT28M8S",
+          "isShorts": false,
           "views_to_subs_ratio": 1.0444
         },
         {
@@ -3429,6 +3704,7 @@
           "commentCount": 8,
           "duration": 910,
           "durationRaw": "PT15M10S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.2079
         },
         {
@@ -3441,6 +3717,7 @@
           "commentCount": 6,
           "duration": 859,
           "durationRaw": "PT14M19S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.1842
         },
         {
@@ -3453,6 +3730,7 @@
           "commentCount": 10,
           "duration": 1636,
           "durationRaw": "PT27M16S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.8132
         },
         {
@@ -3465,6 +3743,7 @@
           "commentCount": 18,
           "duration": 1740,
           "durationRaw": "PT29M",
+          "isShorts": false,
           "views_to_subs_ratio": 4.4361
         },
         {
@@ -3477,6 +3756,7 @@
           "commentCount": 1,
           "duration": 1478,
           "durationRaw": "PT24M38S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.2038
         },
         {
@@ -3489,6 +3769,7 @@
           "commentCount": 3,
           "duration": 1742,
           "durationRaw": "PT29M2S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.1868
         },
         {
@@ -3501,6 +3782,7 @@
           "commentCount": 17,
           "duration": 1105,
           "durationRaw": "PT18M25S",
+          "isShorts": false,
           "views_to_subs_ratio": 4.409
         },
         {
@@ -3513,6 +3795,7 @@
           "commentCount": 14,
           "duration": 1383,
           "durationRaw": "PT23M3S",
+          "isShorts": false,
           "views_to_subs_ratio": 2.9602
         },
         {
@@ -3525,6 +3808,7 @@
           "commentCount": 16,
           "duration": 1249,
           "durationRaw": "PT20M49S",
+          "isShorts": false,
           "views_to_subs_ratio": 4.4812
         },
         {
@@ -3537,6 +3821,7 @@
           "commentCount": 11,
           "duration": 1015,
           "durationRaw": "PT16M55S",
+          "isShorts": false,
           "views_to_subs_ratio": 2.3688
         },
         {
@@ -3549,6 +3834,7 @@
           "commentCount": 16,
           "duration": 1371,
           "durationRaw": "PT22M51S",
+          "isShorts": false,
           "views_to_subs_ratio": 7.0004
         },
         {
@@ -3561,6 +3847,7 @@
           "commentCount": 19,
           "duration": 3325,
           "durationRaw": "PT55M25S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.3568
         },
         {
@@ -3573,6 +3860,7 @@
           "commentCount": 10,
           "duration": 1103,
           "durationRaw": "PT18M23S",
+          "isShorts": false,
           "views_to_subs_ratio": 1.1737
         },
         {
@@ -3585,6 +3873,7 @@
           "commentCount": 13,
           "duration": 1019,
           "durationRaw": "PT16M59S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.8335
         },
         {
@@ -3597,6 +3886,7 @@
           "commentCount": 4,
           "duration": 1340,
           "durationRaw": "PT22M20S",
+          "isShorts": false,
           "views_to_subs_ratio": 1.5703
         },
         {
@@ -3609,6 +3899,7 @@
           "commentCount": 5,
           "duration": 1442,
           "durationRaw": "PT24M2S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.2782
         },
         {
@@ -3621,6 +3912,7 @@
           "commentCount": 30,
           "duration": 1011,
           "durationRaw": "PT16M51S",
+          "isShorts": false,
           "views_to_subs_ratio": 8.5665
         },
         {
@@ -3633,6 +3925,7 @@
           "commentCount": 63,
           "duration": 944,
           "durationRaw": "PT15M44S",
+          "isShorts": false,
           "views_to_subs_ratio": 17.6895
         },
         {
@@ -3645,6 +3938,7 @@
           "commentCount": 5,
           "duration": 560,
           "durationRaw": "PT9M20S",
+          "isShorts": false,
           "views_to_subs_ratio": 2.4481
         },
         {
@@ -3657,6 +3951,7 @@
           "commentCount": 8,
           "duration": 933,
           "durationRaw": "PT15M33S",
+          "isShorts": false,
           "views_to_subs_ratio": 3.1256
         },
         {
@@ -3669,6 +3964,7 @@
           "commentCount": 14,
           "duration": 192,
           "durationRaw": "PT3M12S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.1244
         },
         {
@@ -3681,6 +3977,7 @@
           "commentCount": 36,
           "duration": 1062,
           "durationRaw": "PT17M42S",
+          "isShorts": false,
           "views_to_subs_ratio": 3.5289
         },
         {
@@ -3693,6 +3990,7 @@
           "commentCount": 17,
           "duration": 953,
           "durationRaw": "PT15M53S",
+          "isShorts": false,
           "views_to_subs_ratio": 1.8944
         },
         {
@@ -3705,6 +4003,7 @@
           "commentCount": 29,
           "duration": 688,
           "durationRaw": "PT11M28S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.1508
         },
         {
@@ -3717,6 +4016,7 @@
           "commentCount": 54,
           "duration": 1483,
           "durationRaw": "PT24M43S",
+          "isShorts": false,
           "views_to_subs_ratio": 3.212
         }
       ]
@@ -3727,32 +4027,47 @@
       "handle": "@budongsan_house",
       "subscribers": 461000,
       "totalViews": 224975332,
-      "videoCount": 5116,
+      "videoCount": 5117,
       "thumbnail": "https://yt3.ggpht.com/RTI07FaXNrzAARPcuZcoxxaeCmuxi3w0IQwNjQhaFIs31FOmfgVBkKf0iM-DsFZ2bmyzEBWTVg=s88-c-k-c0x00ffffff-no-rj",
       "videos": [
+        {
+          "videoId": "ebBlsMvElog",
+          "title": "새마을금고 - 비상걸렸다",
+          "publishedAt": "2026-04-08T01:00:38Z",
+          "thumbnail": "https://i.ytimg.com/vi/ebBlsMvElog/mqdefault.jpg",
+          "viewCount": 1375,
+          "likeCount": 213,
+          "commentCount": 6,
+          "duration": 660,
+          "durationRaw": "PT11M",
+          "isShorts": false,
+          "views_to_subs_ratio": 0.003
+        },
         {
           "videoId": "JdWHJTR6gcg",
           "title": "국민의힘 특단발표 - 역대급 전세대책",
           "publishedAt": "2026-04-07T11:00:25Z",
           "thumbnail": "https://i.ytimg.com/vi/JdWHJTR6gcg/mqdefault.jpg",
-          "viewCount": 4676,
-          "likeCount": 353,
-          "commentCount": 31,
+          "viewCount": 5887,
+          "likeCount": 415,
+          "commentCount": 38,
           "duration": 681,
           "durationRaw": "PT11M21S",
-          "views_to_subs_ratio": 0.0101
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0128
         },
         {
           "videoId": "Y9osb17KWCs",
           "title": "전세놓은 집주인들 - 패닉셀링 터집니다",
           "publishedAt": "2026-04-07T01:00:25Z",
           "thumbnail": "https://i.ytimg.com/vi/Y9osb17KWCs/mqdefault.jpg",
-          "viewCount": 9748,
-          "likeCount": 585,
-          "commentCount": 16,
+          "viewCount": 10280,
+          "likeCount": 603,
+          "commentCount": 18,
           "duration": 720,
           "durationRaw": "PT12M",
-          "views_to_subs_ratio": 0.0211
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0223
         },
         {
           "videoId": "RCJ5-Do61L0",
@@ -3764,6 +4079,7 @@
           "commentCount": 0,
           "duration": 0,
           "durationRaw": "P0D",
+          "isShorts": true,
           "views_to_subs_ratio": 0.0
         },
         {
@@ -3771,35 +4087,38 @@
           "title": "집값 절대 안 떨어집니다!",
           "publishedAt": "2026-04-06T11:01:16Z",
           "thumbnail": "https://i.ytimg.com/vi/jHjGsGlgGWk/mqdefault.jpg",
-          "viewCount": 9647,
-          "likeCount": 562,
-          "commentCount": 26,
+          "viewCount": 9841,
+          "likeCount": 569,
+          "commentCount": 27,
           "duration": 588,
           "durationRaw": "PT9M48S",
-          "views_to_subs_ratio": 0.0209
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0213
         },
         {
           "videoId": "UbhGMh8OK7Q",
           "title": "IMF 이후 최초 - 역대급 경제위기",
           "publishedAt": "2026-04-06T01:00:21Z",
           "thumbnail": "https://i.ytimg.com/vi/UbhGMh8OK7Q/mqdefault.jpg",
-          "viewCount": 7716,
+          "viewCount": 7765,
           "likeCount": 528,
           "commentCount": 27,
           "duration": 678,
           "durationRaw": "PT11M18S",
-          "views_to_subs_ratio": 0.0167
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0168
         },
         {
           "videoId": "__i5x06WlHs",
           "title": "4200조 폭탄 터진다 - 역대급 부동산 붕괴",
           "publishedAt": "2026-04-05T11:01:00Z",
           "thumbnail": "https://i.ytimg.com/vi/__i5x06WlHs/mqdefault.jpg",
-          "viewCount": 11671,
-          "likeCount": 758,
+          "viewCount": 11681,
+          "likeCount": 760,
           "commentCount": 20,
           "duration": 655,
           "durationRaw": "PT10M55S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0253
         },
         {
@@ -3807,35 +4126,38 @@
           "title": "은행 적금 - 야단났다!",
           "publishedAt": "2026-04-04T07:00:00Z",
           "thumbnail": "https://i.ytimg.com/vi/aOO2klEVVxI/mqdefault.jpg",
-          "viewCount": 14588,
-          "likeCount": 737,
+          "viewCount": 14681,
+          "likeCount": 739,
           "commentCount": 17,
           "duration": 633,
           "durationRaw": "PT10M33S",
-          "views_to_subs_ratio": 0.0316
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0318
         },
         {
           "videoId": "wPIZbUP0iJA",
           "title": "5월부터 전세 폭락할 겁니다!",
           "publishedAt": "2026-04-03T01:00:49Z",
           "thumbnail": "https://i.ytimg.com/vi/wPIZbUP0iJA/mqdefault.jpg",
-          "viewCount": 13341,
+          "viewCount": 13411,
           "likeCount": 789,
-          "commentCount": 68,
+          "commentCount": 69,
           "duration": 780,
           "durationRaw": "PT13M",
-          "views_to_subs_ratio": 0.0289
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0291
         },
         {
           "videoId": "1gZeyG2rsxk",
           "title": "벼락거지 속출 - 영끌족 망했다",
           "publishedAt": "2026-04-02T11:00:02Z",
           "thumbnail": "https://i.ytimg.com/vi/1gZeyG2rsxk/mqdefault.jpg",
-          "viewCount": 9713,
+          "viewCount": 9720,
           "likeCount": 638,
           "commentCount": 34,
           "duration": 583,
           "durationRaw": "PT9M43S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0211
         },
         {
@@ -3843,23 +4165,25 @@
           "title": "4.1 부동산대책 - 진짜 큰일났네요",
           "publishedAt": "2026-04-02T01:00:12Z",
           "thumbnail": "https://i.ytimg.com/vi/GefrS2prHQU/mqdefault.jpg",
-          "viewCount": 13898,
+          "viewCount": 13909,
           "likeCount": 668,
           "commentCount": 38,
           "duration": 625,
           "durationRaw": "PT10M25S",
-          "views_to_subs_ratio": 0.0301
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0302
         },
         {
           "videoId": "2lJjdC8z8qk",
           "title": "4.1 부동산 대책 - 역대급 붕괴온다",
           "publishedAt": "2026-04-01T08:57:25Z",
           "thumbnail": "https://i.ytimg.com/vi/2lJjdC8z8qk/mqdefault.jpg",
-          "viewCount": 11150,
+          "viewCount": 11152,
           "likeCount": 644,
           "commentCount": 28,
           "duration": 2498,
           "durationRaw": "PT41M38S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0242
         },
         {
@@ -3867,11 +4191,12 @@
           "title": "주담대 금리 7% 돌파 - 2022년 이상 폭락온다",
           "publishedAt": "2026-04-01T01:00:09Z",
           "thumbnail": "https://i.ytimg.com/vi/6cJVhDklhwM/mqdefault.jpg",
-          "viewCount": 8213,
+          "viewCount": 8218,
           "likeCount": 518,
           "commentCount": 21,
           "duration": 615,
           "durationRaw": "PT10M15S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0178
         },
         {
@@ -3884,6 +4209,7 @@
           "commentCount": 14,
           "duration": 598,
           "durationRaw": "PT9M58S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0116
         },
         {
@@ -3891,11 +4217,12 @@
           "title": "대출회수 시작 - 집값 작살난다",
           "publishedAt": "2026-03-31T01:00:08Z",
           "thumbnail": "https://i.ytimg.com/vi/FiLowsBd7QA/mqdefault.jpg",
-          "viewCount": 11733,
+          "viewCount": 11736,
           "likeCount": 672,
           "commentCount": 47,
           "duration": 631,
           "durationRaw": "PT10M31S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0255
         },
         {
@@ -3903,11 +4230,12 @@
           "title": "올해 최소 금리 2번은 올라간다",
           "publishedAt": "2026-03-30T11:00:47Z",
           "thumbnail": "https://i.ytimg.com/vi/oE0vf0oQiR8/mqdefault.jpg",
-          "viewCount": 5106,
-          "likeCount": 392,
+          "viewCount": 5107,
+          "likeCount": 393,
           "commentCount": 23,
           "duration": 606,
           "durationRaw": "PT10M6S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0111
         },
         {
@@ -3915,11 +4243,12 @@
           "title": "집값 대폭락 - 징조 떴네요!",
           "publishedAt": "2026-03-30T01:00:25Z",
           "thumbnail": "https://i.ytimg.com/vi/Npct42zI6EM/mqdefault.jpg",
-          "viewCount": 8851,
+          "viewCount": 8853,
           "likeCount": 624,
           "commentCount": 18,
           "duration": 634,
           "durationRaw": "PT10M34S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0192
         },
         {
@@ -3927,11 +4256,12 @@
           "title": "은행 대출 - 망했네요",
           "publishedAt": "2026-03-29T11:00:19Z",
           "thumbnail": "https://i.ytimg.com/vi/MPiDdyIvgr4/mqdefault.jpg",
-          "viewCount": 11229,
+          "viewCount": 11230,
           "likeCount": 630,
           "commentCount": 16,
           "duration": 586,
           "durationRaw": "PT9M46S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0244
         },
         {
@@ -3944,6 +4274,7 @@
           "commentCount": 29,
           "duration": 630,
           "durationRaw": "PT10M30S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0236
         },
         {
@@ -3951,11 +4282,12 @@
           "title": "은행 난리났다 - 결국 터졌네요",
           "publishedAt": "2026-03-27T01:01:00Z",
           "thumbnail": "https://i.ytimg.com/vi/zftudKuAWss/mqdefault.jpg",
-          "viewCount": 10347,
+          "viewCount": 10348,
           "likeCount": 706,
           "commentCount": 24,
           "duration": 691,
           "durationRaw": "PT11M31S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0224
         },
         {
@@ -3963,11 +4295,12 @@
           "title": "무주택자들 - 비상걸렸다",
           "publishedAt": "2026-03-26T11:01:10Z",
           "thumbnail": "https://i.ytimg.com/vi/kYqFcmaPD-A/mqdefault.jpg",
-          "viewCount": 16271,
-          "likeCount": 828,
+          "viewCount": 16274,
+          "likeCount": 829,
           "commentCount": 42,
           "duration": 594,
           "durationRaw": "PT9M54S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0353
         },
         {
@@ -3980,6 +4313,7 @@
           "commentCount": 15,
           "duration": 613,
           "durationRaw": "PT10M13S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0137
         },
         {
@@ -3992,6 +4326,7 @@
           "commentCount": 16,
           "duration": 668,
           "durationRaw": "PT11M8S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0118
         },
         {
@@ -4004,6 +4339,7 @@
           "commentCount": 56,
           "duration": 701,
           "durationRaw": "PT11M41S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0215
         },
         {
@@ -4016,6 +4352,7 @@
           "commentCount": 32,
           "duration": 849,
           "durationRaw": "PT14M9S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0235
         },
         {
@@ -4028,6 +4365,7 @@
           "commentCount": 32,
           "duration": 766,
           "durationRaw": "PT12M46S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0187
         },
         {
@@ -4040,6 +4378,7 @@
           "commentCount": 10,
           "duration": 591,
           "durationRaw": "PT9M51S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0105
         },
         {
@@ -4047,11 +4386,12 @@
           "title": "금통위 충격발언 - 부채폭탄 터진다",
           "publishedAt": "2026-03-23T01:00:15Z",
           "thumbnail": "https://i.ytimg.com/vi/CC-8Ww-w1-k/mqdefault.jpg",
-          "viewCount": 8170,
+          "viewCount": 8171,
           "likeCount": 577,
           "commentCount": 29,
           "duration": 743,
           "durationRaw": "PT12M23S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0177
         },
         {
@@ -4060,10 +4400,11 @@
           "publishedAt": "2026-03-22T11:01:09Z",
           "thumbnail": "https://i.ytimg.com/vi/j5UmINCxQLQ/mqdefault.jpg",
           "viewCount": 7312,
-          "likeCount": 490,
+          "likeCount": 491,
           "commentCount": 16,
           "duration": 708,
           "durationRaw": "PT11M48S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0159
         },
         {
@@ -4076,19 +4417,8 @@
           "commentCount": 44,
           "duration": 728,
           "durationRaw": "PT12M8S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0252
-        },
-        {
-          "videoId": "cKqey2pAH_4",
-          "title": "무주택자 초대박 - 쏟아지는 희소식",
-          "publishedAt": "2026-03-20T01:00:42Z",
-          "thumbnail": "https://i.ytimg.com/vi/cKqey2pAH_4/mqdefault.jpg",
-          "viewCount": 15350,
-          "likeCount": 803,
-          "commentCount": 54,
-          "duration": 717,
-          "durationRaw": "PT11M57S",
-          "views_to_subs_ratio": 0.0333
         }
       ]
     },
@@ -4106,47 +4436,51 @@
           "title": "\"꼭 순서를 지켜주세요\" 5분 초간단 세탁기 청소 관리 방법 (조피디x이동신 대표 1부)",
           "publishedAt": "2026-04-07T10:15:00Z",
           "thumbnail": "https://i.ytimg.com/vi/jBgUFxMBylY/mqdefault.jpg",
-          "viewCount": 3669,
-          "likeCount": 60,
+          "viewCount": 4131,
+          "likeCount": 65,
           "commentCount": 2,
           "duration": 1108,
           "durationRaw": "PT18M28S",
-          "views_to_subs_ratio": 0.015
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0169
         },
         {
           "videoId": "jXKgCXKZYW8",
           "title": "한달치 고기 반찬 5만원으로 배터지게 먹는 방법! 고기 이렇게 고르세요! (찬밥식당 3부)",
           "publishedAt": "2026-04-05T01:00:00Z",
           "thumbnail": "https://i.ytimg.com/vi/jXKgCXKZYW8/mqdefault.jpg",
-          "viewCount": 4553,
+          "viewCount": 4709,
           "likeCount": 44,
           "commentCount": 3,
           "duration": 485,
           "durationRaw": "PT8M5S",
-          "views_to_subs_ratio": 0.0186
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0192
         },
         {
           "videoId": "yfHnlflD5-E",
           "title": "\"10년동안 써보고 정착했어요\" 청소업체 대표가 고른 삶의 질 상승 청소꿀템 (이태욱 대표 3부)",
           "publishedAt": "2026-04-04T01:00:00Z",
           "thumbnail": "https://i.ytimg.com/vi/yfHnlflD5-E/mqdefault.jpg",
-          "viewCount": 18458,
-          "likeCount": 315,
+          "viewCount": 18942,
+          "likeCount": 321,
           "commentCount": 2,
           "duration": 656,
           "durationRaw": "PT10M56S",
-          "views_to_subs_ratio": 0.0753
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0773
         },
         {
           "videoId": "4puUeDFWNpo",
           "title": "배달 1번 값으로 한달이 편한 초간단 다이어트 밀프렙 반찬 걱정 끝! (임상진 셰프 4부)",
           "publishedAt": "2026-04-03T10:00:00Z",
           "thumbnail": "https://i.ytimg.com/vi/4puUeDFWNpo/mqdefault.jpg",
-          "viewCount": 2888,
+          "viewCount": 2899,
           "likeCount": 64,
           "commentCount": 3,
           "duration": 1091,
           "durationRaw": "PT18M11S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0118
         },
         {
@@ -4154,71 +4488,77 @@
           "title": "\"12kg 감량비결!\" 냉장고부터 싹 털어버리세요 (전미란 작가 1부)",
           "publishedAt": "2026-03-31T10:00:00Z",
           "thumbnail": "https://i.ytimg.com/vi/vrXJILjrG_s/mqdefault.jpg",
-          "viewCount": 33234,
-          "likeCount": 911,
-          "commentCount": 20,
+          "viewCount": 33522,
+          "likeCount": 916,
+          "commentCount": 17,
           "duration": 912,
           "durationRaw": "PT15M12S",
-          "views_to_subs_ratio": 0.1356
+          "isShorts": false,
+          "views_to_subs_ratio": 0.1368
         },
         {
           "videoId": "ATG3YjLh0vo",
           "title": "겨울 내내 입었던 패딩은 세탁소 맡기지 말고 집에서 '이렇게' 빨고 보관하세요 I 세탁예술가 EP. 10",
           "publishedAt": "2026-03-29T05:00:00Z",
           "thumbnail": "https://i.ytimg.com/vi/ATG3YjLh0vo/mqdefault.jpg",
-          "viewCount": 123262,
+          "viewCount": 123372,
           "likeCount": 1062,
           "commentCount": 60,
           "duration": 867,
           "durationRaw": "PT14M27S",
-          "views_to_subs_ratio": 0.5031
+          "isShorts": false,
+          "views_to_subs_ratio": 0.5036
         },
         {
           "videoId": "rB1dy8x9JLg",
           "title": "창틀 곰팡이 뿌리째 녹여버리는 가장 쉽고 빠른 방법 (이태욱 대표 2부)",
           "publishedAt": "2026-03-28T01:00:00Z",
           "thumbnail": "https://i.ytimg.com/vi/rB1dy8x9JLg/mqdefault.jpg",
-          "viewCount": 50134,
-          "likeCount": 734,
+          "viewCount": 50286,
+          "likeCount": 742,
           "commentCount": 15,
           "duration": 699,
           "durationRaw": "PT11M39S",
-          "views_to_subs_ratio": 0.2046
+          "isShorts": false,
+          "views_to_subs_ratio": 0.2052
         },
         {
           "videoId": "3Um5zclsmX8",
           "title": "평생 써먹는 식비절약 고기 밀프렙! 쉽고 간편한데 정말 맛있다! (찬밥식당 2부)",
           "publishedAt": "2026-03-26T10:00:00Z",
           "thumbnail": "https://i.ytimg.com/vi/3Um5zclsmX8/mqdefault.jpg",
-          "viewCount": 2629,
+          "viewCount": 2635,
           "likeCount": 67,
           "commentCount": 0,
           "duration": 525,
           "durationRaw": "PT8M45S",
-          "views_to_subs_ratio": 0.0107
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0108
         },
         {
           "videoId": "wDe0CPMgjZI",
           "title": "\"개인적으로 추천하는 건..\" 셰프가 말하는 다시다와 미원의 차이점 (임상진 셰프 3부)",
           "publishedAt": "2026-03-24T09:00:00Z",
           "thumbnail": "https://i.ytimg.com/vi/wDe0CPMgjZI/mqdefault.jpg",
-          "viewCount": 202316,
-          "likeCount": 3807,
-          "commentCount": 277,
+          "viewCount": 202833,
+          "likeCount": 3819,
+          "commentCount": 278,
           "duration": 830,
           "durationRaw": "PT13M50S",
-          "views_to_subs_ratio": 0.8258
+          "isShorts": false,
+          "views_to_subs_ratio": 0.8279
         },
         {
           "videoId": "TQrhD3R0Rx0",
           "title": "방향제 안 쓰는데 좋은 향기나는 집의 비결은 '이것'입니다  | 살림하는 집터뷰 EP.32",
           "publishedAt": "2026-03-22T01:00:00Z",
           "thumbnail": "https://i.ytimg.com/vi/TQrhD3R0Rx0/mqdefault.jpg",
-          "viewCount": 9386,
+          "viewCount": 9389,
           "likeCount": 142,
           "commentCount": 4,
           "duration": 951,
           "durationRaw": "PT15M51S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0383
         },
         {
@@ -4226,11 +4566,12 @@
           "title": "\"터질 것 같은 옷장 2배 넓게쓰세요\" 겨울옷 종류별로 접어서 보관하는 방법 (김희연 대표 4부)",
           "publishedAt": "2026-03-21T01:00:00Z",
           "thumbnail": "https://i.ytimg.com/vi/Z1KkgfvYitc/mqdefault.jpg",
-          "viewCount": 1639,
+          "viewCount": 1640,
           "likeCount": 23,
           "commentCount": 1,
           "duration": 624,
           "durationRaw": "PT10M24S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0067
         },
         {
@@ -4238,47 +4579,51 @@
           "title": "\"20년 묵은 곰팡이 싹다 빠집니다\" 욕실 타일 곰팡이, 줄눈 흔적없이 제거하는 청소 전문업체의 비결 (스위퍼 홈케어 대표 1부)",
           "publishedAt": "2026-03-20T10:00:00Z",
           "thumbnail": "https://i.ytimg.com/vi/VF3zapBDnsw/mqdefault.jpg",
-          "viewCount": 48957,
-          "likeCount": 714,
+          "viewCount": 49132,
+          "likeCount": 719,
           "commentCount": 28,
           "duration": 627,
           "durationRaw": "PT10M27S",
-          "views_to_subs_ratio": 0.1998
+          "isShorts": false,
+          "views_to_subs_ratio": 0.2005
         },
         {
           "videoId": "3MYHawPshUw",
           "title": "30년차 세탁 장인은 찌든 때 뺄 때 표백제 전에 '이걸' 먼저 넣습니다 I 세탁예술가 EP. 9",
           "publishedAt": "2026-03-19T09:30:00Z",
           "thumbnail": "https://i.ytimg.com/vi/3MYHawPshUw/mqdefault.jpg",
-          "viewCount": 42470,
-          "likeCount": 469,
+          "viewCount": 42503,
+          "likeCount": 471,
           "commentCount": 14,
           "duration": 696,
           "durationRaw": "PT11M36S",
-          "views_to_subs_ratio": 0.1733
+          "isShorts": false,
+          "views_to_subs_ratio": 0.1735
         },
         {
           "videoId": "Q-gEE6bnD7E",
           "title": "(광고❌) 코스트코 갈 필요없는 트레이더스 찐추천템! 진짜 맛있고 가성비 대박이에요 (찬밥식당 1부)",
           "publishedAt": "2026-03-16T10:00:00Z",
           "thumbnail": "https://i.ytimg.com/vi/Q-gEE6bnD7E/mqdefault.jpg",
-          "viewCount": 66274,
+          "viewCount": 66290,
           "likeCount": 555,
           "commentCount": 9,
           "duration": 541,
           "durationRaw": "PT9M1S",
-          "views_to_subs_ratio": 0.2705
+          "isShorts": false,
+          "views_to_subs_ratio": 0.2706
         },
         {
           "videoId": "IuKPm-Iblr8",
           "title": "결혼 1년차 똑부러지는 새댁의 소소한 살림 꿀팁을 공유합니다 | 살림하는 집터뷰 EP.31",
           "publishedAt": "2026-03-15T01:00:00Z",
           "thumbnail": "https://i.ytimg.com/vi/IuKPm-Iblr8/mqdefault.jpg",
-          "viewCount": 18131,
+          "viewCount": 18133,
           "likeCount": 174,
           "commentCount": 3,
           "duration": 1127,
           "durationRaw": "PT18M47S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.074
         },
         {
@@ -4286,23 +4631,25 @@
           "title": "\"욕실 청소가 훨씬 쉬워져요\" 청소템보다 먼저 챙겨야할 다이소 수납 정리 꿀템 8가지 (김희연 대표 3부)",
           "publishedAt": "2026-03-14T01:00:00Z",
           "thumbnail": "https://i.ytimg.com/vi/G06mPb-r9xc/mqdefault.jpg",
-          "viewCount": 28708,
+          "viewCount": 28727,
           "likeCount": 254,
           "commentCount": 6,
           "duration": 1034,
           "durationRaw": "PT17M14S",
-          "views_to_subs_ratio": 0.1172
+          "isShorts": false,
+          "views_to_subs_ratio": 0.1173
         },
         {
           "videoId": "vk95iEmJCYg",
           "title": "\"정가보다 싸서 10년째 사고있어요\" 코스트코 연회비 뽕 뽑는 가성비 추천템 (코스트코 장보기 몰아보기)",
           "publishedAt": "2026-03-12T10:00:00Z",
           "thumbnail": "https://i.ytimg.com/vi/vk95iEmJCYg/mqdefault.jpg",
-          "viewCount": 16519,
+          "viewCount": 16520,
           "likeCount": 149,
           "commentCount": 3,
           "duration": 1037,
           "durationRaw": "PT17M17S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0674
         },
         {
@@ -4315,6 +4662,7 @@
           "commentCount": 9,
           "duration": 715,
           "durationRaw": "PT11M55S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0485
         },
         {
@@ -4322,12 +4670,13 @@
           "title": "\"1,000원이면 충분해요\" 세탁 고수가 다이소 템으로 빨래 쉽게하는 꼼수  I 세탁예술가 EP. 8",
           "publishedAt": "2026-03-05T09:00:00Z",
           "thumbnail": "https://i.ytimg.com/vi/yRUjoEJ9nBs/mqdefault.jpg",
-          "viewCount": 59743,
-          "likeCount": 893,
-          "commentCount": 33,
+          "viewCount": 59778,
+          "likeCount": 894,
+          "commentCount": 34,
           "duration": 1086,
           "durationRaw": "PT18M6S",
-          "views_to_subs_ratio": 0.2438
+          "isShorts": false,
+          "views_to_subs_ratio": 0.244
         },
         {
           "videoId": "wSSjrRtZyZ8",
@@ -4339,6 +4688,7 @@
           "commentCount": 6,
           "duration": 2254,
           "durationRaw": "PT37M34S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0115
         },
         {
@@ -4351,6 +4701,7 @@
           "commentCount": 1,
           "duration": 536,
           "durationRaw": "PT8M56S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0282
         },
         {
@@ -4363,6 +4714,7 @@
           "commentCount": 3,
           "duration": 617,
           "durationRaw": "PT10M17S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.03
         },
         {
@@ -4370,12 +4722,13 @@
           "title": "\"모든 스트레스는 욕심 때문이에요\" 무소유 주부들의 살림 철학 (미니멀리즘 몰아보기)",
           "publishedAt": "2026-02-24T10:00:00Z",
           "thumbnail": "https://i.ytimg.com/vi/uVMX-5cseXE/mqdefault.jpg",
-          "viewCount": 17592,
+          "viewCount": 17615,
           "likeCount": 256,
           "commentCount": 2,
           "duration": 6724,
           "durationRaw": "PT1H52M4S",
-          "views_to_subs_ratio": 0.0718
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0719
         },
         {
           "videoId": "KpQqOfJf0uk",
@@ -4387,6 +4740,7 @@
           "commentCount": 17,
           "duration": 1013,
           "durationRaw": "PT16M53S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0517
         },
         {
@@ -4394,11 +4748,12 @@
           "title": "명절 음식 때문에 꽉 차버린 냉장고는 '이렇게' 정리해보세요 ㅣ살림하는 집터뷰 EP. 29",
           "publishedAt": "2026-02-21T01:00:00Z",
           "thumbnail": "https://i.ytimg.com/vi/nbBbaVJB3tA/mqdefault.jpg",
-          "viewCount": 26477,
+          "viewCount": 26480,
           "likeCount": 513,
           "commentCount": 21,
           "duration": 1416,
           "durationRaw": "PT23M36S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.1081
         },
         {
@@ -4406,11 +4761,12 @@
           "title": "편리한데 가성비까지! 요리인생 40년 돌고돌아 정착한 2만원 이하 주방꿀템 | 장바구니 연구소 EP.12",
           "publishedAt": "2026-02-17T01:00:00Z",
           "thumbnail": "https://i.ytimg.com/vi/mMx5XuPGWBQ/mqdefault.jpg",
-          "viewCount": 12716,
+          "viewCount": 12718,
           "likeCount": 299,
           "commentCount": 9,
           "duration": 887,
           "durationRaw": "PT14M47S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0519
         },
         {
@@ -4418,11 +4774,12 @@
           "title": "정리전문가의 주방은 다른 주방과 '이것'이 다릅니다ㅣ살림하는 집터뷰 EP. 28",
           "publishedAt": "2026-02-15T01:00:00Z",
           "thumbnail": "https://i.ytimg.com/vi/t9i31KeyUcA/mqdefault.jpg",
-          "viewCount": 10983,
+          "viewCount": 10987,
           "likeCount": 148,
           "commentCount": 6,
           "duration": 1113,
           "durationRaw": "PT18M33S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0448
         },
         {
@@ -4430,12 +4787,13 @@
           "title": "살림 센스가 넘치는 40대 주부의 똑똑한 정리 아이디어 | 살림하는 집터뷰 EP.27",
           "publishedAt": "2026-02-14T01:00:00Z",
           "thumbnail": "https://i.ytimg.com/vi/sdSsDbIz3YA/mqdefault.jpg",
-          "viewCount": 84559,
+          "viewCount": 84576,
           "likeCount": 833,
           "commentCount": 23,
           "duration": 1164,
           "durationRaw": "PT19M24S",
-          "views_to_subs_ratio": 0.3451
+          "isShorts": false,
+          "views_to_subs_ratio": 0.3452
         },
         {
           "videoId": "jNHyzuM4A20",
@@ -4447,6 +4805,7 @@
           "commentCount": 0,
           "duration": 506,
           "durationRaw": "PT8M26S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0124
         },
         {
@@ -4454,12 +4813,13 @@
           "title": "(광고❌) -20kg 감량 성공한 닥터셰프도 남몰래 시켜먹는 마켓컬리 찐추천템 | 장바구니 연구소 EP.11",
           "publishedAt": "2026-02-10T10:00:00Z",
           "thumbnail": "https://i.ytimg.com/vi/t2IH0ILFL4Q/mqdefault.jpg",
-          "viewCount": 96593,
+          "viewCount": 96617,
           "likeCount": 826,
           "commentCount": 22,
           "duration": 844,
           "durationRaw": "PT14M4S",
-          "views_to_subs_ratio": 0.3943
+          "isShorts": false,
+          "views_to_subs_ratio": 0.3944
         }
       ]
     },
@@ -4482,6 +4842,7 @@
           "commentCount": 9,
           "duration": 489,
           "durationRaw": "PT8M9S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.7104
         },
         {
@@ -4494,6 +4855,7 @@
           "commentCount": 22,
           "duration": 586,
           "durationRaw": "PT9M46S",
+          "isShorts": false,
           "views_to_subs_ratio": 1.0229
         },
         {
@@ -4506,6 +4868,7 @@
           "commentCount": 1,
           "duration": 6,
           "durationRaw": "PT6S",
+          "isShorts": true,
           "views_to_subs_ratio": 2.0892
         },
         {
@@ -4518,6 +4881,7 @@
           "commentCount": 1,
           "duration": 6,
           "durationRaw": "PT6S",
+          "isShorts": true,
           "views_to_subs_ratio": 2.8358
         },
         {
@@ -4530,6 +4894,7 @@
           "commentCount": 2,
           "duration": 6,
           "durationRaw": "PT6S",
+          "isShorts": true,
           "views_to_subs_ratio": 3.1758
         },
         {
@@ -4542,6 +4907,7 @@
           "commentCount": 1,
           "duration": 6,
           "durationRaw": "PT6S",
+          "isShorts": true,
           "views_to_subs_ratio": 2.4292
         },
         {
@@ -4554,6 +4920,7 @@
           "commentCount": 1,
           "duration": 6,
           "durationRaw": "PT6S",
+          "isShorts": true,
           "views_to_subs_ratio": 1.0304
         },
         {
@@ -4566,6 +4933,7 @@
           "commentCount": 1,
           "duration": 6,
           "durationRaw": "PT6S",
+          "isShorts": true,
           "views_to_subs_ratio": 1.5746
         },
         {
@@ -4578,6 +4946,7 @@
           "commentCount": 1,
           "duration": 6,
           "durationRaw": "PT6S",
+          "isShorts": true,
           "views_to_subs_ratio": 1.2833
         },
         {
@@ -4590,6 +4959,7 @@
           "commentCount": 1,
           "duration": 6,
           "durationRaw": "PT6S",
+          "isShorts": true,
           "views_to_subs_ratio": 1.2567
         },
         {
@@ -4602,6 +4972,7 @@
           "commentCount": 1,
           "duration": 6,
           "durationRaw": "PT6S",
+          "isShorts": true,
           "views_to_subs_ratio": 0.6996
         },
         {
@@ -4614,6 +4985,7 @@
           "commentCount": 1,
           "duration": 6,
           "durationRaw": "PT6S",
+          "isShorts": true,
           "views_to_subs_ratio": 0.4054
         },
         {
@@ -4626,6 +4998,7 @@
           "commentCount": 1,
           "duration": 6,
           "durationRaw": "PT6S",
+          "isShorts": true,
           "views_to_subs_ratio": 0.8762
         },
         {
@@ -4638,6 +5011,7 @@
           "commentCount": 1,
           "duration": 6,
           "durationRaw": "PT6S",
+          "isShorts": true,
           "views_to_subs_ratio": 3.4013
         },
         {
@@ -4650,6 +5024,7 @@
           "commentCount": 0,
           "duration": 6,
           "durationRaw": "PT6S",
+          "isShorts": true,
           "views_to_subs_ratio": 3.0942
         },
         {
@@ -4662,6 +5037,7 @@
           "commentCount": 7,
           "duration": 6,
           "durationRaw": "PT6S",
+          "isShorts": true,
           "views_to_subs_ratio": 6.6642
         },
         {
@@ -4674,6 +5050,7 @@
           "commentCount": 1,
           "duration": 6,
           "durationRaw": "PT6S",
+          "isShorts": true,
           "views_to_subs_ratio": 7.9267
         },
         {
@@ -4686,6 +5063,7 @@
           "commentCount": 5,
           "duration": 6,
           "durationRaw": "PT6S",
+          "isShorts": true,
           "views_to_subs_ratio": 235.2679
         },
         {
@@ -4698,6 +5076,7 @@
           "commentCount": 2,
           "duration": 6,
           "durationRaw": "PT6S",
+          "isShorts": true,
           "views_to_subs_ratio": 2.4725
         },
         {
@@ -4710,6 +5089,7 @@
           "commentCount": 4,
           "duration": 6,
           "durationRaw": "PT6S",
+          "isShorts": true,
           "views_to_subs_ratio": 168.5067
         },
         {
@@ -4722,6 +5102,7 @@
           "commentCount": 0,
           "duration": 6,
           "durationRaw": "PT6S",
+          "isShorts": true,
           "views_to_subs_ratio": 9.1892
         },
         {
@@ -4734,6 +5115,7 @@
           "commentCount": 0,
           "duration": 6,
           "durationRaw": "PT6S",
+          "isShorts": true,
           "views_to_subs_ratio": 0.9542
         },
         {
@@ -4746,6 +5128,7 @@
           "commentCount": 0,
           "duration": 6,
           "durationRaw": "PT6S",
+          "isShorts": true,
           "views_to_subs_ratio": 1.5096
         },
         {
@@ -4758,6 +5141,7 @@
           "commentCount": 0,
           "duration": 6,
           "durationRaw": "PT6S",
+          "isShorts": true,
           "views_to_subs_ratio": 24.0492
         },
         {
@@ -4770,6 +5154,7 @@
           "commentCount": 0,
           "duration": 6,
           "durationRaw": "PT6S",
+          "isShorts": true,
           "views_to_subs_ratio": 1.6921
         },
         {
@@ -4782,6 +5167,7 @@
           "commentCount": 0,
           "duration": 6,
           "durationRaw": "PT6S",
+          "isShorts": true,
           "views_to_subs_ratio": 2.4304
         },
         {
@@ -4794,6 +5180,7 @@
           "commentCount": 0,
           "duration": 6,
           "durationRaw": "PT6S",
+          "isShorts": true,
           "views_to_subs_ratio": 4.6887
         },
         {
@@ -4806,6 +5193,7 @@
           "commentCount": 0,
           "duration": 6,
           "durationRaw": "PT6S",
+          "isShorts": true,
           "views_to_subs_ratio": 4.915
         },
         {
@@ -4818,6 +5206,7 @@
           "commentCount": 0,
           "duration": 6,
           "durationRaw": "PT6S",
+          "isShorts": true,
           "views_to_subs_ratio": 2.8071
         },
         {
@@ -4830,6 +5219,7 @@
           "commentCount": 0,
           "duration": 6,
           "durationRaw": "PT6S",
+          "isShorts": true,
           "views_to_subs_ratio": 11.3071
         }
       ]
@@ -4850,67 +5240,85 @@
       "handle": "@BuryongBudongsan",
       "subscribers": 75200,
       "totalViews": 8217645,
-      "videoCount": 1096,
+      "videoCount": 1097,
       "thumbnail": "https://yt3.ggpht.com/-5doVG76uI4DxIK6CiDqAu6Uht_HHQjnmdiJUwPmmk4VVUMn_L_8gj-YipBUuFtRYcegI__kUg=s88-c-k-c0x00ffffff-no-rj",
       "videos": [
+        {
+          "videoId": "yH6QS5zxHVw",
+          "title": "삼성전자, 하이닉스 아무리 올라도 국장 안하는 이유",
+          "publishedAt": "2026-04-07T23:15:03Z",
+          "thumbnail": "https://i.ytimg.com/vi/yH6QS5zxHVw/mqdefault.jpg",
+          "viewCount": 906,
+          "likeCount": 7,
+          "commentCount": 0,
+          "duration": 57,
+          "durationRaw": "PT57S",
+          "isShorts": true,
+          "views_to_subs_ratio": 0.012
+        },
         {
           "videoId": "uCbJLmXkqAc",
           "title": "우리 집만 안 올라요🥲 64평 대형 아파트 버리고 상급지 가야 할까요? (feat. 성남 재개발)",
           "publishedAt": "2026-04-07T08:00:52Z",
           "thumbnail": "https://i.ytimg.com/vi/uCbJLmXkqAc/mqdefault.jpg",
-          "viewCount": 1143,
-          "likeCount": 34,
-          "commentCount": 5,
+          "viewCount": 1322,
+          "likeCount": 41,
+          "commentCount": 6,
           "duration": 948,
           "durationRaw": "PT15M48S",
-          "views_to_subs_ratio": 0.0152
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0176
         },
         {
           "videoId": "KvIaTMT7qfk",
           "title": "남편의 대기업 퇴사 반대하던 아내가 180도 바뀐 이유 #미국주식나스닥",
           "publishedAt": "2026-04-05T00:00:18Z",
           "thumbnail": "https://i.ytimg.com/vi/KvIaTMT7qfk/mqdefault.jpg",
-          "viewCount": 2494,
+          "viewCount": 2504,
           "likeCount": 12,
           "commentCount": 0,
           "duration": 47,
           "durationRaw": "PT47S",
-          "views_to_subs_ratio": 0.0332
+          "isShorts": true,
+          "views_to_subs_ratio": 0.0333
         },
         {
           "videoId": "z9QISxioW-8",
           "title": "[재테크 신선배 Live]  전세 씨가 마른다. 충격적인 과거 전세대란의 결말",
           "publishedAt": "2026-04-02T04:41:18Z",
           "thumbnail": "https://i.ytimg.com/vi/z9QISxioW-8/mqdefault.jpg",
-          "viewCount": 4947,
-          "likeCount": 270,
+          "viewCount": 4955,
+          "likeCount": 271,
           "commentCount": 22,
           "duration": 4097,
           "durationRaw": "PT1H8M17S",
-          "views_to_subs_ratio": 0.0658
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0659
         },
         {
           "videoId": "PU5qZ1JHsT0",
           "title": "\"거 봐요, 내 말 맞잖아\" 버티지 못하는 영끌러 아파트 줍줍하세요 (ft.강남갈아타기)",
           "publishedAt": "2026-04-01T09:56:04Z",
           "thumbnail": "https://i.ytimg.com/vi/PU5qZ1JHsT0/mqdefault.jpg",
-          "viewCount": 5494,
+          "viewCount": 5506,
           "likeCount": 81,
           "commentCount": 10,
           "duration": 54,
           "durationRaw": "PT54S",
-          "views_to_subs_ratio": 0.0731
+          "isShorts": true,
+          "views_to_subs_ratio": 0.0732
         },
         {
           "videoId": "UiinCzTxUvA",
           "title": "경매 명도, 무서우신가요? 얼굴 안 보고 '문자'로 끝내는 법 (ft. 새벽하늘 3부)",
           "publishedAt": "2026-03-31T08:00:33Z",
           "thumbnail": "https://i.ytimg.com/vi/UiinCzTxUvA/mqdefault.jpg",
-          "viewCount": 483,
+          "viewCount": 485,
           "likeCount": 27,
           "commentCount": 24,
           "duration": 964,
           "durationRaw": "PT16M4S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0064
         },
         {
@@ -4923,6 +5331,7 @@
           "commentCount": 1,
           "duration": 29,
           "durationRaw": "PT29S",
+          "isShorts": true,
           "views_to_subs_ratio": 0.0357
         },
         {
@@ -4935,6 +5344,7 @@
           "commentCount": 1,
           "duration": 33,
           "durationRaw": "PT33S",
+          "isShorts": true,
           "views_to_subs_ratio": 0.0227
         },
         {
@@ -4947,6 +5357,7 @@
           "commentCount": 0,
           "duration": 50,
           "durationRaw": "PT50S",
+          "isShorts": true,
           "views_to_subs_ratio": 0.0138
         },
         {
@@ -4959,6 +5370,7 @@
           "commentCount": 1,
           "duration": 20,
           "durationRaw": "PT20S",
+          "isShorts": true,
           "views_to_subs_ratio": 0.0389
         },
         {
@@ -4971,6 +5383,7 @@
           "commentCount": 1,
           "duration": 57,
           "durationRaw": "PT57S",
+          "isShorts": true,
           "views_to_subs_ratio": 0.0271
         },
         {
@@ -4983,6 +5396,7 @@
           "commentCount": 1,
           "duration": 36,
           "durationRaw": "PT36S",
+          "isShorts": true,
           "views_to_subs_ratio": 0.0258
         },
         {
@@ -4990,12 +5404,13 @@
           "title": "월 배당 ETF 커버드콜 현실 정리 (JEPI JEPQ NVDY 수익률, 원금 리스크까지) 최영민 작가",
           "publishedAt": "2026-03-26T08:00:27Z",
           "thumbnail": "https://i.ytimg.com/vi/X4U9iAaALok/mqdefault.jpg",
-          "viewCount": 7693,
+          "viewCount": 7700,
           "likeCount": 115,
           "commentCount": 25,
           "duration": 1137,
           "durationRaw": "PT18M57S",
-          "views_to_subs_ratio": 0.1023
+          "isShorts": false,
+          "views_to_subs_ratio": 0.1024
         },
         {
           "videoId": "oBT0qnjS1BE",
@@ -5007,6 +5422,7 @@
           "commentCount": 2,
           "duration": 1365,
           "durationRaw": "PT22M45S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.0054
         },
         {
@@ -5019,6 +5435,7 @@
           "commentCount": 2,
           "duration": 26,
           "durationRaw": "PT26S",
+          "isShorts": true,
           "views_to_subs_ratio": 0.061
         },
         {
@@ -5031,6 +5448,7 @@
           "commentCount": 1,
           "duration": 21,
           "durationRaw": "PT21S",
+          "isShorts": true,
           "views_to_subs_ratio": 0.0326
         },
         {
@@ -5038,12 +5456,13 @@
           "title": "서울 10억 이하 아파트 추천, 소리없이 강한 성북구 지역분석(feat.절대비기)",
           "publishedAt": "2026-03-19T08:00:45Z",
           "thumbnail": "https://i.ytimg.com/vi/gBlzjqihy4k/mqdefault.jpg",
-          "viewCount": 4022,
+          "viewCount": 4030,
           "likeCount": 109,
           "commentCount": 3,
           "duration": 1492,
           "durationRaw": "PT24M52S",
-          "views_to_subs_ratio": 0.0535
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0536
         },
         {
           "videoId": "ldjmPyjtoHM",
@@ -5055,6 +5474,7 @@
           "commentCount": 1,
           "duration": 31,
           "durationRaw": "PT31S",
+          "isShorts": true,
           "views_to_subs_ratio": 0.0271
         },
         {
@@ -5062,23 +5482,25 @@
           "title": "월배당 ETF 추천 | JEPQ 수익률 | 1억 투자 월 100만원 가능한 이유(최영민 작가)",
           "publishedAt": "2026-03-17T22:59:56Z",
           "thumbnail": "https://i.ytimg.com/vi/MWlxpWOFeis/mqdefault.jpg",
-          "viewCount": 15450,
+          "viewCount": 15482,
           "likeCount": 247,
           "commentCount": 57,
           "duration": 1059,
           "durationRaw": "PT17M39S",
-          "views_to_subs_ratio": 0.2055
+          "isShorts": false,
+          "views_to_subs_ratio": 0.2059
         },
         {
           "videoId": "4JzXbNnPTc8",
           "title": "“빌라는 하지 마세요”라던 경매 전문가 지금은 사도 된다는 이유(ft. 새벽하늘)",
           "publishedAt": "2026-03-15T10:00:08Z",
           "thumbnail": "https://i.ytimg.com/vi/4JzXbNnPTc8/mqdefault.jpg",
-          "viewCount": 2181,
+          "viewCount": 2182,
           "likeCount": 46,
           "commentCount": 2,
           "duration": 1125,
           "durationRaw": "PT18M45S",
+          "isShorts": false,
           "views_to_subs_ratio": 0.029
         },
         {
@@ -5091,6 +5513,7 @@
           "commentCount": 0,
           "duration": 46,
           "durationRaw": "PT46S",
+          "isShorts": true,
           "views_to_subs_ratio": 0.0251
         },
         {
@@ -5098,12 +5521,13 @@
           "title": "은평구 11억대 신축 대단지 등장! 여기 안 보면 후회합니다🚨 (ft. 힐스테이트 메디알레)",
           "publishedAt": "2026-03-12T08:00:26Z",
           "thumbnail": "https://i.ytimg.com/vi/RGAD0Sgu69s/mqdefault.jpg",
-          "viewCount": 2130,
+          "viewCount": 2136,
           "likeCount": 65,
           "commentCount": 9,
           "duration": 649,
           "durationRaw": "PT10M49S",
-          "views_to_subs_ratio": 0.0283
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0284
         },
         {
           "videoId": "zix8BU3KJhc",
@@ -5115,6 +5539,7 @@
           "commentCount": 0,
           "duration": 42,
           "durationRaw": "PT42S",
+          "isShorts": true,
           "views_to_subs_ratio": 0.0298
         },
         {
@@ -5122,11 +5547,12 @@
           "title": "지금 부천 집 사도 될까? 부천시청-신중동역 대장 아파트 임장 #부동산전망",
           "publishedAt": "2026-03-11T03:22:43Z",
           "thumbnail": "https://i.ytimg.com/vi/9ySD5Wxhjh4/mqdefault.jpg",
-          "viewCount": 2143,
+          "viewCount": 2146,
           "likeCount": 13,
           "commentCount": 0,
           "duration": 39,
           "durationRaw": "PT39S",
+          "isShorts": true,
           "views_to_subs_ratio": 0.0285
         },
         {
@@ -5134,12 +5560,13 @@
           "title": "21년 대기업 퇴사, 지금은 월배당 ETF로 생활합니다 ( ft.40대 조기은퇴 파이어족 최영민 작가)",
           "publishedAt": "2026-03-10T08:00:00Z",
           "thumbnail": "https://i.ytimg.com/vi/-te3YV4P6uI/mqdefault.jpg",
-          "viewCount": 1560,
+          "viewCount": 1563,
           "likeCount": 69,
           "commentCount": 11,
           "duration": 1230,
           "durationRaw": "PT20M30S",
-          "views_to_subs_ratio": 0.0207
+          "isShorts": false,
+          "views_to_subs_ratio": 0.0208
         },
         {
           "videoId": "S8NLefUwG4Y",
@@ -5151,6 +5578,7 @@
           "commentCount": 0,
           "duration": 49,
           "durationRaw": "PT49S",
+          "isShorts": true,
           "views_to_subs_ratio": 0.0265
         },
         {
@@ -5163,6 +5591,7 @@
           "commentCount": 0,
           "duration": 54,
           "durationRaw": "PT54S",
+          "isShorts": true,
           "views_to_subs_ratio": 0.028
         },
         {
@@ -5175,6 +5604,7 @@
           "commentCount": 0,
           "duration": 40,
           "durationRaw": "PT40S",
+          "isShorts": true,
           "views_to_subs_ratio": 0.0259
         },
         {
@@ -5187,6 +5617,7 @@
           "commentCount": 0,
           "duration": 31,
           "durationRaw": "PT31S",
+          "isShorts": true,
           "views_to_subs_ratio": 0.0253
         },
         {
@@ -5199,19 +5630,8 @@
           "commentCount": 0,
           "duration": 31,
           "durationRaw": "PT31S",
+          "isShorts": true,
           "views_to_subs_ratio": 0.0261
-        },
-        {
-          "videoId": "ieH-H0F757c",
-          "title": "서울 11억대 아파트, 아직 저평가 있습니다 | 입지분석으로 좋은 집 찾는 법",
-          "publishedAt": "2026-03-03T08:00:46Z",
-          "thumbnail": "https://i.ytimg.com/vi/ieH-H0F757c/mqdefault.jpg",
-          "viewCount": 2888,
-          "likeCount": 66,
-          "commentCount": 3,
-          "duration": 1887,
-          "durationRaw": "PT31M27S",
-          "views_to_subs_ratio": 0.0384
         }
       ]
     }

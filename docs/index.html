@@ -71,6 +71,21 @@ h1 span { color: var(--hot-red); }
   gap: 8px;
 }
 .section-header h2 { font-size: 1.15em; font-weight: 600; }
+.content-tabs { display: flex; gap: 6px; margin-bottom: 8px; }
+.content-tab {
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  padding: 6px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.92em;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+.content-tab:hover { border-color: var(--accent-blue); color: var(--text-primary); }
+.content-tab.active { background: var(--accent-blue); color: #fff; border-color: var(--accent-blue); }
+.tabs-group { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; }
 .period-tabs { display: flex; gap: 4px; }
 .period-tab {
   background: var(--bg-tertiary);
@@ -195,11 +210,17 @@ footer {
   <div class="section">
     <div class="section-header">
       <h2>🔥 TOP 10 영상 (구독자 대비 조회수 비율)</h2>
-      <div class="period-tabs">
-        <div class="period-tab active" onclick="switchPeriod('all')">전체</div>
-        <div class="period-tab" onclick="switchPeriod('30d')">30일</div>
-        <div class="period-tab" onclick="switchPeriod('7d')">7일</div>
-        <div class="period-tab" onclick="switchPeriod('24h')">24시간</div>
+      <div class="tabs-group">
+        <div class="content-tabs">
+          <div class="content-tab active" onclick="switchContentType('videos')">동영상</div>
+          <div class="content-tab" onclick="switchContentType('shorts')">Shorts</div>
+        </div>
+        <div class="period-tabs">
+          <div class="period-tab active" onclick="switchPeriod('all')">전체</div>
+          <div class="period-tab" onclick="switchPeriod('30d')">30일</div>
+          <div class="period-tab" onclick="switchPeriod('7d')">7일</div>
+          <div class="period-tab" onclick="switchPeriod('24h')">24시간</div>
+        </div>
       </div>
     </div>
     <div class="table-wrap">
@@ -274,6 +295,8 @@ footer {
 
 <script>
 let analysisData = null;
+let currentContentType = 'videos';
+let currentPeriod = 'all';
 
 function formatNumber(n) {
   if (n >= 100000000) return (n / 100000000).toFixed(1) + '억';
@@ -302,9 +325,17 @@ function rankClass(i) {
   return 'rank';
 }
 
+function getTopData(contentType, period) {
+  if (contentType === 'shorts') {
+    return (analysisData.top_shorts && analysisData.top_shorts[period]) || [];
+  }
+  return (analysisData.top_videos && analysisData.top_videos[period]) || [];
+}
+
 function renderTopVideos(period) {
-  const videos = analysisData.top_videos[period] || [];
+  const videos = getTopData(currentContentType, period);
   const tbody = document.getElementById('topVideosBody');
+  const linkBase = currentContentType === 'shorts' ? 'https://youtube.com/shorts/' : 'https://youtube.com/watch?v=';
   if (!videos.length) {
     tbody.innerHTML = '<tr><td colspan="8" style="text-align:center;padding:40px;color:var(--text-secondary)">해당 기간에 데이터가 없습니다</td></tr>';
     return;
@@ -313,7 +344,7 @@ function renderTopVideos(period) {
     <tr>
       <td class="${rankClass(i)}">${i + 1}</td>
       <td class="channel-name">${v.channelName}</td>
-      <td class="video-title"><a href="https://youtube.com/watch?v=${v.videoId}" target="_blank" rel="noopener">${v.title}</a></td>
+      <td class="video-title"><a href="${linkBase}${v.videoId}" target="_blank" rel="noopener">${v.title}</a></td>
       <td class="num">${formatNumber(v.subscribers)}</td>
       <td class="num">${formatNumber(v.viewCount)}</td>
       <td class="num">${formatNumber(v.likeCount)}</td>
@@ -323,7 +354,50 @@ function renderTopVideos(period) {
   `).join('');
 }
 
+function updateStatsBar() {
+  const isShorts = currentContentType === 'shorts';
+  document.getElementById('totalChannels').textContent = analysisData.total_channels;
+  document.getElementById('totalVideos').textContent = isShorts
+    ? (analysisData.total_shorts || 0)
+    : (analysisData.total_regular || 0);
+
+  const allVideos = getTopData(currentContentType, 'all');
+  if (allVideos.length) {
+    const avgR = allVideos.reduce((s, v) => s + v.views_to_subs_ratio, 0) / allVideos.length;
+    document.getElementById('avgRatio').textContent = (avgR * 100).toFixed(1) + '%';
+    document.getElementById('topRatio').textContent = (allVideos[0].views_to_subs_ratio * 100).toFixed(1) + '%';
+  } else {
+    document.getElementById('avgRatio').textContent = '-';
+    document.getElementById('topRatio').textContent = '-';
+  }
+}
+
+function getFilteredChannelSummaries() {
+  if (!analysisData || !analysisData.channel_summaries) return [];
+  const isShorts = currentContentType === 'shorts';
+  return analysisData.channel_summaries
+    .map(ch => ({
+      ...ch,
+      _avgRatio: isShorts ? (ch.avgRatioShorts || 0) : (ch.avgRatioRegular || 0),
+      _avgViews: isShorts ? (ch.avgViewsShorts || 0) : (ch.avgViewsRegular || 0),
+      _count: isShorts ? (ch.shortsCount || 0) : (ch.regularCount || 0),
+    }))
+    .sort((a, b) => b._avgRatio - a._avgRatio);
+}
+
+function switchContentType(type) {
+  currentContentType = type;
+  document.querySelectorAll('.content-tab').forEach(t => t.classList.remove('active'));
+  event.target.classList.add('active');
+  updateStatsBar();
+  renderTopVideos(currentPeriod);
+  const filtered = getFilteredChannelSummaries();
+  renderChannelStats(filtered);
+  renderChart(filtered);
+}
+
 function switchPeriod(period) {
+  currentPeriod = period;
   document.querySelectorAll('.period-tab').forEach(t => t.classList.remove('active'));
   event.target.classList.add('active');
   renderTopVideos(period);
@@ -348,30 +422,38 @@ function renderKeywords(keywords) {
 
 function renderChannelStats(channels) {
   const tbody = document.getElementById('channelStatsBody');
-  tbody.innerHTML = channels.map(ch => `
+  tbody.innerHTML = channels.map(ch => {
+    const avgR = ch._avgRatio !== undefined ? ch._avgRatio : ch.avgRatio;
+    const avgV = ch._avgViews !== undefined ? ch._avgViews : ch.avgViews;
+    const cnt = ch._count !== undefined ? ch._count : ch.recentVideoCount;
+    return `
     <tr>
       <td><strong>${ch.name}</strong></td>
       <td class="num">${formatNumber(ch.subscribers)}</td>
       <td class="num">${formatNumber(ch.totalViews)}</td>
-      <td class="num">${ch.videoCount.toLocaleString()}</td>
-      <td class="num">${formatNumber(ch.avgViews)}</td>
-      <td><span class="ratio-badge ${ratioClass(ch.avgRatio)}">${(ch.avgRatio * 100).toFixed(1)}%</span></td>
-    </tr>
-  `).join('');
+      <td class="num">${cnt.toLocaleString()}</td>
+      <td class="num">${formatNumber(avgV)}</td>
+      <td><span class="ratio-badge ${ratioClass(avgR)}">${(avgR * 100).toFixed(1)}%</span></td>
+    </tr>`;
+  }).join('');
 }
+
+let chartInstance = null;
 
 function renderChart(channels) {
   const ctx = document.getElementById('channelChart').getContext('2d');
-  const sorted = [...channels].sort((a, b) => b.avgRatio - a.avgRatio);
+  if (chartInstance) { chartInstance.destroy(); }
+  const sorted = [...channels].sort((a, b) => (b._avgRatio || b.avgRatio) - (a._avgRatio || a.avgRatio));
   const labels = sorted.map(c => c.name);
-  const data = sorted.map(c => (c.avgRatio * 100));
+  const data = sorted.map(c => ((c._avgRatio !== undefined ? c._avgRatio : c.avgRatio) * 100));
   const colors = sorted.map(c => {
-    if (c.avgRatio > 0.10) return '#f85149';
-    if (c.avgRatio > 0.05) return '#d29922';
-    if (c.avgRatio > 0.02) return '#e3b341';
+    const r = c._avgRatio !== undefined ? c._avgRatio : c.avgRatio;
+    if (r > 0.10) return '#f85149';
+    if (r > 0.05) return '#d29922';
+    if (r > 0.02) return '#e3b341';
     return '#8b949e';
   });
-  new Chart(ctx, {
+  chartInstance = new Chart(ctx, {
     type: 'bar',
     data: {
       labels,
@@ -420,21 +502,14 @@ async function loadData() {
       `마지막 업데이트: ${formatDate(analysisData.collected_at)} · 분석: ${formatDate(analysisData.analyzed_at)}`;
 
     // Stats bar
-    document.getElementById('totalChannels').textContent = analysisData.total_channels;
-    document.getElementById('totalVideos').textContent = analysisData.total_videos;
-    
-    const allVideos = analysisData.top_videos.all || [];
-    if (allVideos.length) {
-      const avgR = allVideos.reduce((s, v) => s + v.views_to_subs_ratio, 0) / allVideos.length;
-      document.getElementById('avgRatio').textContent = (avgR * 100).toFixed(1) + '%';
-      document.getElementById('topRatio').textContent = (allVideos[0].views_to_subs_ratio * 100).toFixed(1) + '%';
-    }
+    updateStatsBar();
 
     // Render sections
     renderTopVideos('all');
     renderKeywords(analysisData.trending_keywords);
-    renderChannelStats(analysisData.channel_summaries);
-    renderChart(analysisData.channel_summaries);
+    const filtered = getFilteredChannelSummaries();
+    renderChannelStats(filtered);
+    renderChart(filtered);
 
   } catch (err) {
     console.error('Failed to load data:', err);

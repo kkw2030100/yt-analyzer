@@ -182,6 +182,7 @@ def main():
                 'commentCount': vs.get('commentCount', 0),
                 'duration': vs.get('duration', 0),
                 'durationRaw': vs.get('durationRaw', ''),
+                'isShorts': vs.get('duration', 0) <= 60,
                 'views_to_subs_ratio': ratio,
             })
         
