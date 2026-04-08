@@ -158,6 +158,10 @@ tr:hover td { background: rgba(88,166,255,0.04); }
 .kw-warm { border-color: var(--hot-orange); color: var(--hot-orange); font-size: 0.95em; }
 .kw-mild { border-color: var(--warm-yellow); color: var(--warm-yellow); }
 .num { text-align: right; font-variant-numeric: tabular-nums; }
+.sortable { cursor: pointer; user-select: none; }
+.sortable:hover { color: var(--accent-blue); }
+.sort-icon { font-size: 0.7em; opacity: 0.5; margin-left: 2px; }
+.sortable:hover .sort-icon { opacity: 1; }
 .chart-container { padding: 20px; height: 350px; }
 .loading {
   text-align: center;
@@ -285,11 +289,11 @@ footer {
         <thead>
           <tr>
             <th>채널</th>
-            <th class="num">구독자</th>
-            <th class="num">총 조회수</th>
-            <th class="num">영상 수</th>
-            <th class="num">최근 평균 조회</th>
-            <th>평균 비율</th>
+            <th class="num sortable" onclick="sortChannelStats('subscribers')">구독자 <span class="sort-icon" id="sort-subscribers"></span></th>
+            <th class="num sortable" onclick="sortChannelStats('totalViews')">총 조회수 <span class="sort-icon" id="sort-totalViews"></span></th>
+            <th class="num sortable" onclick="sortChannelStats('recentVideoCount')">영상 수 <span class="sort-icon" id="sort-recentVideoCount"></span></th>
+            <th class="num sortable" onclick="sortChannelStats('avgViews')">최근 평균 조회 <span class="sort-icon" id="sort-avgViews"></span></th>
+            <th class="sortable" onclick="sortChannelStats('avgRatio')">평균 비율 <span class="sort-icon" id="sort-avgRatio">▼</span></th>
           </tr>
         </thead>
         <tbody id="channelStatsBody">
@@ -460,6 +464,37 @@ function renderChannelStats(channels) {
       <td><span class="ratio-badge ${ratioClass(avgR)}">${(avgR * 100).toFixed(1)}%</span></td>
     </tr>`;
   }).join('');
+}
+
+let channelSortKey = 'avgRatio';
+let channelSortAsc = false; // default: descending
+
+function sortChannelStats(key) {
+  if (channelSortKey === key) {
+    channelSortAsc = !channelSortAsc;
+  } else {
+    channelSortKey = key;
+    channelSortAsc = false; // new column always starts descending
+  }
+  // Update sort icons
+  document.querySelectorAll('.sort-icon').forEach(el => el.textContent = '');
+  const icon = document.getElementById('sort-' + key);
+  if (icon) icon.textContent = channelSortAsc ? '▲' : '▼';
+  
+  // Get the right field based on content type
+  const channels = [...analysisData.channel_summaries];
+  channels.sort((a, b) => {
+    let av = a[key] || 0;
+    let bv = b[key] || 0;
+    // For content-type-aware fields
+    if (currentContentType === 'shorts') {
+      if (key === 'avgViews') { av = a.avgViewsShorts || 0; bv = b.avgViewsShorts || 0; }
+      if (key === 'avgRatio') { av = a.avgRatioShorts || 0; bv = b.avgRatioShorts || 0; }
+      if (key === 'recentVideoCount') { av = a.shortsCount || 0; bv = b.shortsCount || 0; }
+    }
+    return channelSortAsc ? av - bv : bv - av;
+  });
+  renderChannelStats(channels);
 }
 
 let chartInstance = null;
