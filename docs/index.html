@@ -248,12 +248,13 @@ footer {
             <th class="num">구독자</th>
             <th class="num">조회수</th>
             <th class="num">좋아요</th>
-            <th>비율</th>
+            <th>조회 비율</th>
+            <th>좋아요 비율</th>
             <th>게시일</th>
           </tr>
         </thead>
         <tbody id="topVideosBody">
-          <tr><td colspan="8" class="loading"><div class="spinner"></div><br>데이터 로딩 중...</td></tr>
+          <tr><td colspan="9" class="loading"><div class="spinner"></div><br>데이터 로딩 중...</td></tr>
         </tbody>
       </table>
     </div>
@@ -337,6 +338,15 @@ function formatDate(isoStr) {
   return `${d.getFullYear()}.${String(d.getMonth()+1).padStart(2,'0')}.${String(d.getDate()).padStart(2,'0')}`;
 }
 
+function likeRatioClass(views, likes) {
+  if (!views) return 'ratio-normal';
+  const r = likes / views;
+  if (r > 0.05) return 'ratio-hot';
+  if (r > 0.03) return 'ratio-warm';
+  if (r > 0.01) return 'ratio-mild';
+  return 'ratio-normal';
+}
+
 function ratioClass(ratio) {
   if (ratio > 0.10) return 'ratio-hot';
   if (ratio > 0.05) return 'ratio-warm';
@@ -364,7 +374,7 @@ function renderTopVideos(period) {
   const tbody = document.getElementById('topVideosBody');
   const linkBase = currentContentType === 'shorts' ? 'https://youtube.com/shorts/' : 'https://youtube.com/watch?v=';
   if (!videos.length) {
-    tbody.innerHTML = '<tr><td colspan="8" style="text-align:center;padding:40px;color:var(--text-secondary)">해당 기간에 데이터가 없습니다</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="9" style="text-align:center;padding:40px;color:var(--text-secondary)">해당 기간에 데이터가 없습니다</td></tr>';
     return;
   }
   tbody.innerHTML = videos.map((v, i) => `
@@ -376,6 +386,7 @@ function renderTopVideos(period) {
       <td class="num">${formatNumber(v.viewCount)}</td>
       <td class="num">${formatNumber(v.likeCount)}</td>
       <td><span class="ratio-badge ${ratioClass(v.views_to_subs_ratio)}">${(v.views_to_subs_ratio * 100).toFixed(1)}%</span></td>
+      <td><span class="ratio-badge ${likeRatioClass(v.viewCount, v.likeCount)}">${v.viewCount > 0 ? (v.likeCount / v.viewCount * 100).toFixed(1) : 0}%</span></td>
       <td>${formatDate(v.publishedAt)}</td>
     </tr>
   `).join('');
