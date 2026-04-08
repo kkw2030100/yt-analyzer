@@ -1,5 +1,5 @@
 {
-  "analyzed_at": "2026-04-08T06:03:01.814806+00:00",
+  "analyzed_at": "2026-04-08T09:58:55.752759+00:00",
   "collected_at": "2026-04-08T06:02:33.568278+00:00",
   "total_channels": 45,
   "total_videos": 1290,
@@ -25,23 +25,6 @@
         "isRelevant": true
       },
       {
-        "videoId": "FV1GcYzBfto",
-        "title": "수십만 원짜리 영양제 그냥 계란 흰자입니다 (서울대병원 이승훈 교수)",
-        "publishedAt": "2026-04-07T07:55:00Z",
-        "thumbnail": "https://i.ytimg.com/vi/FV1GcYzBfto/mqdefault.jpg",
-        "viewCount": 95824,
-        "likeCount": 3209,
-        "commentCount": 369,
-        "duration": 3787,
-        "durationRaw": "PT1H3M7S",
-        "isShorts": false,
-        "views_to_subs_ratio": 0.0726,
-        "channelName": "언더스탠딩 : 세상의 모든 지식",
-        "channelId": "UCIUni4ScRp4mqPXsxy62L5w",
-        "subscribers": 1320000,
-        "isRelevant": true
-      },
-      {
         "videoId": "UA-OwenEkSo",
         "title": "스페이스X 상장 임박, 전세계 돈 빨아들일 대표 수혜주들",
         "publishedAt": "2026-04-07T12:09:37Z",
@@ -56,40 +39,6 @@
         "channelName": "소수몽키",
         "channelId": "UCC3yfxS5qC6PCwDzetUuEWg",
         "subscribers": 1110000,
-        "isRelevant": true
-      },
-      {
-        "videoId": "cRBkxicljkQ",
-        "title": "\"사상 초유의 국가비상사태 발생\" 원유 쇼크에 국민들 들고 일어난 필리핀 실제 상황 [이슈임당]",
-        "publishedAt": "2026-04-07T06:45:03Z",
-        "thumbnail": "https://i.ytimg.com/vi/cRBkxicljkQ/mqdefault.jpg",
-        "viewCount": 124089,
-        "likeCount": 3141,
-        "commentCount": 138,
-        "duration": 1231,
-        "durationRaw": "PT20M31S",
-        "isShorts": false,
-        "views_to_subs_ratio": 0.0456,
-        "channelName": "신사임당",
-        "channelId": "UCaJdckl6MBdDPDf75Ec_bJA",
-        "subscribers": 2720000,
-        "isRelevant": true
-      },
-      {
-        "videoId": "1GPdz3yMW5s",
-        "title": "사상초유 전세가 완선히 뒤집힌다\"  미국•이스라엘 결국 이란 멸망전 선언 피바람 부는 이란 최신 상황 (진재일 교수/ 1부)",
-        "publishedAt": "2026-04-07T09:15:00Z",
-        "thumbnail": "https://i.ytimg.com/vi/1GPdz3yMW5s/mqdefault.jpg",
-        "viewCount": 106500,
-        "likeCount": 2722,
-        "commentCount": 130,
-        "duration": 2082,
-        "durationRaw": "PT34M42S",
-        "isShorts": false,
-        "views_to_subs_ratio": 0.0392,
-        "channelName": "신사임당",
-        "channelId": "UCaJdckl6MBdDPDf75Ec_bJA",
-        "subscribers": 2720000,
         "isRelevant": true
       },
       {
@@ -645,25 +594,7 @@
     ]
   },
   "top_shorts": {
-    "24h": [
-      {
-        "videoId": "ecGNAGxl-M8",
-        "title": "당신의 매매가 늘 불안한 이유, '이것'을 몰라서",
-        "publishedAt": "2026-04-07T08:00:46Z",
-        "thumbnail": "https://i.ytimg.com/vi/ecGNAGxl-M8/mqdefault.jpg",
-        "viewCount": 52340,
-        "likeCount": 461,
-        "commentCount": 9,
-        "duration": 24,
-        "durationRaw": "PT24S",
-        "isShorts": true,
-        "views_to_subs_ratio": 0.0912,
-        "channelName": "주식단테_20년차트고수",
-        "channelId": "UC6ij59Gy_HnqO4pFu9A_zgQ",
-        "subscribers": 574000,
-        "isRelevant": true
-      }
-    ],
+    "24h": [],
     "7d": [
       {
         "videoId": "xCUd5KIiBgw",
@@ -731,23 +662,6 @@
         "channelName": "주식단테_20년차트고수",
         "channelId": "UC6ij59Gy_HnqO4pFu9A_zgQ",
         "subscribers": 574000,
-        "isRelevant": true
-      },
-      {
-        "videoId": "xkzNxNYFsls",
-        "title": "결국 MIT에게 고소당한 건물",
-        "publishedAt": "2026-04-01T07:21:17Z",
-        "thumbnail": "https://i.ytimg.com/vi/xkzNxNYFsls/mqdefault.jpg",
-        "viewCount": 111207,
-        "likeCount": 680,
-        "commentCount": 22,
-        "duration": 37,
-        "durationRaw": "PT37S",
-        "isShorts": true,
-        "views_to_subs_ratio": 0.0772,
-        "channelName": "셜록현준",
-        "channelId": "UC7uDyFIqExDnfXAIZqumFrQ",
-        "subscribers": 1440000,
         "isRelevant": true
       },
       {
@@ -1098,206 +1012,1389 @@
   },
   "trending_keywords": [
     {
-      "keyword": "대표",
-      "count": 91
+      "keyword": "부동산",
+      "count": 79,
+      "score": 237.0,
+      "urgency": "🔴긴급",
+      "category": "부동산/사기/리스크/부동산사기",
+      "type": "categorized"
     },
     {
       "keyword": "이유",
-      "count": 89
-    },
-    {
-      "keyword": "부동산",
-      "count": 79
-    },
-    {
-      "keyword": "매매",
-      "count": 66
-    },
-    {
-      "keyword": "이란",
-      "count": 54
-    },
-    {
-      "keyword": "전원주택",
-      "count": 48
-    },
-    {
-      "keyword": "미국",
-      "count": 47
+      "count": 89,
+      "score": 178.0,
+      "urgency": "🔴긴급",
+      "category": "경제/투자/거시경제/유가",
+      "type": "categorized"
     },
     {
       "keyword": "삼성전자",
-      "count": 44
+      "count": 44,
+      "score": 88.0,
+      "urgency": "🔴긴급",
+      "category": "경제/투자/주식투자/대장주",
+      "type": "categorized"
     },
     {
-      "keyword": "주식",
-      "count": 41
-    },
-    {
-      "keyword": "트럼프",
-      "count": 39
-    },
-    {
-      "keyword": "집값",
-      "count": 35
-    },
-    {
-      "keyword": "아파트",
-      "count": 35
-    },
-    {
-      "keyword": "이렇게",
-      "count": 35
-    },
-    {
-      "keyword": "1부",
-      "count": 35
-    },
-    {
-      "keyword": "교수",
-      "count": 35
+      "keyword": "급매물",
+      "count": 35,
+      "score": 70.0,
+      "urgency": "🔴긴급",
+      "category": "compound_keyword",
+      "type": "compound"
     },
     {
       "keyword": "투자",
-      "count": 34
+      "count": 34,
+      "score": 68.0,
+      "urgency": "🔴긴급",
+      "category": "부동산/투자전략/갭투자",
+      "type": "categorized"
     },
     {
-      "keyword": "2부",
-      "count": 32
+      "keyword": "매매",
+      "count": 66,
+      "score": 66.0,
+      "urgency": "🔴긴급",
+      "category": "부동산/거래유형/매매",
+      "type": "categorized"
     },
     {
-      "keyword": "겁니다",
-      "count": 31
-    },
-    {
-      "keyword": "시장",
-      "count": 31
-    },
-    {
-      "keyword": "전쟁",
-      "count": 31
-    },
-    {
-      "keyword": "결국",
-      "count": 30
-    },
-    {
-      "keyword": "충주",
-      "count": 30
-    },
-    {
-      "keyword": "서울",
-      "count": 28
-    },
-    {
-      "keyword": "이제",
-      "count": 28
-    },
-    {
-      "keyword": "한국",
-      "count": 28
-    },
-    {
-      "keyword": "shorts",
-      "count": 28
-    },
-    {
-      "keyword": "만에",
-      "count": 25
-    },
-    {
-      "keyword": "매물번호",
-      "count": 25
-    },
-    {
-      "keyword": "by",
-      "count": 25
-    },
-    {
-      "keyword": "압구정소나무",
-      "count": 25
+      "keyword": "집값상승",
+      "count": 30,
+      "score": 60.0,
+      "urgency": "🔴긴급",
+      "category": "compound_keyword",
+      "type": "compound"
     },
     {
       "keyword": "주택",
-      "count": 23
+      "count": 23,
+      "score": 57.5,
+      "urgency": "🔴긴급",
+      "category": "부동산/정책/제도/주택정책",
+      "type": "categorized"
     },
     {
-      "keyword": "증시",
-      "count": 23
+      "keyword": "ft",
+      "count": 27,
+      "score": 54.0,
+      "urgency": "🔴긴급",
+      "category": "경제/투자/암호화폐/NFT",
+      "type": "categorized"
     },
     {
-      "keyword": "2026년",
-      "count": 22
+      "keyword": "전원주택",
+      "count": 48,
+      "score": 48.0,
+      "urgency": "🔴긴급",
+      "category": "부동산/주거유형/단독주택",
+      "type": "categorized"
     },
     {
-      "keyword": "앞으로",
-      "count": 22
+      "keyword": "미국",
+      "count": 47,
+      "score": 47.0,
+      "urgency": "🔴긴급",
+      "category": "부동산/지역별/해외",
+      "type": "categorized"
     },
     {
-      "keyword": "이후",
-      "count": 21
+      "keyword": "매물",
+      "count": 18,
+      "score": 36.0,
+      "urgency": "🔴긴급",
+      "category": "부동산/투자전략/매물갑",
+      "type": "categorized"
     },
     {
-      "keyword": "방법",
-      "count": 21
+      "keyword": "아파트",
+      "count": 35,
+      "score": 35.0,
+      "urgency": "🔴긴급",
+      "category": "부동산/주거유형/아파트",
+      "type": "categorized"
     },
     {
-      "keyword": "경제",
-      "count": 21
+      "keyword": "가격",
+      "count": 10,
+      "score": 30.0,
+      "urgency": "🔴긴급",
+      "category": "부동산/사기/리스크/부동산사기",
+      "type": "categorized"
+    },
+    {
+      "keyword": "대출",
+      "count": 14,
+      "score": 28.0,
+      "urgency": "🔴긴급",
+      "category": "부동산/투자전략/영끌",
+      "type": "categorized"
+    },
+    {
+      "keyword": "초급매",
+      "count": 14,
+      "score": 28.0,
+      "urgency": "🔴긴급",
+      "category": "부동산/투자전략/패닉셀링",
+      "type": "categorized"
+    },
+    {
+      "keyword": "불앤베어",
+      "count": 14,
+      "score": 28.0,
+      "urgency": "🔴긴급",
+      "category": "경제/투자/주식투자/공매도",
+      "type": "categorized"
+    },
+    {
+      "keyword": "급매",
+      "count": 13,
+      "score": 26.0,
+      "urgency": "🔴긴급",
+      "category": "부동산/투자전략/패닉셀링",
+      "type": "categorized"
+    },
+    {
+      "keyword": "etf",
+      "count": 13,
+      "score": 26.0,
+      "urgency": "🔴긴급",
+      "category": "경제/투자/주식투자/ETF",
+      "type": "categorized"
+    },
+    {
+      "keyword": "ai",
+      "count": 13,
+      "score": 26.0,
+      "urgency": "🔴긴급",
+      "category": "경제/투자/주식투자/테마주",
+      "type": "categorized"
+    },
+    {
+      "keyword": "압구정소나무",
+      "count": 25,
+      "score": 25.0,
+      "urgency": "🔴긴급",
+      "category": "부동산/지역별/강남3구",
+      "type": "categorized"
+    },
+    {
+      "keyword": "최대",
+      "count": 12,
+      "score": 24.0,
+      "urgency": "🔴긴급",
+      "category": "부동산/투자전략/영끌",
+      "type": "categorized"
+    },
+    {
+      "keyword": "규제",
+      "count": 9,
+      "score": 22.5,
+      "urgency": "🔴긴급",
+      "category": "부동산/정책/제도/대출규제",
+      "type": "categorized"
+    },
+    {
+      "keyword": "경매",
+      "count": 7,
+      "score": 21.0,
+      "urgency": "🔴긴급",
+      "category": "부동산/사기/리스크/경매리스크",
+      "type": "categorized"
     },
     {
       "keyword": "강남",
-      "count": 20
-    },
-    {
-      "keyword": "역대급",
-      "count": 20
-    },
-    {
-      "keyword": "없는",
-      "count": 20
-    },
-    {
-      "keyword": "풀버전",
-      "count": 20
-    },
-    {
-      "keyword": "하는",
-      "count": 20
-    },
-    {
-      "keyword": "별장",
-      "count": 20
-    },
-    {
-      "keyword": "소장",
-      "count": 20
-    },
-    {
-      "keyword": "한국경제신문",
-      "count": 20
-    },
-    {
-      "keyword": "30분",
-      "count": 20
-    },
-    {
-      "keyword": "3부",
-      "count": 19
-    },
-    {
-      "keyword": "라이브",
-      "count": 19
+      "count": 20,
+      "score": 20.0,
+      "urgency": "🔴긴급",
+      "category": "부동산/지역별/강남3구",
+      "type": "categorized"
     },
     {
       "keyword": "중동",
-      "count": 19
+      "count": 19,
+      "score": 19.0,
+      "urgency": "🔴긴급",
+      "category": "부동산/주거유형/아파트",
+      "type": "categorized"
     },
     {
-      "keyword": "읽기",
-      "count": 19
+      "keyword": "금리",
+      "count": 9,
+      "score": 18.0,
+      "urgency": "🔴긴급",
+      "category": "경제/투자/거시경제/금리",
+      "type": "categorized"
+    },
+    {
+      "keyword": "공급",
+      "count": 7,
+      "score": 17.5,
+      "urgency": "🔴긴급",
+      "category": "부동산/정책/제도/청약제도",
+      "type": "categorized"
+    },
+    {
+      "keyword": "청약",
+      "count": 7,
+      "score": 17.5,
+      "urgency": "🔴긴급",
+      "category": "부동산/정책/제도/청약제도",
+      "type": "categorized"
+    },
+    {
+      "keyword": "전세",
+      "count": 15,
+      "score": 15.0,
+      "urgency": "🟡중요",
+      "category": "부동산/거래유형/전세",
+      "type": "categorized"
     }
   ],
+  "basic_keywords": [
+    {
+      "keyword": "대표",
+      "count": 91,
+      "score": 91,
+      "urgency": "🟢일반",
+      "category": "basic",
+      "type": "basic"
+    },
+    {
+      "keyword": "이유",
+      "count": 89,
+      "score": 89,
+      "urgency": "🟢일반",
+      "category": "basic",
+      "type": "basic"
+    },
+    {
+      "keyword": "부동산",
+      "count": 79,
+      "score": 79,
+      "urgency": "🟢일반",
+      "category": "basic",
+      "type": "basic"
+    },
+    {
+      "keyword": "매매",
+      "count": 66,
+      "score": 66,
+      "urgency": "🟢일반",
+      "category": "basic",
+      "type": "basic"
+    },
+    {
+      "keyword": "이란",
+      "count": 54,
+      "score": 54,
+      "urgency": "🟢일반",
+      "category": "basic",
+      "type": "basic"
+    },
+    {
+      "keyword": "전원주택",
+      "count": 48,
+      "score": 48,
+      "urgency": "🟢일반",
+      "category": "basic",
+      "type": "basic"
+    },
+    {
+      "keyword": "미국",
+      "count": 47,
+      "score": 47,
+      "urgency": "🟢일반",
+      "category": "basic",
+      "type": "basic"
+    },
+    {
+      "keyword": "삼성전자",
+      "count": 44,
+      "score": 44,
+      "urgency": "🟢일반",
+      "category": "basic",
+      "type": "basic"
+    },
+    {
+      "keyword": "주식",
+      "count": 41,
+      "score": 41,
+      "urgency": "🟢일반",
+      "category": "basic",
+      "type": "basic"
+    },
+    {
+      "keyword": "트럼프",
+      "count": 39,
+      "score": 39,
+      "urgency": "🟢일반",
+      "category": "basic",
+      "type": "basic"
+    },
+    {
+      "keyword": "집값",
+      "count": 35,
+      "score": 35,
+      "urgency": "🟢일반",
+      "category": "basic",
+      "type": "basic"
+    },
+    {
+      "keyword": "아파트",
+      "count": 35,
+      "score": 35,
+      "urgency": "🟢일반",
+      "category": "basic",
+      "type": "basic"
+    },
+    {
+      "keyword": "이렇게",
+      "count": 35,
+      "score": 35,
+      "urgency": "🟢일반",
+      "category": "basic",
+      "type": "basic"
+    },
+    {
+      "keyword": "1부",
+      "count": 35,
+      "score": 35,
+      "urgency": "🟢일반",
+      "category": "basic",
+      "type": "basic"
+    },
+    {
+      "keyword": "교수",
+      "count": 35,
+      "score": 35,
+      "urgency": "🟢일반",
+      "category": "basic",
+      "type": "basic"
+    },
+    {
+      "keyword": "투자",
+      "count": 34,
+      "score": 34,
+      "urgency": "🟢일반",
+      "category": "basic",
+      "type": "basic"
+    },
+    {
+      "keyword": "2부",
+      "count": 32,
+      "score": 32,
+      "urgency": "🟢일반",
+      "category": "basic",
+      "type": "basic"
+    },
+    {
+      "keyword": "겁니다",
+      "count": 31,
+      "score": 31,
+      "urgency": "🟢일반",
+      "category": "basic",
+      "type": "basic"
+    },
+    {
+      "keyword": "시장",
+      "count": 31,
+      "score": 31,
+      "urgency": "🟢일반",
+      "category": "basic",
+      "type": "basic"
+    },
+    {
+      "keyword": "전쟁",
+      "count": 31,
+      "score": 31,
+      "urgency": "🟢일반",
+      "category": "basic",
+      "type": "basic"
+    },
+    {
+      "keyword": "결국",
+      "count": 30,
+      "score": 30,
+      "urgency": "🟢일반",
+      "category": "basic",
+      "type": "basic"
+    },
+    {
+      "keyword": "충주",
+      "count": 30,
+      "score": 30,
+      "urgency": "🟢일반",
+      "category": "basic",
+      "type": "basic"
+    },
+    {
+      "keyword": "서울",
+      "count": 28,
+      "score": 28,
+      "urgency": "🟢일반",
+      "category": "basic",
+      "type": "basic"
+    },
+    {
+      "keyword": "이제",
+      "count": 28,
+      "score": 28,
+      "urgency": "🟢일반",
+      "category": "basic",
+      "type": "basic"
+    },
+    {
+      "keyword": "한국",
+      "count": 28,
+      "score": 28,
+      "urgency": "🟢일반",
+      "category": "basic",
+      "type": "basic"
+    },
+    {
+      "keyword": "shorts",
+      "count": 28,
+      "score": 28,
+      "urgency": "🟢일반",
+      "category": "basic",
+      "type": "basic"
+    },
+    {
+      "keyword": "만에",
+      "count": 25,
+      "score": 25,
+      "urgency": "🟢일반",
+      "category": "basic",
+      "type": "basic"
+    },
+    {
+      "keyword": "매물번호",
+      "count": 25,
+      "score": 25,
+      "urgency": "🟢일반",
+      "category": "basic",
+      "type": "basic"
+    },
+    {
+      "keyword": "by",
+      "count": 25,
+      "score": 25,
+      "urgency": "🟢일반",
+      "category": "basic",
+      "type": "basic"
+    },
+    {
+      "keyword": "압구정소나무",
+      "count": 25,
+      "score": 25,
+      "urgency": "🟢일반",
+      "category": "basic",
+      "type": "basic"
+    }
+  ],
+  "enhanced_analysis": {
+    "period_days": 30,
+    "category_stats": {
+      "부동산/사기/리스크/부동산사기": {
+        "부동산": 79,
+        "가격": 10
+      },
+      "부동산/정책/제도/청약제도": {
+        "공급": 7,
+        "청약": 7,
+        "당첨": 1,
+        "청약결과는": 1,
+        "청약해야되는": 1,
+        "청약단지": 1,
+        "통장": 3,
+        "청약은": 1,
+        "청약경쟁률": 1,
+        "청약통장": 1
+      },
+      "부동산/거래유형/전세": {
+        "전세가": 3,
+        "전세시장": 1,
+        "전세": 15,
+        "계약": 2,
+        "전세로": 1,
+        "전세금": 1,
+        "전세시장에": 1,
+        "전세난": 1,
+        "세금": 8,
+        "세계": 4,
+        "전세계": 4,
+        "전세대출도": 1,
+        "전세도": 2,
+        "전세대책": 1,
+        "전세놓은": 1,
+        "전세대란의": 1,
+        "전세가율이": 1,
+        "전세게": 1,
+        "전세계가": 1,
+        "전세대출": 1,
+        "전세대란": 1,
+        "전세제도": 3,
+        "보증금": 1
+      },
+      "부동산/지역별/강남3구": {
+        "강남": 20,
+        "압구정도": 1,
+        "강남역이": 1,
+        "아크로드서초": 1,
+        "강남의": 1,
+        "강남권": 1,
+        "압구정소나무": 25,
+        "압구정": 8,
+        "강남아파트": 1,
+        "by압구정소나무": 3,
+        "강남에": 2,
+        "강남이": 2,
+        "압구정the현대": 1,
+        "압구정소나무부동산": 1,
+        "압구정로데오역": 1,
+        "압구정파출소까지": 1,
+        "압구정동": 1,
+        "이유by압구정소나무": 1,
+        "강남구에게": 1,
+        "압구정동이란": 1,
+        "강남갈아타기": 1,
+        "더프레임서초에서": 1,
+        "역삼푸르지오": 1,
+        "지젤라이프그라피서초": 1,
+        "도곡동": 1,
+        "서초센트럴아이파크": 1,
+        "압구정현대아파트": 1,
+        "역삼역": 1,
+        "디오빌역삼의": 1,
+        "서초그랑자이": 1,
+        "강남마저": 1,
+        "송파구": 1,
+        "송파헬리오씨티": 1,
+        "강남은": 2,
+        "강남부동산": 1
+      },
+      "부동산/정책/제도/규제정책": {
+        "지역": 2,
+        "투기과열지구": 1,
+        "분양가상한제": 1
+      },
+      "부동산/사기/리스크/전세사기": {
+        "전세사기": 1,
+        "사기": 2
+      },
+      "부동산/주거유형/아파트": {
+        "지각변동": 1,
+        "지방아파트": 1,
+        "아파트": 35,
+        "부동산뉴스": 5,
+        "단지": 7,
+        "동네": 2,
+        "부동산세금": 2,
+        "동아리에서": 1,
+        "동네는": 1,
+        "1부동산": 1,
+        "부동산을": 2,
+        "통영부동산": 5,
+        "거제도부동산": 7,
+        "동부면주택": 2,
+        "동부면별장": 1,
+        "동부면세컨하우스": 1,
+        "동부면촌집": 1,
+        "고성부동산": 1,
+        "수월동주택": 1,
+        "수월동세컨하우스": 1,
+        "수월동촌집": 1,
+        "사등면부동산": 1,
+        "알짜부동산tv": 8,
+        "알짜부동산": 7,
+        "풍동": 1,
+        "동량면": 2,
+        "159번_알짜부동산": 1,
+        "목벌동": 2,
+        "2세대": 1,
+        "각동당": 1,
+        "4개동": 1,
+        "전원단지내": 1,
+        "안림동": 1,
+        "호암동": 1,
+        "신연수동": 2,
+        "연수동": 1,
+        "하이엔드아파트": 1,
+        "부동산강의": 2,
+        "경동건설": 1,
+        "로얄동": 1,
+        "쉬운부동산": 3,
+        "재송동": 1,
+        "동래푸르지오에듀포레": 1,
+        "야음동의": 1,
+        "사직동": 1,
+        "신축아파트": 1,
+        "은마아파트": 5,
+        "대치동": 3,
+        "현대아파트": 5,
+        "현대아파트가": 1,
+        "현대아파트의": 1,
+        "부동산정책": 1,
+        "네이버부동산에": 1,
+        "부동산마트": 2,
+        "은마아파트의": 1,
+        "일원동": 2,
+        "현대아파트여야만": 1,
+        "부동산대책": 2,
+        "조피디x이동신": 1,
+        "10년동안": 1,
+        "운동화는": 1,
+        "아파트투자": 1,
+        "대단지": 1,
+        "신중동역": 1,
+        "부동산전망": 2,
+        "부동산의": 5,
+        "서동주": 2,
+        "김동환": 6,
+        "ㅣ서동주": 1,
+        "김동훈": 1,
+        "동의했다": 1,
+        "중동전쟁과": 1,
+        "l서동주": 1,
+        "동기": 1,
+        "김동석": 1,
+        "중동": 19,
+        "중동국들": 1,
+        "대이동": 2,
+        "부동산에서": 2,
+        "아파트로": 1,
+        "행동": 1,
+        "중동이": 1,
+        "유동인구": 1,
+        "동시에": 1,
+        "목동": 1,
+        "목동센트럴아이파크위브가": 1,
+        "사당동": 1,
+        "양평동": 1,
+        "동문디이스트": 1,
+        "강동역신동아파밀리에": 1,
+        "동선": 1,
+        "변동성의": 1,
+        "중동전": 1,
+        "중동전쟁": 7,
+        "장동우의": 1,
+        "이동": 1,
+        "강동경희대병원": 1,
+        "이동열": 1,
+        "운동이": 1,
+        "부동산도": 1,
+        "동안": 1,
+        "중동1차": 1,
+        "자동차": 1,
+        "이동근": 1,
+        "발품부동산tv": 15,
+        "오동나무와": 3,
+        "파동": 1,
+        "차세대": 1,
+        "동시": 1,
+        "변동성": 1,
+        "아파트만": 1,
+        "중동전쟁발": 2,
+        "중동전쟁에도": 1,
+        "중동전쟁에": 1,
+        "노동자와": 1,
+        "노동자들": 1,
+        "종합부동산": 1,
+        "그동안": 1,
+        "동의서의": 1,
+        "아파트값은": 1,
+        "발동": 1,
+        "부동산시장": 2,
+        "apt만": 1,
+        "유동성": 1,
+        "동맥경화": 1,
+        "아파트들": 1,
+        "부동산투자": 1,
+        "부동산투기": 1,
+        "서울아파트": 1,
+        "부동산과의": 1,
+        "종합부동산세": 1,
+        "서동기": 1,
+        "부동산에": 1,
+        "부동산은": 1
+      },
+      "부동산/지역별/분당판교": {
+        "분당": 5,
+        "추평저수지": 1,
+        "판교라고": 1,
+        "저수지": 5,
+        "수지": 1,
+        "분당집": 1
+      },
+      "부동산/투자전략/갭투자": {
+        "갭투자": 3,
+        "투자": 34,
+        "갭투자는": 1,
+        "갭투자하면": 1,
+        "gap": 1,
+        "투기": 2
+      },
+      "부동산/투자전략/매물갑": {
+        "매물": 18,
+        "부족": 1
+      },
+      "경제/투자/거시경제/유가": {
+        "이유": 89,
+        "원유": 7,
+        "wti는": 1,
+        "원유만": 1,
+        "유가": 2,
+        "유가급락": 1,
+        "유가는": 1,
+        "경유가": 1,
+        "이유가": 3,
+        "유가만큼": 1,
+        "wti": 1,
+        "유가까지": 1,
+        "유가도": 1,
+        "국제유가가": 1
+      },
+      "부동산/투자전략/영끌": {
+        "영끌족들": 1,
+        "대출": 14,
+        "영끌족": 1,
+        "영끌러": 1,
+        "최대": 12,
+        "영끌": 3
+      },
+      "경제/투자/거시경제/금리": {
+        "금리": 9,
+        "기준": 3,
+        "금리인상": 6,
+        "fomc": 1,
+        "금통위": 1,
+        "연준의장": 1,
+        "금리가": 1,
+        "연준도": 1,
+        "연준의": 1,
+        "금리도": 2,
+        "국채금리와": 1,
+        "금리를": 1
+      },
+      "부동산/주거유형/상업용": {
+        "건물": 1,
+        "건물로": 1,
+        "빌딩": 1,
+        "상가": 4,
+        "상가투자": 1,
+        "상가주택": 1,
+        "건물의": 1,
+        "꼬마빌딩": 1
+      },
+      "부동산/지역별/해외": {
+        "미국": 47,
+        "일본": 2,
+        "해외": 1
+      },
+      "경제/투자/암호화폐/NFT": {
+        "버스": 1,
+        "ft": 27,
+        "디지털": 1,
+        "자산": 1,
+        "메타": 3
+      },
+      "라이프스타일/소비패턴/명품": {
+        "명품": 8,
+        "브랜드가": 2,
+        "브랜드": 2
+      },
+      "부동산/거래유형/월세": {
+        "월세지옥이": 1,
+        "전월세": 2,
+        "월세는": 1,
+        "월세도": 1,
+        "월세": 3,
+        "임대": 1,
+        "반전": 4,
+        "전환": 1
+      },
+      "경제/투자/주식투자/대장주": {
+        "삼성전자": 44,
+        "하이닉스": 3,
+        "삼성전자의": 3,
+        "엔비디아는": 1,
+        "삼성": 2,
+        "sk하이닉스": 6,
+        "엔비디아": 5,
+        "sk하이닉스도": 1,
+        "처음ㅣ엔비디아": 1,
+        "하향ㅣ엔비디아": 1
+      },
+      "부동산/주거유형/빌라연립": {
+        "빌라": 5,
+        "다가구주택": 4,
+        "빌라짓기": 2,
+        "신축빌라": 2,
+        "빌라는": 2,
+        "빌라투자": 1
+      },
+      "부동산/지역별/마용성": {
+        "마포": 1,
+        "성수": 1,
+        "성수의": 1,
+        "성동구": 2,
+        "삼성동": 1,
+        "마포그랑자이": 1,
+        "경제포차_김성동_2편": 1,
+        "경제포차_김성동_1편": 1,
+        "용산": 3,
+        "용산하락": 1
+      },
+      "부동산/지역별/지방": {
+        "대구": 1,
+        "부산에서": 3,
+        "부산": 15,
+        "부산부동산": 1,
+        "부산내집마련": 1,
+        "부산대연": 2,
+        "부산당리": 1,
+        "울산": 1,
+        "부산은": 1,
+        "부산이": 1,
+        "해운대구": 1,
+        "울산무거": 1,
+        "세종대학교": 2
+      },
+      "부동산/정책/제도/대출규제": {
+        "규제": 9,
+        "대출규제가": 1,
+        "대출규제": 1
+      },
+      "부동산/거래유형/매매": {
+        "매매도": 1,
+        "매매": 66,
+        "거래완료": 5,
+        "토지매매": 3,
+        "땅매매": 1,
+        "매매가": 2,
+        "매수": 9,
+        "실거래가를": 1,
+        "매도": 4,
+        "토지거래": 1,
+        "거래": 4,
+        "매도중": 1,
+        "토지거래허가": 1,
+        "매수자들ㅣ메모리": 1,
+        "매수했다가": 1,
+        "자동매수": 1,
+        "매수하기ㅣ계좌정리": 1,
+        "매수하기": 1,
+        "매수하신": 1,
+        "매수가보다": 2,
+        "매수하고": 1,
+        "처분": 1,
+        "매매법": 1,
+        "매수보다": 1,
+        "저가매수": 1,
+        "분할매수보다": 1,
+        "매수자": 1,
+        "토지거래허가구역": 1,
+        "추격매수": 1,
+        "거래절벽": 1,
+        "거래급감": 1,
+        "처분의": 1,
+        "매도의": 1
+      },
+      "부동산/주거유형/특수용도": {
+        "숙박업으로": 1,
+        "펜션": 2,
+        "카페": 1
+      },
+      "부동산/주거유형/단독주택": {
+        "전원주택": 48,
+        "통영전원주택": 5,
+        "용남면전원주택": 1,
+        "고성전원주택": 1,
+        "단독주택": 13,
+        "농가주택": 1,
+        "전원주택부지": 1,
+        "전원주택으로": 1,
+        "전원주택등": 1,
+        "ㅣ한옥석": 1,
+        "한옥": 4
+      },
+      "부동산/정책/제도/주택정책": {
+        "주택": 23,
+        "도시": 1,
+        "노후신도시": 2,
+        "3기신도시": 1,
+        "신도시는": 1,
+        "신도시": 2,
+        "공공주택에": 1,
+        "주택공급": 2,
+        "1기신도시": 1
+      },
+      "부동산/투자전략/패닉셀링": {
+        "초급매": 14,
+        "매매급매": 2,
+        "급매물": 2,
+        "급매": 13,
+        "패닉셀링": 1,
+        "패닉셀": 1,
+        "초초급매": 1,
+        "급매만": 1
+      },
+      "라이프스타일/소비패턴/가성비": {
+        "가성비": 5,
+        "가심비": 1,
+        "가성비까지": 1
+      },
+      "부동산/거래유형/분양": {
+        "분양": 12,
+        "분양가": 5,
+        "분양권": 2,
+        "분양단지": 1,
+        "일반분양": 1,
+        "분양시장": 1,
+        "공공분양": 3,
+        "1차": 1,
+        "2차": 1,
+        "분양가는": 1,
+        "악성미분양계속": 1
+      },
+      "부동산/사기/리스크/분양사기": {
+        "미분양": 4,
+        "취소": 1
+      },
+      "경제/투자/주식투자/공매도": {
+        "옵션": 3,
+        "불앤베어": 14
+      },
+      "경제/투자/거시경제/금": {
+        "시세": 1,
+        "금값되는": 1,
+        "수산세보틱스_mbn골드": 1,
+        "mbn골드": 1,
+        "골드": 2,
+        "올려ㅣ골드만삭스": 1,
+        "금값": 2,
+        "금값의": 1
+      },
+      "부동산/정책/제도/세금제도": {
+        "양도세": 2,
+        "종부세": 3,
+        "증여": 1,
+        "상속세": 4,
+        "증여세": 3,
+        "재산세": 1
+      },
+      "라이프스타일/재테크/예적금": {
+        "적금": 1,
+        "cma": 3,
+        "예금": 1,
+        "cma에": 1,
+        "ma": 1
+      },
+      "부동산/사기/리스크/경매리스크": {
+        "관리": 4,
+        "경매": 7,
+        "부동산경매": 1,
+        "경매강의": 1,
+        "경매특강": 1,
+        "경매건수": 1,
+        "경매는": 1,
+        "경매급증": 1
+      },
+      "경제/투자/주식투자/ETF": {
+        "etf": 13,
+        "월배당etf": 1,
+        "etf로": 1,
+        "etf리서치": 1,
+        "가능해졌다ㅣetf언박싱": 1,
+        "등장ㅣetf언박싱": 1,
+        "etf를": 1
+      },
+      "부동산/지역별/신도시": {
+        "부천": 2,
+        "부천시청": 1,
+        "인천계양": 1
+      },
+      "경제/투자/암호화폐/알트코인": {
+        "알트를": 1,
+        "이더리움": 2,
+        "트리플": 1,
+        "이더리움이": 1
+      },
+      "경제/투자/암호화폐/규제": {
+        "가상자산": 1,
+        "폐쇄": 1
+      },
+      "경제/투자/암호화폐/비트코인": {
+        "비트코인": 6,
+        "코인": 2,
+        "스테이블코인의": 1,
+        "비트코인에": 1,
+        "코인이": 1,
+        "타코인가": 1,
+        "암호": 1,
+        "비트코인까지": 1
+      },
+      "경제/투자/거시경제/환율": {
+        "7만달러": 1,
+        "유로메나연구소": 2,
+        "달러는": 1,
+        "달러": 3,
+        "112달러": 1,
+        "600달러": 1,
+        "70달러로": 1,
+        "2달러": 1,
+        "113달러": 1,
+        "4달러": 1,
+        "20억달러": 1,
+        "엔화": 1,
+        "775달러로": 1
+      },
+      "경제/투자/거시경제/채권": {
+        "국채": 1,
+        "회사": 2,
+        "세계국채지수": 1
+      },
+      "경제/투자/주식투자/테마주": {
+        "2차전지": 3,
+        "ai": 13,
+        "바이오": 1,
+        "바이오주": 1
+      },
+      "라이프스타일/재테크/연금": {
+        "국민": 1,
+        "미래에셋투자와연금센터": 1,
+        "irp": 4,
+        "연금저축": 3,
+        "연금박사": 1,
+        "퇴직연금": 2,
+        "국민연금을": 1,
+        "연금부자수업": 4,
+        "국민연금": 1,
+        "연금전환": 1,
+        "연금에서는": 1,
+        "연금저축이": 1,
+        "연금저축펀드의": 1,
+        "연금으로": 1,
+        "연금의": 1
+      },
+      "부동산/사기/리스크/깡통전세": {
+        "위험": 2
+      },
+      "라이프스타일/재테크/절세": {
+        "절세계좌": 3,
+        "isa": 12,
+        "절세": 1,
+        "isa만기": 1,
+        "절세꿀팁": 1,
+        "ㅣisa": 1,
+        "isa라고": 1,
+        "isa의": 1,
+        "isa계좌에서": 1,
+        "isa로": 2
+      },
+      "경제/투자/주식투자/동학개미": {
+        "개미": 2,
+        "개미들이": 2,
+        "개미들": 2,
+        "투자자": 1
+      },
+      "경제/투자/거시경제/인플레이션": {
+        "물가": 2,
+        "물가는": 2,
+        "인플레": 2,
+        "인플레이션": 1,
+        "인플레가": 1,
+        "물가가": 1
+      },
+      "부동산/거래유형/임대사업": {
+        "대사": 3,
+        "수익": 3,
+        "임대사업자": 1
+      },
+      "라이프스타일/재테크/보험": {
+        "보험료": 1,
+        "건강보험료가": 1,
+        "4대보험이": 1,
+        "4대보험": 2,
+        "건강보험": 1,
+        "고용보험": 1,
+        "산재보험": 1,
+        "4대보험과": 1,
+        "손해보험사": 1
+      },
+      "부동산/투자전략/패닉바잉": {
+        "공포": 2
+      },
+      "경제/투자/암호화폐/거래소": {
+        "코인베이스": 1
+      },
+      "부동산/투자전략/하락장투자": {
+        "바닥": 2
+      },
+      "부동산/투자전략/레버리지": {
+        "레버리지": 1
+      },
+      "부동산/지역별/일산": {
+        "고양이에게": 1
+      }
+    },
+    "compound_stats": {
+      "집값상승": 30,
+      "올해부동산": 3,
+      "부동산공포": 1,
+      "급매물": 35,
+      "금리상승": 2,
+      "투자기회": 2,
+      "물량폭탄": 1
+    },
+    "trending_analysis": [
+      {
+        "type": "categorized",
+        "keyword": "부동산",
+        "count": 79,
+        "score": 237.0,
+        "urgency": "🔴긴급",
+        "category": "부동산/사기/리스크/부동산사기"
+      },
+      {
+        "type": "categorized",
+        "keyword": "이유",
+        "count": 89,
+        "score": 178.0,
+        "urgency": "🔴긴급",
+        "category": "경제/투자/거시경제/유가"
+      },
+      {
+        "type": "categorized",
+        "keyword": "삼성전자",
+        "count": 44,
+        "score": 88.0,
+        "urgency": "🔴긴급",
+        "category": "경제/투자/주식투자/대장주"
+      },
+      {
+        "type": "compound",
+        "keyword": "급매물",
+        "count": 35,
+        "score": 70.0,
+        "urgency": "🔴긴급",
+        "category": "compound_keyword"
+      },
+      {
+        "type": "categorized",
+        "keyword": "투자",
+        "count": 34,
+        "score": 68.0,
+        "urgency": "🔴긴급",
+        "category": "부동산/투자전략/갭투자"
+      },
+      {
+        "type": "categorized",
+        "keyword": "매매",
+        "count": 66,
+        "score": 66.0,
+        "urgency": "🔴긴급",
+        "category": "부동산/거래유형/매매"
+      },
+      {
+        "type": "compound",
+        "keyword": "집값상승",
+        "count": 30,
+        "score": 60.0,
+        "urgency": "🔴긴급",
+        "category": "compound_keyword"
+      },
+      {
+        "type": "categorized",
+        "keyword": "주택",
+        "count": 23,
+        "score": 57.5,
+        "urgency": "🔴긴급",
+        "category": "부동산/정책/제도/주택정책"
+      },
+      {
+        "type": "categorized",
+        "keyword": "ft",
+        "count": 27,
+        "score": 54.0,
+        "urgency": "🔴긴급",
+        "category": "경제/투자/암호화폐/NFT"
+      },
+      {
+        "type": "categorized",
+        "keyword": "전원주택",
+        "count": 48,
+        "score": 48.0,
+        "urgency": "🔴긴급",
+        "category": "부동산/주거유형/단독주택"
+      },
+      {
+        "type": "categorized",
+        "keyword": "미국",
+        "count": 47,
+        "score": 47.0,
+        "urgency": "🔴긴급",
+        "category": "부동산/지역별/해외"
+      },
+      {
+        "type": "categorized",
+        "keyword": "매물",
+        "count": 18,
+        "score": 36.0,
+        "urgency": "🔴긴급",
+        "category": "부동산/투자전략/매물갑"
+      },
+      {
+        "type": "categorized",
+        "keyword": "아파트",
+        "count": 35,
+        "score": 35.0,
+        "urgency": "🔴긴급",
+        "category": "부동산/주거유형/아파트"
+      },
+      {
+        "type": "categorized",
+        "keyword": "가격",
+        "count": 10,
+        "score": 30.0,
+        "urgency": "🔴긴급",
+        "category": "부동산/사기/리스크/부동산사기"
+      },
+      {
+        "type": "categorized",
+        "keyword": "대출",
+        "count": 14,
+        "score": 28.0,
+        "urgency": "🔴긴급",
+        "category": "부동산/투자전략/영끌"
+      },
+      {
+        "type": "categorized",
+        "keyword": "초급매",
+        "count": 14,
+        "score": 28.0,
+        "urgency": "🔴긴급",
+        "category": "부동산/투자전략/패닉셀링"
+      },
+      {
+        "type": "categorized",
+        "keyword": "불앤베어",
+        "count": 14,
+        "score": 28.0,
+        "urgency": "🔴긴급",
+        "category": "경제/투자/주식투자/공매도"
+      },
+      {
+        "type": "categorized",
+        "keyword": "급매",
+        "count": 13,
+        "score": 26.0,
+        "urgency": "🔴긴급",
+        "category": "부동산/투자전략/패닉셀링"
+      },
+      {
+        "type": "categorized",
+        "keyword": "etf",
+        "count": 13,
+        "score": 26.0,
+        "urgency": "🔴긴급",
+        "category": "경제/투자/주식투자/ETF"
+      },
+      {
+        "type": "categorized",
+        "keyword": "ai",
+        "count": 13,
+        "score": 26.0,
+        "urgency": "🔴긴급",
+        "category": "경제/투자/주식투자/테마주"
+      },
+      {
+        "type": "categorized",
+        "keyword": "압구정소나무",
+        "count": 25,
+        "score": 25.0,
+        "urgency": "🔴긴급",
+        "category": "부동산/지역별/강남3구"
+      },
+      {
+        "type": "categorized",
+        "keyword": "최대",
+        "count": 12,
+        "score": 24.0,
+        "urgency": "🔴긴급",
+        "category": "부동산/투자전략/영끌"
+      },
+      {
+        "type": "categorized",
+        "keyword": "규제",
+        "count": 9,
+        "score": 22.5,
+        "urgency": "🔴긴급",
+        "category": "부동산/정책/제도/대출규제"
+      },
+      {
+        "type": "categorized",
+        "keyword": "경매",
+        "count": 7,
+        "score": 21.0,
+        "urgency": "🔴긴급",
+        "category": "부동산/사기/리스크/경매리스크"
+      },
+      {
+        "type": "categorized",
+        "keyword": "강남",
+        "count": 20,
+        "score": 20.0,
+        "urgency": "🔴긴급",
+        "category": "부동산/지역별/강남3구"
+      },
+      {
+        "type": "categorized",
+        "keyword": "중동",
+        "count": 19,
+        "score": 19.0,
+        "urgency": "🔴긴급",
+        "category": "부동산/주거유형/아파트"
+      },
+      {
+        "type": "categorized",
+        "keyword": "금리",
+        "count": 9,
+        "score": 18.0,
+        "urgency": "🔴긴급",
+        "category": "경제/투자/거시경제/금리"
+      },
+      {
+        "type": "categorized",
+        "keyword": "공급",
+        "count": 7,
+        "score": 17.5,
+        "urgency": "🔴긴급",
+        "category": "부동산/정책/제도/청약제도"
+      },
+      {
+        "type": "categorized",
+        "keyword": "청약",
+        "count": 7,
+        "score": 17.5,
+        "urgency": "🔴긴급",
+        "category": "부동산/정책/제도/청약제도"
+      },
+      {
+        "type": "categorized",
+        "keyword": "전세",
+        "count": 15,
+        "score": 15.0,
+        "urgency": "🟡중요",
+        "category": "부동산/거래유형/전세"
+      }
+    ],
+    "total_categories": 56,
+    "total_compounds": 7
+  },
+  "has_enhanced_analysis": true,
   "channel_summaries": [
     {
       "name": "압구정소나무TV",

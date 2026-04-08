@@ -158,6 +158,26 @@ tr:hover td { background: rgba(88,166,255,0.04); }
 .kw-warm { border-color: var(--hot-orange); color: var(--hot-orange); font-size: 0.95em; }
 .kw-mild { border-color: var(--warm-yellow); color: var(--warm-yellow); }
 
+/* Enhanced keyword styles */
+.keyword-category { 
+  margin-bottom: 24px; 
+}
+.keyword-category:last-child { 
+  margin-bottom: 0; 
+}
+.keyword-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  margin-top: 8px;
+}
+.enhanced-keyword-card {
+  cursor: pointer;
+}
+.enhanced-keyword-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
 /* Naver Trends Section */
 .trend-period-tabs {
   display: flex;
@@ -622,15 +642,113 @@ function renderKeywords(keywords) {
     wrap.innerHTML = '<span style="color:var(--text-secondary)">키워드 데이터 없음</span>';
     return;
   }
-  const maxCount = keywords[0].count;
-  wrap.innerHTML = keywords.map(k => {
-    const ratio = k.count / maxCount;
-    let cls = '';
-    if (ratio > 0.7) cls = 'kw-hot';
-    else if (ratio > 0.4) cls = 'kw-warm';
-    else if (ratio > 0.2) cls = 'kw-mild';
-    return `<span class="keyword-tag ${cls}">${k.keyword} <small style="opacity:0.6">${k.count}</small></span>`;
-  }).join('');
+  
+  // Enhanced keyword analysis support
+  if (keywords[0].urgency) {
+    renderEnhancedKeywords(keywords);
+  } else {
+    // Legacy keyword rendering
+    const maxCount = keywords[0].count;
+    wrap.innerHTML = keywords.map(k => {
+      const ratio = k.count / maxCount;
+      let cls = '';
+      if (ratio > 0.7) cls = 'kw-hot';
+      else if (ratio > 0.4) cls = 'kw-warm';
+      else if (ratio > 0.2) cls = 'kw-mild';
+      return `<span class="keyword-tag ${cls}">${k.keyword} <small style="opacity:0.6">${k.count}</small></span>`;
+    }).join('');
+  }
+}
+
+function renderEnhancedKeywords(keywords) {
+  const wrap = document.getElementById('keywordsWrap');
+  
+  // Group keywords by urgency
+  const urgent = keywords.filter(k => k.urgency === '🔴긴급').slice(0, 8);
+  const important = keywords.filter(k => k.urgency === '🟡중요').slice(0, 8);
+  const normal = keywords.filter(k => k.urgency === '🟢일반').slice(0, 10);
+  
+  let html = '';
+  
+  if (urgent.length > 0) {
+    html += `
+      <div class="keyword-category">
+        <h4 style="color: var(--hot-red); margin-bottom: 12px; font-size: 0.95em;">🔴 긴급 키워드</h4>
+        <div class="keyword-grid">
+          ${urgent.map(k => renderKeywordCard(k, 'urgent')).join('')}
+        </div>
+      </div>
+    `;
+  }
+  
+  if (important.length > 0) {
+    html += `
+      <div class="keyword-category">
+        <h4 style="color: var(--warm-yellow); margin-bottom: 12px; font-size: 0.95em;">🟡 중요 키워드</h4>
+        <div class="keyword-grid">
+          ${important.map(k => renderKeywordCard(k, 'important')).join('')}
+        </div>
+      </div>
+    `;
+  }
+  
+  if (normal.length > 0) {
+    html += `
+      <div class="keyword-category">
+        <h4 style="color: var(--accent-green); margin-bottom: 12px; font-size: 0.95em;">🟢 일반 키워드</h4>
+        <div class="keyword-grid">
+          ${normal.map(k => renderKeywordCard(k, 'normal')).join('')}
+        </div>
+      </div>
+    `;
+  }
+  
+  wrap.innerHTML = html;
+}
+
+function renderKeywordCard(keyword, level) {
+  const categoryShort = keyword.category ? keyword.category.split('/').pop() : '기타';
+  const scoreText = keyword.score ? Math.round(keyword.score) : keyword.count;
+  
+  let borderColor = 'var(--border)';
+  let bgColor = 'var(--bg-tertiary)';
+  
+  switch(level) {
+    case 'urgent': 
+      borderColor = 'var(--hot-red)';
+      bgColor = 'rgba(248, 81, 73, 0.1)';
+      break;
+    case 'important': 
+      borderColor = 'var(--warm-yellow)';
+      bgColor = 'rgba(227, 179, 65, 0.1)';
+      break;
+    case 'normal': 
+      borderColor = 'var(--accent-green)';
+      bgColor = 'rgba(63, 185, 80, 0.1)';
+      break;
+  }
+  
+  return `
+    <div class="enhanced-keyword-card" style="
+      background: ${bgColor};
+      border: 1px solid ${borderColor};
+      border-radius: 8px;
+      padding: 12px;
+      text-align: center;
+      transition: all 0.2s;
+    " onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
+      <div style="font-weight: 600; color: var(--text-primary); margin-bottom: 4px;">
+        ${keyword.keyword}
+      </div>
+      <div style="font-size: 0.75em; color: var(--text-secondary); margin-bottom: 6px;">
+        ${categoryShort}
+      </div>
+      <div style="display: flex; justify-content: space-between; font-size: 0.8em; color: var(--text-muted);">
+        <span>점수: ${scoreText}</span>
+        <span>언급: ${keyword.count}회</span>
+      </div>
+    </div>
+  `;
 }
 
 function renderChannelStats(channels) {

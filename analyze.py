@@ -4,6 +4,14 @@ import json, os, re, sys
 from datetime import datetime, timezone, timedelta
 from collections import Counter
 
+# Import enhanced keyword analyzer
+try:
+    from enhanced_keywords import EnhancedKeywordAnalyzer
+    ENHANCED_ANALYSIS = True
+except ImportError:
+    ENHANCED_ANALYSIS = False
+    print("Warning: Enhanced keyword analysis not available")
+
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, 'data')
 
@@ -204,16 +212,46 @@ def main():
     shorts_sorted = sorted(shorts_filtered, key=lambda x: x['views_to_subs_ratio'], reverse=True)
     top_shorts_lists['all'] = shorts_sorted[:10]
     
-    # Extract trending keywords
-    keyword_counter = Counter()
-    for v in all_videos:
-        keywords = extract_keywords(v['title'])
-        keyword_counter.update(keywords)
-    
-    trending_keywords = [
-        {'keyword': k, 'count': c}
-        for k, c in keyword_counter.most_common(50)
-    ]
+    # Extract trending keywords (enhanced if available)
+    if ENHANCED_ANALYSIS:
+        analyzer = EnhancedKeywordAnalyzer()
+        enhanced_analysis = analyzer.analyze_keyword_trends(all_videos, period_days=30)
+        
+        trending_keywords = [
+            {
+                'keyword': item['keyword'],
+                'count': item['count'], 
+                'score': item.get('score', 0),
+                'urgency': item.get('urgency', '🟢일반'),
+                'category': item.get('category', 'unknown'),
+                'type': item.get('type', 'simple')
+            }
+            for item in enhanced_analysis['trending_analysis']
+        ]
+        
+        # Also keep basic keyword analysis for backward compatibility
+        keyword_counter = Counter()
+        for v in all_videos:
+            keywords = extract_keywords(v['title'])
+            keyword_counter.update(keywords)
+        
+        basic_keywords = [
+            {'keyword': k, 'count': c, 'score': c, 'urgency': '🟢일반', 'category': 'basic', 'type': 'basic'}
+            for k, c in keyword_counter.most_common(30)
+        ]
+    else:
+        # Fallback to basic keyword analysis
+        keyword_counter = Counter()
+        for v in all_videos:
+            keywords = extract_keywords(v['title'])
+            keyword_counter.update(keywords)
+        
+        trending_keywords = [
+            {'keyword': k, 'count': c, 'score': c, 'urgency': '🟢일반', 'category': 'basic', 'type': 'basic'}
+            for k, c in keyword_counter.most_common(50)
+        ]
+        basic_keywords = trending_keywords
+        enhanced_analysis = None
     
     # Build analysis result
     analysis = {
@@ -226,6 +264,9 @@ def main():
         'top_videos': top_videos_lists,
         'top_shorts': top_shorts_lists,
         'trending_keywords': trending_keywords,
+        'basic_keywords': basic_keywords if ENHANCED_ANALYSIS else trending_keywords,
+        'enhanced_analysis': enhanced_analysis,
+        'has_enhanced_analysis': ENHANCED_ANALYSIS,
         'channel_summaries': channel_summaries,
     }
     
@@ -269,10 +310,54 @@ def main():
             print(f"{i}. [{v['channelName']}] {v['title'][:40]}")
             print(f"   조회수: {v['viewCount']:,} | 구독자: {v['subscribers']:,} | 비율: {ratio_pct:.1f}%")
     
-    print("\n📈 트렌드 키워드 (상위 20개)")
-    print("-" * 50)
-    kw_str = ", ".join([f"{k['keyword']}({k['count']})" for k in trending_keywords[:20]])
-    print(kw_str)
+    print("\n📈 트렌드 키워드 분석")
+    print("=" * 50)
+    
+    if ENHANCED_ANALYSIS and enhanced_analysis:
+        # Enhanced analysis output
+        print("🔥 세분화된 키워드 분석 (상위 15개)")
+        print("-" * 50)
+        
+        urgent_keywords = [k for k in trending_keywords if k.get('urgency') == '🔴긴급']
+        important_keywords = [k for k in trending_keywords if k.get('urgency') == '🟡중요']
+        normal_keywords = [k for k in trending_keywords if k.get('urgency') == '🟢일반']
+        
+        if urgent_keywords:
+            print("🔴 긴급 키워드:")
+            for k in urgent_keywords[:5]:
+                category_short = k['category'].split('/')[-1] if '/' in k['category'] else k['category']
+                print(f"   {k['keyword']} (점수:{k['score']:.1f}, 언급:{k['count']}회, {category_short})")
+        
+        if important_keywords:
+            print("🟡 중요 키워드:")
+            for k in important_keywords[:5]:
+                category_short = k['category'].split('/')[-1] if '/' in k['category'] else k['category']
+                print(f"   {k['keyword']} (점수:{k['score']:.1f}, 언급:{k['count']}회, {category_short})")
+        
+        if normal_keywords:
+            print("🟢 일반 키워드:")
+            for k in normal_keywords[:5]:
+                category_short = k['category'].split('/')[-1] if '/' in k['category'] else k['category']
+                print(f"   {k['keyword']} (점수:{k['score']:.1f}, 언급:{k['count']}회, {category_short})")
+        
+        # Category summary
+        category_counts = {}
+        for k in trending_keywords:
+            main_category = k['category'].split('/')[0] if '/' in k['category'] else k['category']
+            category_counts[main_category] = category_counts.get(main_category, 0) + k['count']
+        
+        if category_counts:
+            print("\n📊 카테고리별 언급량:")
+            for category, count in sorted(category_counts.items(), key=lambda x: x[1], reverse=True)[:5]:
+                print(f"   {category}: {count}회")
+        
+        print(f"\n분석 통계: 카테고리 {enhanced_analysis.get('total_categories', 0)}개, 복합키워드 {enhanced_analysis.get('total_compounds', 0)}개")
+    else:
+        # Basic analysis fallback
+        print("📈 기본 키워드 (상위 20개)")
+        print("-" * 50)
+        kw_str = ", ".join([f"{k['keyword']}({k['count']})" for k in trending_keywords[:20]])
+        print(kw_str)
     
     print("\n📊 채널별 성과 (평균 조회수/구독자 비율)")
     print("-" * 50)
