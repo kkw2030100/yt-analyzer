@@ -356,7 +356,7 @@ function getTopData(contentType, period) {
 
 function renderTopVideos(period) {
   const rawVideos = getTopData(currentContentType, period);
-  const videos = rawVideos.filter(v => v.viewCount >= minViewCount);
+  const videos = rawVideos.filter(v => v.viewCount >= minViewCount && v.isRelevant !== false);
   const tbody = document.getElementById('topVideosBody');
   const linkBase = currentContentType === 'shorts' ? 'https://youtube.com/shorts/' : 'https://youtube.com/watch?v=';
   if (!videos.length) {
@@ -385,7 +385,7 @@ function updateStatsBar() {
     : (analysisData.total_regular || 0);
 
   const allVideosRaw = getTopData(currentContentType, 'all');
-  const allVideos = allVideosRaw.filter(v => v.viewCount >= minViewCount);
+  const allVideos = allVideosRaw.filter(v => v.viewCount >= minViewCount && v.isRelevant !== false);
   if (allVideos.length) {
     const avgR = allVideos.reduce((s, v) => s + v.views_to_subs_ratio, 0) / allVideos.length;
     document.getElementById('avgRatio').textContent = (avgR * 100).toFixed(1) + '%';

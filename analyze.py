@@ -7,6 +7,62 @@ from collections import Counter
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, 'data')
 
+# 부동산/경제 관련 키워드 — 제목에 하나라도 포함되면 관련 영상으로 판정
+RELEVANT_KEYWORDS = [
+    # 부동산
+    '부동산', '아파트', '전세', '월세', '매매', '분양', '재건축', '재개발', '청약',
+    '입주', '공급', '미분양', '매물', '집값', '전셋값', '주택', '오피스텔', '빌라',
+    '토지', '상가', '건물', '임대', '임차', '계약', '등기', '중개', '공인중개',
+    '리모델링', '인테리어', '건축', '시행', '시공', 'PF', '분상제', '디벨로퍼',
+    '신축', '구축', '갭투자', '역전세', '깡통', '전세사기', '전월세', '보증금',
+    '내집마련', '내 집', '주거', '거주', '이사', '입지', '학군', '역세권', '교통',
+    # 지역 (주요)
+    '강남', '서초', '송파', '마포', '용산', '성동', '광진', '영등포', '양천',
+    '수도권', '서울', '경기', '인천', '부산', '대구', '광주', '대전', '세종',
+    '판교', '분당', '일산', '위례', '과천', '하남', '미사', '동탄', '광교',
+    '해운대', '수영', '남천', '센텀', '마린시티',
+    # 경제/금융
+    '경제', '금리', '환율', '물가', '인플레', '디플레', 'GDP', '고용', '실업',
+    '경기', '불황', '호황', '침체', '회복', '성장률', '기준금리', '금통위',
+    '연준', '파월', 'FOMC', '기축통화', '달러', '엔화', '위안', '원화',
+    '무역', '수출', '수입', '관세', '무역전쟁', '관세전쟁',
+    # 투자/재테크
+    '투자', '주식', '채권', '펀드', 'ETF', '코인', '비트코인', '금', '은',
+    '원자재', '배당', '수익률', '포트폴리오', '자산', '재테크', '저축', '적금',
+    '연금', '보험', '대출', '모기지', '담보', 'IRP', 'ISA', '퇴직금', '퇴직연금',
+    '종잣돈', '복리', '이자', '예금', '적립', '절약', '가계부', '원유',
+    # 지수/시장
+    'S&P', 'SP500', '나스닥', 'NASDAQ', '코스피', 'KOSPI', '코스닥', '다우',
+    '니케이', '항셍', 'ETF', '인덱스', '지수', '상장', 'IPO', '공모주',
+    '증시', '주가', '시총', '매수', '매도', '차트', '이평선', '기술적',
+    # 세금/정책
+    '세금', '양도세', '종부세', '취득세', '재산세', '증여세', '상속세',
+    '절세', '세율', '공시가', '공시지가', '규제', '대출규제', 'DSR', 'DTI', 'LTV',
+    '정책', '부동산정책', '대책', '특례',
+    # 기업/산업
+    '삼성전자', '반도체', 'AI', '테슬라', '엔비디아', '애플', '마이크로소프트',
+    '빅테크', '실적', '매출', '영업이익', '시가총액',
+]
+
+# 짧은 키워드는 단독 단어로만 매칭 (예: '은' → '은행'에 걸리면 안 되지만, '영국은'에도 걸리면 안 됨)
+_SHORT_KEYWORDS = {'금', '은', 'AI'}  # 2글자 이하로 다른 단어에 포함될 수 있는 것들
+
+def is_relevant(title):
+    """Check if a video title is related to real estate or economy."""
+    title_lower = title.lower()
+    for kw in RELEVANT_KEYWORDS:
+        kw_lower = kw.lower()
+        if kw in _SHORT_KEYWORDS:
+            # 단독 단어 매칭: 앞뒤가 한글/영문이 아닌 경우만
+            pattern = r'(?<![가-힣a-zA-Z])' + re.escape(kw_lower) + r'(?![가-힣a-zA-Z])'
+            if re.search(pattern, title_lower):
+                return True
+        else:
+            if kw_lower in title_lower:
+                return True
+    return False
+
+
 # Korean stop words to filter out
 STOP_WORDS = set([
     '의', '가', '이', '은', '는', '을', '를', '에', '에서', '와', '과', '도', '로', '으로',
@@ -116,6 +172,7 @@ def main():
             # Determine isShorts: use field if present, otherwise fallback to duration
             is_short = v.get('isShorts', v.get('duration', 0) <= 60)
             entry['isShorts'] = is_short
+            entry['isRelevant'] = is_relevant(v['title'])
             all_videos.append(entry)
             if is_short:
                 all_shorts.append(entry)
@@ -136,21 +193,21 @@ def main():
     top_shorts_lists = {}
     for period_name, days in periods.items():
         fv = filter_by_period(all_regular, days)
-        fv = [v for v in fv if v['viewCount'] >= 50000]
+        fv = [v for v in fv if v['viewCount'] >= 50000 and v.get('isRelevant', True)]
         fv.sort(key=lambda x: x['views_to_subs_ratio'], reverse=True)
         top_videos_lists[period_name] = fv[:10]
         
         fs = filter_by_period(all_shorts, days)
-        fs = [v for v in fs if v['viewCount'] >= 50000]
+        fs = [v for v in fs if v['viewCount'] >= 50000 and v.get('isRelevant', True)]
         fs.sort(key=lambda x: x['views_to_subs_ratio'], reverse=True)
         top_shorts_lists[period_name] = fs[:10]
     
     # Also create an overall top 10 (all time from collected data)
-    reg_filtered = [v for v in all_regular if v['viewCount'] >= 50000]
+    reg_filtered = [v for v in all_regular if v['viewCount'] >= 50000 and v.get('isRelevant', True)]
     reg_sorted = sorted(reg_filtered, key=lambda x: x['views_to_subs_ratio'], reverse=True)
     top_videos_lists['all'] = reg_sorted[:10]
     
-    shorts_filtered = [v for v in all_shorts if v['viewCount'] >= 50000]
+    shorts_filtered = [v for v in all_shorts if v['viewCount'] >= 50000 and v.get('isRelevant', True)]
     shorts_sorted = sorted(shorts_filtered, key=lambda x: x['views_to_subs_ratio'], reverse=True)
     top_shorts_lists['all'] = shorts_sorted[:10]
     
