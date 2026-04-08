@@ -126,14 +126,14 @@ def main():
         ch_name = ch['name']
         subs = ch['subscribers']
         
-        # Channel summary
-        recent_views = sum(v['viewCount'] for v in ch['videos'])
-        avg_views = recent_views / len(ch['videos']) if ch['videos'] else 0
-        avg_ratio = sum(v['views_to_subs_ratio'] for v in ch['videos']) / len(ch['videos']) if ch['videos'] else 0
-        
         # Separate counts for shorts vs regular
         ch_regular = [v for v in ch['videos'] if not v.get('isShorts', v.get('duration', 0) <= 60)]
         ch_shorts = [v for v in ch['videos'] if v.get('isShorts', v.get('duration', 0) <= 60)]
+        
+        # Channel summary — 기본 성과는 동영상(regular)만으로 계산 (Shorts 제외)
+        recent_views_regular = sum(v['viewCount'] for v in ch_regular)
+        avg_views = recent_views_regular / len(ch_regular) if ch_regular else 0
+        avg_ratio = sum(v['views_to_subs_ratio'] for v in ch_regular) / len(ch_regular) if ch_regular else 0
         
         channel_summaries.append({
             'name': ch_name,
@@ -143,8 +143,8 @@ def main():
             'totalViews': ch['totalViews'],
             'videoCount': ch['videoCount'],
             'thumbnail': ch.get('thumbnail', ''),
-            'recentVideoCount': len(ch['videos']),
-            'recentTotalViews': recent_views,
+            'recentVideoCount': len(ch_regular),
+            'recentTotalViews': recent_views_regular,
             'avgViews': round(avg_views),
             'avgRatio': round(avg_ratio, 4),
             'regularCount': len(ch_regular),
