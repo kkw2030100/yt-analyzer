@@ -109,18 +109,6 @@
       "category": "benchmark"
     },
     {
-      "name": "KBS News",
-      "id": "UCcQTRi69dsVYHN3exePtZ1A",
-      "handle": "@newskbs",
-      "category": "benchmark"
-    },
-    {
-      "name": "뉴스TVCHOSUN",
-      "id": "UCWlV3Lz_55UaX4JsMj-z__Q",
-      "handle": "@tvchosunnews",
-      "category": "benchmark"
-    },
-    {
       "name": "삼프로TV 3PROTV",
       "id": "UChlv4GSd7OQl3js-jkLOnFA",
       "handle": "@3protv",
@@ -139,12 +127,6 @@
       "category": "benchmark"
     },
     {
-      "name": "MBN News",
-      "id": "UCG9aFJTZ-lMCHAiO1KJsirg",
-      "handle": "@mbn",
-      "category": "benchmark"
-    },
-    {
       "name": "월급쟁이부자들TV",
       "id": "UCDSj40X9FFUAnx1nv7gQhcA",
       "handle": "@weolbu_official",
@@ -157,21 +139,9 @@
       "category": "benchmark"
     },
     {
-      "name": "노빠꾸탁재훈",
-      "id": "UCSSkHIU1-nL_FeCjeZ_Xtvg",
-      "handle": "@nobacktak",
-      "category": "benchmark"
-    },
-    {
       "name": "아파트설명서TV",
       "id": "UCgxqQveHlyKIqu2wDHMuAbg",
       "handle": "@아파트설명서-tv",
-      "category": "benchmark"
-    },
-    {
-      "name": "KBS 1라디오",
-      "id": "UCMLJc_D3jgFcS_48G7i4V0A",
-      "handle": "@kbs_1radio",
       "category": "benchmark"
     },
     {
@@ -220,18 +190,6 @@
       "name": "김짠부",
       "id": "UCiHCmazdsMM9j3Jbqx3p7Ig",
       "handle": "@zzanboo",
-      "category": "benchmark"
-    },
-    {
-      "name": "연합뉴스경제TV",
-      "id": "UC6kZpTl39-_SqfBrF1-N2oQ",
-      "handle": "@연합뉴스경제tv",
-      "category": "benchmark"
-    },
-    {
-      "name": "크랩 KLAB",
-      "id": "UCoxT1kQSLq564FwpK473w-g",
-      "handle": "@klab",
       "category": "benchmark"
     },
     {
@@ -292,12 +250,6 @@
       "name": "쇼킹부동산",
       "id": "UCcloDgiDqz8twby7zvG-USg",
       "handle": "@쇼킹부동산",
-      "category": "benchmark"
-    },
-    {
-      "name": "힐링여행자 ",
-      "id": "UCHpGooMnVgnILywqrpqvZcQ",
-      "handle": "@힐링여행자",
       "category": "benchmark"
     }
   ]
